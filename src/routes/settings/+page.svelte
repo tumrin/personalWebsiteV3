@@ -1,1 +1,16 @@
-<h1>Settings</h1>
+<div class="flex flex-grow flex-col">
+	<div class="flex justify-evenly flex-col">
+		<div class="flex flex-row justify-around">
+			<p>text color</p>
+			<button>toggle</button>
+		</div>
+		<div class="flex flex-row justify-around">
+			<p>background color</p>
+			<button>toggle</button>
+		</div>
+		<div class="flex flex-row justify-around">
+			<p>crt effect</p>
+			<button>toggle</button>
+		</div>
+	</div>
+</div>
