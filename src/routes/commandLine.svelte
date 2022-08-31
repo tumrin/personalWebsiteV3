@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
-	import Error from './+error.svelte';
 	let inputValue: string;
 	let commandError: string;
+	const focus = (node: any) => node.focus();
 	const handleInputChange = async () => {
 		const args = inputValue.split(' ');
 		switch (args[0]) {
@@ -12,6 +12,9 @@
 				} catch (err) {
 					commandError = err as string;
 				}
+				break;
+			case 'help':
+				goto('/commands/help');
 				break;
 			default:
 				goto(inputValue);
@@ -28,6 +31,7 @@
 		<input
 			bind:value={inputValue}
 			on:change={handleInputChange}
+			use:focus
 			class="flex-grow bg-transparent border-transparent focus:outline-none font-mono text-shadow ml-2"
 		/>
 	</div>

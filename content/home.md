@@ -9,6 +9,8 @@ Recently I have also started learning Go.
 
 ### Bachelor of Science in Technology
 
+#### University of Turku
+
 #### 2019-2022
 
 Thesis: **Rustin soveltuvuus C ja C++ -kielien korvaajaksi korkeaa suorituskykyä vaativille sovelluksille**
@@ -19,6 +21,6 @@ Grade:**4**
 
 ### Master of Science in Technology
 
-University: University of Turku
+#### University of Turku
 
 Graduated: Ongoing

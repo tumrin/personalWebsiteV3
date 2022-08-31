@@ -3,19 +3,17 @@
 @tailwind utilities;
 
 @layer utilities {
-	@variants responsive {
-		.text-shadow {
-			text-shadow: 2px 2px 4px white;
-		}
-		.text-shadow-md {
-			text-shadow: 4px 4px 8px white;
-		}
-		.text-shadow-lg {
-			text-shadow: 15px 15px 30px white;
-		}
-		.text-shadow-none {
-			text-shadow: none;
-		}
+	.text-shadow {
+		text-shadow: 2px 2px 4px white;
+	}
+	.text-shadow-md {
+		text-shadow: 4px 4px 8px white;
+	}
+	.text-shadow-lg {
+		text-shadow: 15px 15px 30px white;
+	}
+	.text-shadow-none {
+		text-shadow: none;
 	}
 }
 .crt {
