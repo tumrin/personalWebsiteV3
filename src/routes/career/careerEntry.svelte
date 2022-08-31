@@ -9,6 +9,6 @@
 	});
 </script>
 
-<div class="prose prose-headings:text-white m-8 ">
+<div class="prose prose-headings:text-white m-8 prose-p: text-white">
 	<SvelteMarkdown source={markdown} />
 </div>
