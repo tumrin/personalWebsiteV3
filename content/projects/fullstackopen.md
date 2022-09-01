@@ -10,3 +10,7 @@ University of Helsinki full stack course
 - React
 - Redux
 - ExpressJS
+
+### Repo
+
+- [GitHub](https://github.com/tumrin/FullStackOpen2021)

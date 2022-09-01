@@ -13,7 +13,7 @@ Recently I have also started learning Go.
 
 #### 2019-2022
 
-Thesis: **Rustin soveltuvuus C ja C++ -kielien korvaajaksi korkeaa suorituskykyä vaativille sovelluksille**
+Thesis: [**Rustin soveltuvuus C ja C++ -kielien korvaajaksi korkeaa suorituskykyä vaativille sovelluksille**](https://github.com/tumrin/Kanditaatintutkielma)
 
 English title: **Rust as a replacement for C and C++ in applications with high perfromance requirements**
 
