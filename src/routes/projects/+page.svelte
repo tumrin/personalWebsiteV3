@@ -5,11 +5,11 @@
 </script>
 
 <div class="text-xl m-10">
-	<div class="flex ">
+	<div class="flex">
 		<div class="self-center"><Fa icon={faFolder} /></div>
 		<p class="border-b-2">projects</p>
 	</div>
-	<div class="ml-10 border-l-2">
+	<div class="ml-10 border-l-2 cursor-pointer">
 		<ProjectEntry project={'djferris'} />
 		<ProjectEntry project={'fullstackopen'} />
 		<ProjectEntry project={'personalwebsite'} />
