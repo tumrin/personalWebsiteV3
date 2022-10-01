@@ -36,7 +36,10 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fortawesome/free-brands-svg-icons": "^6.2.0",
 		"@fortawesome/free-regular-svg-icons": "^6.2.0",
+		"@types/luxon": "^3.0.1",
+		"luxon": "^3.0.4",
 		"svelte-fa": "^3.0.3",
 		"svelte-markdown": "^0.2.3"
 	}
