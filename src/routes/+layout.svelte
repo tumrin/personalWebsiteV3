@@ -17,7 +17,7 @@
 			>
 		</nav>
 
-		<div class="flex flex-grow justify-start align-middle m-8 overflow-scroll">
+		<div class="flex flex-grow justify-start align-middle m-8 overflow-y-auto overflow-x-clip">
 			<slot />
 		</div>
 		<CommandLine />
