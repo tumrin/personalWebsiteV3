@@ -4,7 +4,7 @@
 	export let place: string;
 	let markdown: string;
 	onMount(async () => {
-		markdown = (await import(place.concat('?raw'))).default;
+		markdown = (await import(`../../lib/assets/careerEntries/${place}.md?raw`)).default;
 	});
 </script>
 

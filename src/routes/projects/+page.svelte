@@ -2,6 +2,7 @@
 	import ProjectEntry from './projectEntry.svelte';
 	import Fa from 'svelte-fa';
 	import { faFolder } from '@fortawesome/free-regular-svg-icons';
+	import { extractFileName } from '$lib/utils';
 
 	const projects = Object.entries(import.meta.glob('../../lib/assets/projects/*.md'));
 </script>
@@ -13,7 +14,7 @@
 	</div>
 	<div class="ml-10 border-l-2 cursor-pointer">
 		{#each projects as entry}
-			<ProjectEntry project={entry[0]} />
+			<ProjectEntry project={extractFileName(entry[0])} />
 		{/each}
 	</div>
 </div>
