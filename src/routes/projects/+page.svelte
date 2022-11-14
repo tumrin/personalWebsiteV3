@@ -2,6 +2,8 @@
 	import ProjectEntry from './projectEntry.svelte';
 	import Fa from 'svelte-fa';
 	import { faFolder } from '@fortawesome/free-regular-svg-icons';
+
+	const projects = Object.entries(import.meta.glob('../../lib/assets/projects/*.md'));
 </script>
 
 <div class="text-xl m-10">
@@ -10,10 +12,8 @@
 		<p class="border-b-2">projects</p>
 	</div>
 	<div class="ml-10 border-l-2 cursor-pointer">
-		<ProjectEntry project={'djferris'} />
-		<ProjectEntry project={'fullstackopen'} />
-		<ProjectEntry project={'personalwebsite'} />
-		<ProjectEntry project={'sodexowebhook'} />
-		<ProjectEntry project={'unicabot'} />
+		{#each projects as entry}
+			<ProjectEntry project={entry[0]} />
+		{/each}
 	</div>
 </div>

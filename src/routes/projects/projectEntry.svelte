@@ -7,8 +7,10 @@
 	let markdown: string;
 	let collapsed = true;
 
+	const projectName = project.split('/').slice(-1)[0].split('.')[0];
+
 	onMount(async () => {
-		markdown = (await import(`../../../content/projects/${project}.md?raw`)).default;
+		markdown = (await import(project.concat('?raw'))).default;
 	});
 </script>
 
@@ -17,7 +19,7 @@
 		class=" flex pl-1 {collapsed ? 'max-w-fit border-b-2 ' : 'max-w-none'}"
 		on:click={() => (collapsed = !collapsed)}
 	>
-		<Fa class="self-center pr-1" icon={faFile} />{project}
+		<Fa class="self-center pr-1" icon={faFile} />{projectName}
 	</p>
 	{#if !collapsed}
 		<div

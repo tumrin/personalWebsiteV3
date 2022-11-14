@@ -1,7 +1,7 @@
 <script>
 	import '../app.css';
-	import CommandLine from '../components/commandLine.svelte';
-	import Topbar from '../components/topbar.svelte';
+	import CommandLine from '$lib/components/commandLine.svelte';
+	import Topbar from '$lib/components/topbar.svelte';
 </script>
 
 <div class="crt overflow-clip">
