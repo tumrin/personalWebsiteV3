@@ -8,3 +8,7 @@ You are looking at it
 
 - Typescript
 - Svelte
+
+### Repo
+
+- [GitHub](https://github.com/tumrin/personalWebsiteV3)
