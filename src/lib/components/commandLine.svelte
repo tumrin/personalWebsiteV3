@@ -27,12 +27,12 @@
 <div class="m-8">
 	{commandError || ''}
 	<div class="flex">
-		[visitor@website ~]$
+		<div class="whitespace-nowrap">[visitor@website ~]$</div>
 		<input
 			bind:value={inputValue}
 			on:change={handleInputChange}
 			use:focus
-			class="flex-grow bg-transparent border-transparent focus:outline-none font-mono text-shadow ml-2"
+			class="grow bg-transparent border-transparent focus:outline-none font-mono text-shadow ml-2"
 		/>
 	</div>
 </div>
