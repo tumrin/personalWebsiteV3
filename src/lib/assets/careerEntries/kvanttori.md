@@ -1,5 +1,5 @@
 ## Kvanttori Oy
 
-### Role: Co-founder, Board member and Software Engineer
+### 2023-Ongoing | Chairman of the Board
 
-### Time: 2021-
+### 2021-Ongoing | Co-founder, Board member and Software Engineer
