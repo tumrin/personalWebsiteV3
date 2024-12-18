@@ -23,4 +23,8 @@ Grade:**4**
 
 #### University of Turku
 
-Graduated: Ongoing
+#### 2022-2024
+
+Thesis: **Adapting Sustainable Software Development Methods Into Agile Processes**
+
+Grade:**5**
