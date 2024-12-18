@@ -1,5 +1,5 @@
 <script lang="ts">
-	import SvelteMarkdown from 'svelte-markdown';
+	import SvelteMarkdown from 'svelte-exmarkdown';
 	import { onMount } from 'svelte';
 	export let place: string;
 	let markdown: string;
@@ -11,5 +11,5 @@
 <div
 	class="prose prose-headings:text-white m-8 prose-p: text-white prose-strong:text-white prose-em:text-white"
 >
-	<SvelteMarkdown source={markdown} />
+	<SvelteMarkdown md={markdown} />
 </div>
