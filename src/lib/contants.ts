@@ -1,6 +1,7 @@
 export const routes = {
-	Home: '/',
-	Career: '/career',
-	Projects: '/projects'
-	// Settings: '/settings'
+	"About Me": "/",
+	Education: "/education",
+	Career: "/career",
+	Presentations: "/presentations",
+	Projects: "/projects",
 };

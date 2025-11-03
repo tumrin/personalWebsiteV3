@@ -1,15 +1,28 @@
 <script>
 	import '../app.css';
-	import CommandLine from '$lib/components/commandLine.svelte';
 	import Topbar from '$lib/components/topbar.svelte';
+	import Socials from '$lib/components/socials.svelte';
 </script>
 
-<div class="crt overflow-clip">
-	<div class="text-white text-shadow font-mono flex flex-col h-screen">
-		<Topbar />
-		<div class="flex flex-grow justify-start align-middle m-8 overflow-y-auto overflow-x-clip">
-			<slot />
-		</div>
-		<CommandLine />
+<div class="body">
+	<Topbar />
+	<div class="slot">
+		<slot />
 	</div>
+	<Socials />
 </div>
+
+<style>
+	.slot {
+		display: flex;
+		justify-content: center;
+		padding: 0 2rem;
+		height: 80%;
+	}
+	.body {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		height: 100%;
+	}
+</style>

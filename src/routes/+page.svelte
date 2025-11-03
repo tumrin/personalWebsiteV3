@@ -1,9 +1,8 @@
 <script>
-	import HomeEntry from './homeEntry.svelte';
+	import SvelteMarkdown from 'svelte-exmarkdown';
+	import markdown from '$lib/assets/home.md?raw';
 </script>
 
 <div>
-	<div>
-		<HomeEntry />
-	</div>
+	<SvelteMarkdown md={markdown} />
 </div>

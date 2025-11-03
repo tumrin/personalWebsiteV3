@@ -1,13 +1,24 @@
 <script lang="ts">
 	import Fa from 'svelte-fa';
 	import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+	const color = '#88c0d0';
 </script>
 
-<div class="flex flex-row gap-2">
+<div class="socials">
 	<a href="https://github.com/tumrin">
-		<Fa size="2x" icon={faGithub} />
+		<Fa size="2x" {color} icon={faGithub} />
 	</a>
 	<a href="https://www.linkedin.com/in/tuomas-rinne-0840a6157/">
-		<Fa size="2x" icon={faLinkedin} />
+		<Fa size="2x" {color} icon={faLinkedin} />
 	</a>
 </div>
+
+<style>
+	.socials {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 2rem;
+		height: 10%;
+	}
+</style>
