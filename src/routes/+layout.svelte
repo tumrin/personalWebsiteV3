@@ -6,9 +6,9 @@
 
 <div class="body">
 	<Topbar />
-	<div class="slot">
+	<main class="slot">
 		<slot />
-	</div>
+	</main>
 	<Socials />
 </div>
 

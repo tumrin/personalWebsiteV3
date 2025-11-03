@@ -5,10 +5,10 @@
 </script>
 
 <div class="socials">
-	<a href="https://github.com/tumrin">
+	<a href="https://github.com/tumrin" aria-label="Link to GitHub">
 		<Fa size="2x" {color} icon={faGithub} />
 	</a>
-	<a href="https://www.linkedin.com/in/tuomas-rinne-0840a6157/">
+	<a href="https://www.linkedin.com/in/tuomas-rinne-0840a6157/" aria-label="Link to LinkedIn">
 		<Fa size="2x" {color} icon={faLinkedin} />
 	</a>
 </div>

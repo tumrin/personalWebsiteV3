@@ -5,6 +5,14 @@
 	const projects = Object.entries(import.meta.glob('../../lib/assets/projects/*.md'));
 </script>
 
+<svelte:head>
+	<title>Projects</title>
+	<meta
+		name="description"
+		content="Personal and professional projects I have been part of during my career."
+	/>
+</svelte:head>
+
 <div class="projects">
 	{#each projects as entry}
 		<ProjectEntry project={extractFileName(entry[0])} />

@@ -1,3 +1,8 @@
+<svelte:head>
+	<title>Presentations</title>
+	<meta name="description" content="Presentations I have given." />
+</svelte:head>
+
 <div>
 	<h1>GreenICT Tour (In Finnish)</h1>
 	<iframe
