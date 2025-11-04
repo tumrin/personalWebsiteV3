@@ -15,9 +15,14 @@
 
 <style>
 	.project {
-		width: 25%;
-		padding: 1rem;
+		width: 30%;
+		padding: 0 1rem;
 		background-color: #4c566a;
 		border-radius: 5px;
+	}
+	@media (max-width: 600px) {
+		.project {
+			width: 90%;
+		}
 	}
 </style>
