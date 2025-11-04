@@ -15,7 +15,6 @@
 <style>
 	.slot {
 		display: flex;
-		justify-content: center;
 		padding: 0 2rem;
 		height: 80%;
 	}

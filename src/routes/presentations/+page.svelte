@@ -7,8 +7,6 @@
 	<h1>GreenICT Tour (In Finnish)</h1>
 	<iframe
 		class="player"
-		width="560"
-		height="315"
 		src="https://www.youtube.com/embed/iwGVfuCTSt4?si=uYroeE0G8QmObb5m"
 		title="YouTube video player"
 		frameborder="0"
@@ -22,5 +20,7 @@
 	.player {
 		border-radius: 5px;
 		border: #88c0d0 solid 2px;
+		width: 90vw;
+		height: 50%;
 	}
 </style>
