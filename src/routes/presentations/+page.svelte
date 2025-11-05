@@ -29,4 +29,9 @@
 		width: 600px;
 		height: 300px;
 	}
+	@media (max-width: 840px) {
+		.player {
+			width: 90vw;
+		}
+	}
 </style>

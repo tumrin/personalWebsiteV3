@@ -20,7 +20,7 @@
 		background-color: #4c566a;
 		border-radius: 5px;
 	}
-	@media (max-width: 600px) {
+	@media (max-width: 840px) {
 		.project {
 			width: 90%;
 		}

@@ -1,6 +1,6 @@
 # Career
 
-## Kvanttori Oy
+## [Kvanttori Oy](https://kvanttori.fi/)
 
 ### 2021-Ongoing | Software Engineer
 
@@ -10,6 +10,6 @@
 
 ### 2023-2024 | Chairman of the Board
 
-## Oras Oy
+## [Oras Oy](https://www.oras.com)
 
 ### 2019-2021 | Software Engineer, Embedded systems

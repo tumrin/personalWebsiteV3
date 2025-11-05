@@ -35,13 +35,12 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		overflow-y: scroll;
 	}
 	.projects {
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
 		gap: 1rem;
-		overflow-y: scroll;
-		height: 50%;
 	}
 </style>

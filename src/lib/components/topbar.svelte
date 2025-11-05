@@ -101,7 +101,7 @@
 		pointer-events: auto;
 	}
 
-	@media (max-width: 640px) {
+	@media (max-width: 840px) {
 		.topbar {
 			height: auto;
 			padding: 0.5rem 0;
