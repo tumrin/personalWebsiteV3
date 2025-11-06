@@ -8,6 +8,12 @@
 	<meta name="description" content="Summary of my education and links to my theses." />
 </svelte:head>
 
-<div>
+<div class="education">
 	<SvelteMarkdown md={markdown} />
 </div>
+
+<style>
+	.education {
+		padding: 0 25vw;
+	}
+</style>

@@ -36,6 +36,7 @@
 		flex-direction: column;
 		align-items: center;
 		overflow-y: scroll;
+		padding: 0 5rem;
 	}
 	.projects {
 		display: flex;

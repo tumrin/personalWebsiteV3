@@ -15,8 +15,8 @@
 <style>
 	.slot {
 		display: flex;
-		padding: 0 5rem;
 		height: 80%;
+		overflow: scroll;
 	}
 	.body {
 		display: flex;

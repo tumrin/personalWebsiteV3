@@ -4,4 +4,5 @@ export const routes = {
 	Career: "/career",
 	Presentations: "/presentations",
 	Projects: "/projects",
+	Blogs: "/blogs",
 };
