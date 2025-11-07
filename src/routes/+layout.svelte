@@ -16,7 +16,7 @@
 	.slot {
 		display: flex;
 		height: 80%;
-		overflow: scroll;
+		overflow-y: scroll;
 	}
 	.body {
 		display: flex;
