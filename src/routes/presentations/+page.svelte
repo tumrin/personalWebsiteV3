@@ -14,6 +14,12 @@
 		referrerpolicy="strict-origin-when-cross-origin"
 		allowfullscreen
 	></iframe>
+	<h1>Ympäristö OK</h1>
+	<a
+		href="https://docs.google.com/presentation/d/1yatbtO7-xS9hz2npVrzAO2TJn48zXBLHSFCFouk7rII/edit?usp=sharing"
+	>
+		Presentation
+	</a>
 </div>
 
 <style>
