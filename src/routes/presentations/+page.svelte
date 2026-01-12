@@ -4,20 +4,20 @@
 </svelte:head>
 
 <div class="presentation">
-	<h1>GreenICT Tour (in Finnish)</h1>
+	<h1>Ympäristö OK (in Finnish)</h1>
 	<iframe
 		class="player"
-		src="https://www.youtube.com/embed/iwGVfuCTSt4?si=uYroeE0G8QmObb5m"
+		src="https://www.youtube.com/embed/V-2WExfdHP4?si=S-MBNp1CsM8TR-DY"
 		title="YouTube video player"
 		frameborder="0"
 		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 		referrerpolicy="strict-origin-when-cross-origin"
 		allowfullscreen
 	></iframe>
-	<h1>Ympäristö OK (in Finnish)</h1>
+	<h1>GreenICT Tour (in Finnish)</h1>
 	<iframe
 		class="player"
-		src="https://www.youtube.com/embed/V-2WExfdHP4?si=S-MBNp1CsM8TR-DY"
+		src="https://www.youtube.com/embed/iwGVfuCTSt4?si=uYroeE0G8QmObb5m"
 		title="YouTube video player"
 		frameborder="0"
 		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
