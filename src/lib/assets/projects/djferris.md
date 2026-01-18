@@ -8,3 +8,7 @@ A music bot for discord
 
 - Rust
 - Docker
+
+### Repo
+
+- [GitHub](https://github.com/tumrin/dj_ferris)
