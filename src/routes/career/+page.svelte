@@ -8,12 +8,6 @@
 	<meta name="description" content="Places I have workded at." />
 </svelte:head>
 
-<div class="career">
+<div>
 	<SvelteMarkdown md={markdown} />
 </div>
-
-<style>
-	.career {
-		padding: 0 25vw;
-	}
-</style>

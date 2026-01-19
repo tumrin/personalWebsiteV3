@@ -7,7 +7,7 @@ Generating simulated dataset for use in hackathon challenge.
 
 ### Technologies
 
-- C 
+- C
 - Rust
 - Javascript
 - React

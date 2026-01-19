@@ -9,5 +9,5 @@ Improving client's existing ERP system. Security auditing using OWASP criteria.
 - TypeScript
 - JavaScript
 - React
-- PostgreSQL 
+- PostgreSQL
 - Docker

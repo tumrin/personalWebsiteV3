@@ -34,14 +34,12 @@
 	.projectpage {
 		display: flex;
 		flex-direction: column;
-		align-items: center;
 		overflow-y: scroll;
-		padding: 0 5rem;
 	}
 	.projects {
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
-		gap: 2rem;
+		gap: 1.5rem;
 	}
 </style>

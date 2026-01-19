@@ -8,12 +8,6 @@
 	<meta name="description" content="Summary of my education, career and current interests." />
 </svelte:head>
 
-<div class="about">
+<div>
 	<SvelteMarkdown md={markdown} />
 </div>
-
-<style>
-	.about {
-		padding: 0 25vw;
-	}
-</style>

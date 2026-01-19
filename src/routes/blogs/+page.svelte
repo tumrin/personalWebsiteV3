@@ -20,7 +20,6 @@
 
 <style>
 	.blogs {
-		padding: 0 25vw;
 		display: flex;
 		flex-direction: column;
 		gap: 1rem;

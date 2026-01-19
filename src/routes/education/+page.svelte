@@ -11,9 +11,3 @@
 <div class="education">
 	<SvelteMarkdown md={markdown} />
 </div>
-
-<style>
-	.education {
-		padding: 0 25vw;
-	}
-</style>

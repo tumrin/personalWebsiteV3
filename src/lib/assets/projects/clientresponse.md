@@ -3,7 +3,7 @@
 ### Summary
 
 Creating a dashboard for following energy consumption of multiple buildings and
-devices in them. Data aggregation and analysis on energy consumption. Leading the 
+devices in them. Data aggregation and analysis on energy consumption. Leading the
 project team.
 
 ### Technologies

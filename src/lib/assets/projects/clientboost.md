@@ -1,4 +1,4 @@
-## Boost Turku Digital Sustainability Hackathon Challenge 
+## Boost Turku Digital Sustainability Hackathon Challenge
 
 ### Summary
 
@@ -11,5 +11,5 @@ for storage.
 ### Technologies
 
 - Rust
-- PostgreSQL 
+- PostgreSQL
 - Docker
