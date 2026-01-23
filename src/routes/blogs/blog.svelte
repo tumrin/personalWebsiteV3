@@ -1,10 +1,9 @@
 <script lang="ts">
 	export let name: string;
 	export let url: string;
-	export let language: string;
 </script>
 
-<a class="blogEntry" href={url}>{name} (in {language})</a>
+<a class="blogEntry" href={url}>{name}</a>
 
 <style>
 	.blogEntry {

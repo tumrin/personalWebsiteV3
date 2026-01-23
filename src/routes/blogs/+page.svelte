@@ -7,14 +7,12 @@
 	<h1>Professional Blogs</h1>
 	<Blog
 		name="Technology Choices in Software Projects and Tools"
-		language="Finnish"
-		url="https://kvanttori.fi/blogi/teknologiavalinnat"
+		url="https://kvanttori.fi/en/blogi/teknologiavalinnat"
 	/>
-	<Blog name="Unsafe Rust" language="Finnish" url="https://kvanttori.fi/blogi/unsafe-rust" />
+	<Blog name="Unsafe Rust" url="https://kvanttori.fi/en/blogi/unsafe-rust" />
 	<Blog
 		name="Introduction to Energy Efficiency of Software"
-		language="Finnish"
-		url=" https://kvanttori.fi/blogi/johdatus-ohjelmien-energiatehokkuuteen"
+		url=" https://kvanttori.fi/en/blogi/johdatus-ohjelmien-energiatehokkuuteen"
 	/>
 </div>
 
