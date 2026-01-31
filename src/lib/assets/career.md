@@ -1,6 +1,6 @@
 # Career
 
-## [Kvanttori Oy](https://kvanttori.fi/)
+## [Kvanttori Oy](https://kvanttori.fi/en)
 
 ### 2021-Ongoing | Software Engineer
 

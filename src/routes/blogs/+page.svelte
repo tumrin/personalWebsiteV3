@@ -6,6 +6,10 @@
 	<h1>Personal Blogs</h1>
 	<h1>Professional Blogs</h1>
 	<Blog
+		name="European Services and Digital Sovereignty"
+		url="https://kvanttori.fi/en/blogi/eurooppalaiset-palvelut"
+	/>
+	<Blog
 		name="Technology Choices in Software Projects and Tools"
 		url="https://kvanttori.fi/en/blogi/teknologiavalinnat"
 	/>
