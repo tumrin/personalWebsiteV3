@@ -22,7 +22,7 @@
 
 	<div class="backdrop" class:open on:click={closeMenu}></div>
 
-	<nav class="navbar side-menu" class:open aria-hidden={!open}>
+	<nav class="navbar side-menu" class:open>
 		{#each Object.entries(routes) as [name, path]}
 			<a class="navlink" href={path} on:click={closeMenu}>{name}</a>
 		{/each}
