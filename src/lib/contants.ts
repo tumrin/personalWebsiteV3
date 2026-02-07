@@ -1,7 +1,7 @@
 export const routes = {
 	"About Me": "/",
-	Education: "/education",
-	Career: "/career",
+	CV: "/cv",
+	Publications: "/publications",
 	Presentations: "/presentations",
 	Projects: "/projects",
 	Blogs: "/blogs",
