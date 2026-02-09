@@ -3,8 +3,18 @@
 	import { extractFileName } from '$lib/utils';
 
 	const projects = Object.entries(import.meta.glob('../../lib/assets/projects/*.md'));
-	const clientprojects = projects.filter((p) => p[0].includes('client'));
-	const hobbyprojects = projects.filter((p) => !p[0].includes('client'));
+	const sortedProjects = projects
+		.map((p) => {
+			const name = extractFileName(p[0]);
+			return {
+				path: p[0],
+				name,
+				year: parseInt(name.slice(0, 4))
+			};
+		})
+		.sort((a, b) => b.year - a.year);
+	const clientprojects = sortedProjects.filter((p) => p.path.includes('client'));
+	const hobbyprojects = sortedProjects.filter((p) => !p.path.includes('client'));
 </script>
 
 <svelte:head>
@@ -19,13 +29,13 @@
 	<h1>Client projects</h1>
 	<div class="projects">
 		{#each clientprojects as entry}
-			<ProjectEntry project={extractFileName(entry[0])} />
+			<ProjectEntry project={entry.name} year={entry.year} />
 		{/each}
 	</div>
 	<h1>Hobby projects</h1>
 	<div class="projects">
 		{#each hobbyprojects as entry}
-			<ProjectEntry project={extractFileName(entry[0])} />
+			<ProjectEntry project={entry.name} year={entry.year} />
 		{/each}
 	</div>
 </div>
