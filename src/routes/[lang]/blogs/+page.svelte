@@ -1,15 +1,14 @@
 <script>
+	import LL from '$lib/i18n/i18n-svelte';
 	import Blog from './blog.svelte';
 </script>
 
 <svelte:head>
-	<title>Blogs</title>
-	<meta name="description" content="Blogs I have written, both personal and professional." />
+	<title>{$LL.blogs.blogs()}</title>
+	<meta name="description" content={$LL.blogs.description()} />
 </svelte:head>
 
 <div class="blogs">
-	<h1>Personal Blogs</h1>
-	<h1>Professional Blogs</h1>
 	<Blog
 		name="European Services and Digital Sovereignty"
 		url="https://kvanttori.fi/en/blogi/eurooppalaiset-palvelut"

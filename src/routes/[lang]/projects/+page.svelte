@@ -1,9 +1,12 @@
 <script>
 	import ProjectEntry from './projectEntry.svelte';
 	import { extractFileName } from '$lib/utils';
+	import LL, { locale } from '$lib/i18n/i18n-svelte';
 
-	const projects = Object.entries(import.meta.glob('../../lib/assets/projects/*.md'));
-	const sortedProjects = projects
+	const projects = Object.entries(import.meta.glob('../../../lib/assets/projects/*.md'));
+	const projectsFi = Object.entries(import.meta.glob('../../../lib/assets/projects-fi/*.md'));
+	const projectsLang = $locale === 'en' ? projects : projectsFi;
+	$: sortedProjects = projectsLang
 		.map((p) => {
 			const name = extractFileName(p[0]);
 			return {
@@ -13,26 +16,23 @@
 			};
 		})
 		.sort((a, b) => b.year - a.year);
-	const clientprojects = sortedProjects.filter((p) => p.path.includes('client'));
-	const hobbyprojects = sortedProjects.filter((p) => !p.path.includes('client'));
+	$: clientprojects = sortedProjects.filter((p) => p.path.includes('client'));
+	$: hobbyprojects = sortedProjects.filter((p) => !p.path.includes('client'));
 </script>
 
 <svelte:head>
-	<title>Projects</title>
-	<meta
-		name="description"
-		content="Personal and professional projects I have been part of during my career."
-	/>
+	<title>{$LL.projects.projects()}</title>
+	<meta name="description" content={$LL.projects.description()} />
 </svelte:head>
 
 <div class="projectpage">
-	<h1>Client projects</h1>
+	<h1>{$LL.projects.client()}</h1>
 	<div class="projects">
 		{#each clientprojects as entry}
 			<ProjectEntry project={entry.name} year={entry.year} />
 		{/each}
 	</div>
-	<h1>Hobby projects</h1>
+	<h1>{$LL.projects.hobby()}</h1>
 	<div class="projects">
 		{#each hobbyprojects as entry}
 			<ProjectEntry project={entry.name} year={entry.year} />
@@ -50,6 +50,7 @@
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
+		margin: 1rem;
 		gap: 1.5rem;
 	}
 </style>

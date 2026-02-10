@@ -1,29 +1,83 @@
 <script lang="ts">
-	import { routes } from '$lib/contants';
+	import { routes, routesFi } from '$lib/contants';
+	import { locales, baseLocale } from '$lib/i18n/i18n-util';
+	import { loadLocale } from '$lib/i18n/i18n-util.sync';
+	import { locale, setLocale } from '$lib/i18n/i18n-svelte';
+	import { onMount } from 'svelte';
+	import type { Locales } from '$lib/i18n/i18n-types';
+	import { page } from '$app/stores';
+	import { goto } from '$app/navigation';
+	import { get } from 'svelte/store';
+
 	let open = false;
+	$: route = $locale == 'en' ? routes : routesFi;
 	const toggle = () => (open = !open);
 	const closeMenu = () => (open = false);
+
+	const switchLang = (lang: Locales) => {
+		const url = get(page).url;
+		const segments = url.pathname.split('/').filter(Boolean);
+		let rest = segments;
+		if (segments.length > 0 && (segments[0] === 'en' || segments[0] === 'fi')) {
+			rest = segments.slice(1);
+		}
+		const restPath = rest.length ? `/${rest.join('/')}` : '';
+		const newPath = `/${lang}${restPath}${url.search}${url.hash}`;
+
+		localStorage.setItem('preferredLocale', lang);
+
+		loadLocale(lang);
+		setLocale(lang);
+		goto(newPath);
+		open = false;
+	};
+
+	onMount(() => {
+		try {
+			const pref = localStorage.getItem('preferredLocale') as Locales | null;
+			if (!pref) return;
+
+			const url = get(page).url;
+			const segments = url.pathname.split('/').filter(Boolean);
+
+			// If current path has no locale segment or is the baseLocale and
+			// the stored preference differs, navigate to the preferred locale.
+			if (segments.length === 0 || (segments[0] === baseLocale && pref !== baseLocale)) {
+				if (pref !== get(locale)) {
+					switchLang(pref);
+				}
+			}
+		} catch (e) {
+			// ignore localStorage errors
+		}
+	});
 </script>
 
 <div class="topbar">
-	<div class="topbar-inner">
-		<button class="hamburger" aria-label="Toggle menu" aria-expanded={open} on:click={toggle}>
-			<span class="bar"></span>
-			<span class="bar"></span>
-			<span class="bar"></span>
-		</button>
+	<button class="hamburger" aria-label="Toggle menu" aria-expanded={open} on:click={toggle}>
+		<span class="bar"></span>
+		<span class="bar"></span>
+		<span class="bar"></span>
+	</button>
 
-		<nav class="navbar desktop-nav">
-			{#each Object.entries(routes) as [name, path]}
-				<a class="navlink" href={path}>{name}</a>
-			{/each}
-		</nav>
+	<nav class="navbar desktop-nav">
+		{#each Object.entries(route) as [name, path]}
+			<a class="navlink" href={path}>{name}</a>
+		{/each}
+	</nav>
+
+	<div class="lang-switcher">
+		{#each locales as l}
+			<button class="lang-btn" on:click={() => switchLang(l)} aria-pressed={$locale === l}>
+				{l.toUpperCase()}
+			</button>
+		{/each}
 	</div>
 
 	<div class="backdrop" class:open on:click={closeMenu}></div>
 
 	<nav class="navbar side-menu" class:open>
-		{#each Object.entries(routes) as [name, path]}
+		{#each Object.entries(route) as [name, path]}
 			<a class="navlink" href={path} on:click={closeMenu}>{name}</a>
 		{/each}
 
@@ -46,12 +100,8 @@
 		height: 10%;
 		display: flex;
 		gap: 2rem;
-	}
-	.topbar-inner {
-		width: 100%;
-		display: flex;
 		align-items: center;
-		justify-content: center;
+		justify-content: space-around;
 	}
 	.navbar {
 		display: flex;
@@ -72,6 +122,28 @@
 	}
 	.navlink:hover {
 		background-color: #8fbcbb;
+	}
+
+	.lang-switcher {
+		display: flex;
+		gap: 0.5rem;
+		align-items: center;
+		position: absolute;
+		right: 2rem;
+	}
+	.lang-btn {
+		background: transparent;
+		border: 1px solid #88c0d0;
+		color: #4c566a;
+		padding: 0.5rem 0.75rem;
+		border-radius: 6px;
+		cursor: pointer;
+		font-weight: 600;
+	}
+	.lang-btn[aria-pressed='true'] {
+		background: #88c0d0;
+		color: #fff;
+		border-color: #88c0d0;
 	}
 
 	.hamburger {

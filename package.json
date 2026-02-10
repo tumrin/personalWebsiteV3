@@ -10,7 +10,8 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --check . && eslint .",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+		"typesafe-i18n": "typesafe-i18n"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.25.0",
@@ -35,8 +36,10 @@
 	"dependencies": {
 		"@fortawesome/free-brands-svg-icons": "^7.1.0",
 		"@fortawesome/free-regular-svg-icons": "^7.1.0",
+		"@sveltejs/adapter-static": "^3.0.10",
 		"@types/luxon": "^3.0.1",
 		"luxon": "^3.0.4",
-		"svelte-fa": "^4.0.3"
+		"svelte-fa": "^4.0.3",
+		"typesafe-i18n": "^5.26.2"
 	}
 }

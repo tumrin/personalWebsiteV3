@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import '../app.css';
 	import Topbar from '$lib/components/topbar.svelte';
 	import Socials from '$lib/components/socials.svelte';

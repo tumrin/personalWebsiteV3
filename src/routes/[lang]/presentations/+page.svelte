@@ -1,6 +1,10 @@
+<script>
+	import LL from '$lib/i18n/i18n-svelte';
+</script>
+
 <svelte:head>
-	<title>Presentations</title>
-	<meta name="description" content="Presentations I have given." />
+	<title>{$LL.presentations.presentations()}</title>
+	<meta name="description" content={$LL.presentations.descriptions()} />
 </svelte:head>
 
 <div class="presentation">

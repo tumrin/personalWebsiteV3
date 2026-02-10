@@ -1,66 +1,10 @@
 <script lang="ts">
-	interface Experience {
-		title: string;
-		company: string;
-		location: string;
-		date: string;
-		description: string[];
-	}
+	import LL from '$lib/i18n/i18n-svelte';
 
-	interface Education {
-		degree: string;
-		institution: string;
-		location: string;
-		date: string;
-	}
-
-	interface CVData {
-		experience: Experience[];
-		education: Education[];
-		languages: string[];
-		programming: string[];
-		frameworks: string[];
-		databases: string[];
-		cloud: string[];
-	}
-
-	let data: CVData = {
-		experience: [
-			{
-				title: 'Full Stack Developer, Co-founder, Board member',
-				company: 'Kvanttori Oy',
-				location: 'Turku, Finland',
-				date: '2021 - Present',
-				description: [
-					'Lead developer in multiple projects',
-					'Working with multiple tech stacks on different customer projects'
-				]
-			},
-			{
-				title: 'Trainee, Technology',
-				company: 'Oras Oy',
-				location: 'Rauma, Finland',
-				date: '2020 - 2021',
-				description: [
-					'Responsible for developing sensor firmware on products used by customers',
-					'Building prototypes for upcoming products'
-				]
-			}
-		],
-		education: [
-			{
-				degree: 'Master of Science (Technology)',
-				institution: 'University of Turku',
-				location: 'Turku, Finland',
-				date: '2020 - 2025'
-			}
-		],
-		languages: ['Finnish', 'English'],
-		programming: ['Rust', 'JavaScript', 'TypeScript', 'Python', 'C', 'Java'],
-		frameworks: ['FastAPI', 'express.js', 'Svelte', 'SvelteKit', 'React', 'Next.js'],
-		databases: ['PostgreSQL', 'Sqlite', 'MongoDB'],
-		cloud: ['Azure', 'Docker', 'Hetzner', 'Linux', 'Terraform']
-	};
+	const programming = ['Rust', 'JavaScript', 'TypeScript', 'Python', 'C', 'Java'];
+	const frameworks = ['FastAPI', 'express.js', 'Svelte', 'SvelteKit', 'React', 'Next.js'];
+	const databases = ['PostgreSQL', 'Sqlite', 'MongoDB'];
+	const cloud = ['Azure', 'Docker', 'Hetzner', 'Linux', 'Terraform'];
 
 	function printCV() {
 		window.print();
@@ -68,110 +12,114 @@
 </script>
 
 <div class="cv-container">
-	<button class="download-btn" on:click={printCV}>Download PDF</button>
+	<button class="download-btn" on:click={printCV}>{$LL.cv.downloadPDF()}</button>
 	<header class="cv-header">
-		<h1 class="cv-name">Tuomas Rinne</h1>
-		<p class="cv-title">Software Engineer</p>
+		<h1 class="cv-name">{$LL.cv.name()}</h1>
+		<p class="cv-title">{$LL.cv.title()}</p>
 		<div class="cv-contact">
 			<span>tuomas.rin(at)protonmail.com</span>
 			<span class="divider">|</span>
 			<span>Turku, Finland</span>
 			<span class="divider">|</span>
-			<a href="https://tumrin.dev" target="_blank" rel="noopener">Website</a>
+			<a href="https://tumrin.dev" target="_blank" rel="noopener">{$LL.cv.website()}</a>
 			<span class="divider">|</span>
-			<a href="https://github.com/tumrin" target="_blank" rel="noopener">Github</a>
+			<a href="https://github.com/tumrin" target="_blank" rel="noopener">{$LL.cv.github()}</a>
 			<span class="divider">|</span>
 			<a href="https://www.linkedin.com/in/tuomas-rinne-0840a6157/" target="_blank" rel="noopener"
-				>LinkedIn</a
+				>{$LL.cv.linkedin()}</a
 			>
 		</div>
 	</header>
 
 	<section class="cv-section">
-		<h2 class="section-title">Summary</h2>
-		<p class="summary-text">
-			I have been working as a software engineer for 6 years in multitude of project from firmware
-			development on embedded systems to complex web applications with multiple different services.
-			I have worked as part of a team and as a lead developer and while my strengths are on the
-			technical side, I also often work directly with clients to understand requirements and
-			communicate progress.
-		</p>
+		<h2 class="section-title">{$LL.cv.summary()}</h2>
+		<p class="summary-text">{$LL.cv.summaryText()}</p>
 	</section>
 
 	<section class="cv-section">
-		<h2 class="section-title">Experience</h2>
-		{#each data.experience as job}
-			<div class="experience-item">
-				<div class="experience-header">
-					<div class="experience-title-group">
-						<h3 class="experience-title">{job.title}</h3>
-						<span class="experience-company">{job.company}</span>
-					</div>
-					<div class="experience-meta">
-						<span class="experience-location">{job.location}</span>
-						<span class="experience-date">{job.date}</span>
-					</div>
+		<h2 class="section-title">{$LL.cv.experience()}</h2>
+		<div class="experience-item">
+			<div class="experience-header">
+				<div class="experience-title-group">
+					<h3 class="experience-title">{$LL.cv.experienceTitle1()}</h3>
+					<span class="experience-company">{$LL.cv.experienceCompany1()}</span>
 				</div>
-				<ul class="experience-list">
-					{#each job.description as item}
-						<li>{item}</li>
-					{/each}
-				</ul>
-			</div>
-		{/each}
-	</section>
-
-	<section class="cv-section">
-		<h2 class="section-title">Education</h2>
-		{#each data.education as edu}
-			<div class="education-item">
-				<div class="education-header">
-					<div class="education-title-group">
-						<h3 class="education-degree">{edu.degree}</h3>
-						<span class="education-institution">{edu.institution}</span>
-					</div>
-					<div class="education-meta">
-						<span class="education-location">{edu.location}</span>
-						<span class="education-date">{edu.date}</span>
-					</div>
+				<div class="experience-meta">
+					<span class="experience-location">{$LL.cv.experienceLocation1()}</span>
+					<span class="experience-date">{$LL.cv.experienceDate1()}</span>
 				</div>
 			</div>
-		{/each}
+			<ul class="experience-list">
+				<li>{$LL.cv.experienceDesc1_1()}</li>
+				<li>{$LL.cv.experienceDesc1_2()}</li>
+			</ul>
+		</div>
+		<div class="experience-item">
+			<div class="experience-header">
+				<div class="experience-title-group">
+					<h3 class="experience-title">{$LL.cv.experienceTitle2()}</h3>
+					<span class="experience-company">{$LL.cv.experienceCompany2()}</span>
+				</div>
+				<div class="experience-meta">
+					<span class="experience-location">{$LL.cv.experienceLocation2()}</span>
+					<span class="experience-date">{$LL.cv.experienceDate2()}</span>
+				</div>
+			</div>
+			<ul class="experience-list">
+				<li>{$LL.cv.experienceDesc2_1()}</li>
+				<li>{$LL.cv.experienceDesc2_2()}</li>
+			</ul>
+		</div>
 	</section>
 
 	<section class="cv-section">
-		<h2 class="section-title">Languages</h2>
+		<h2 class="section-title">{$LL.cv.education()}</h2>
+		<div class="education-item">
+			<div class="education-header">
+				<div class="education-title-group">
+					<h3 class="education-degree">{$LL.cv.educationDegree1()}</h3>
+					<span class="education-institution">{$LL.cv.educationInstitution1()}</span>
+				</div>
+				<div class="education-meta">
+					<span class="education-location">{$LL.cv.educationLocation1()}</span>
+					<span class="education-date">{$LL.cv.educationDate1()}</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="cv-section">
+		<h2 class="section-title">{$LL.cv.languages()}</h2>
 		<ul>
-			{#each data.languages as lang}
-				<li>{lang}</li>
-			{/each}
+			<li>{$LL.cv.language1()}</li>
+			<li>{$LL.cv.language2()}</li>
 		</ul>
 	</section>
 
 	<section class="cv-section">
-		<h2 class="section-title">Skills</h2>
-		<h3>Programming Languages</h3>
+		<h2 class="section-title">{$LL.cv.skills()}</h2>
+		<h3>{$LL.cv.programmingLanguages()}</h3>
 		<div class="skills-container">
-			{#each data.programming as skill}
+			{#each programming as skill}
 				<span class="skill-tag">{skill}</span>
 			{/each}
 		</div>
-		<h3>Frameworks</h3>
+		<h3>{$LL.cv.frameworks()}</h3>
 		<div class="skills-container">
-			{#each data.frameworks as framework}
+			{#each frameworks as framework}
 				<span class="skill-tag">{framework}</span>
 			{/each}
 		</div>
-		<h3>Databases</h3>
+		<h3>{$LL.cv.databases()}</h3>
 		<div class="skills-container">
-			{#each data.databases as database}
+			{#each databases as database}
 				<span class="skill-tag">{database}</span>
 			{/each}
 		</div>
-		<h3>Hosting</h3>
+		<h3>{$LL.cv.hosting()}</h3>
 		<div class="skills-container">
-			{#each data.cloud as cloud}
-				<span class="skill-tag">{cloud}</span>
+			{#each cloud as cloudItem}
+				<span class="skill-tag">{cloudItem}</span>
 			{/each}
 		</div>
 	</section>

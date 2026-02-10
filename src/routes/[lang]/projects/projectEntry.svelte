@@ -1,14 +1,16 @@
 <script lang="ts">
 	import SvelteMarkdown from 'svelte-exmarkdown';
 	import { onMount } from 'svelte';
+	import { locale } from '$lib/i18n/i18n-svelte';
 	export let project: string;
 	export let year: number;
 	let markdown: string | null = null;
 	let expanded = false;
 	const contentId = `content-${project.replace(/[^a-z0-9_-]/gi, '')}`;
+	let folder = $locale === 'en' ? 'projects' : 'projects-fi';
 
 	onMount(async () => {
-		markdown = (await import(`../../lib/assets/projects/${project}.md?raw`)).default;
+		markdown = (await import(`../../../lib/assets/${folder}/${project}.md?raw`)).default;
 	});
 	async function toggle() {
 		expanded = !expanded;
@@ -17,7 +19,9 @@
 
 <div class="project">
 	<button class="header" on:click={toggle} aria-expanded={expanded} aria-controls={contentId}>
-		<span class="title"><span class="year">{year}</span> - {markdown?.split('\n')[0].replaceAll('#', '')}</span>
+		<span class="title"
+			><span class="year">{year}</span> - {markdown?.split('\n')[0].replaceAll('#', '')}</span
+		>
 		<svg class="arrow" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
 			<path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6z" fill="currentColor" />
 		</svg>
