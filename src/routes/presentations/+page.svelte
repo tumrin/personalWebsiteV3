@@ -4,7 +4,7 @@
 </svelte:head>
 
 <div class="presentation">
-	<h1>Ympäristö OK (in Finnish)</h1>
+	<h1>Ympäristö OK</h1>
 	<iframe
 		class="player"
 		src="https://www.youtube.com/embed/V-2WExfdHP4?si=S-MBNp1CsM8TR-DY"
@@ -14,7 +14,7 @@
 		referrerpolicy="strict-origin-when-cross-origin"
 		allowfullscreen
 	></iframe>
-	<h1>GreenICT Tour (in Finnish)</h1>
+	<h1>GreenICT Tour</h1>
 	<iframe
 		class="player"
 		src="https://www.youtube.com/embed/iwGVfuCTSt4?si=uYroeE0G8QmObb5m"
@@ -38,9 +38,9 @@
 		width: 600px;
 		height: 300px;
 	}
-	@media (max-width: 840px) {
+	@media (max-width: 1240px) {
 		.player {
-			width: 90vw;
+			width: 100%;
 		}
 	}
 </style>

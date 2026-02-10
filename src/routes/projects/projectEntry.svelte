@@ -37,7 +37,6 @@
 <style>
 	.project {
 		width: 100%;
-		padding: 0 1rem;
 	}
 
 	.header {

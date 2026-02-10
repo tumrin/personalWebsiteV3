@@ -26,6 +26,18 @@
 		{#each Object.entries(routes) as [name, path]}
 			<a class="navlink" href={path} on:click={closeMenu}>{name}</a>
 		{/each}
+
+		<div class="mobile-lang">
+			{#each locales as l}
+				<button
+					class="navlink lang-btn"
+					on:click={() => switchLang(l)}
+					aria-pressed={$locale === l}
+				>
+					{l.toUpperCase()}
+				</button>
+			{/each}
+		</div>
 	</nav>
 </div>
 
@@ -101,13 +113,10 @@
 		pointer-events: auto;
 	}
 
-	@media (max-width: 840px) {
+	@media (max-width: 1240px) {
 		.topbar {
 			height: auto;
 			padding: 0.5rem 0;
-		}
-		.topbar-inner {
-			justify-content: space-between;
 		}
 		.hamburger {
 			display: block;
@@ -143,6 +152,16 @@
 		}
 		.navlink:hover {
 			background: rgba(255, 255, 255, 0.04);
+		}
+
+		.lang-switcher {
+			display: none;
+		}
+		.mobile-lang {
+			margin-top: 1rem;
+			display: flex;
+			gap: 0.5rem;
+			flex-direction: column;
 		}
 	}
 </style>
