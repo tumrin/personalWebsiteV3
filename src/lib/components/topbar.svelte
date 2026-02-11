@@ -188,11 +188,15 @@
 
 	@media (max-width: 1240px) {
 		.topbar {
+			display: flex;
+			justify-content: flex-end;
 			height: auto;
 			padding: 0.5rem 0;
 		}
 		.hamburger {
-			display: block;
+			justify-self: flex-start;
+			display: inline-block;
+			margin-right: 2rem;
 		}
 		.desktop-nav {
 			display: none;
