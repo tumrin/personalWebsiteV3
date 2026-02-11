@@ -50,7 +50,7 @@ const fi = {
 			'Vastuussa sensoriohjelmistojen kehittämisestä asiakkaiden käyttämissä tuotteissa',
 		experienceDesc2_2: 'Prototyyppien rakentaminen tuleville tuotteille',
 		education: 'Koulutus',
-		educationDegree1: 'Diplomi-insinööri',
+		educationDegree1: 'Diplomi-insinööri (Tietotekniikka)',
 		educationInstitution1: 'Turun yliopisto',
 		educationLocation1: 'Turku, Suomi',
 		educationDate1: '2020 - 2025',

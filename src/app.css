@@ -2,6 +2,8 @@ html {
 	height: 100%;
 }
 body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
 	background-color: #2e3440;
 	color: #eceff4;
 	height: 100%;

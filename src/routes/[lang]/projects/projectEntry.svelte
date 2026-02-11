@@ -49,7 +49,9 @@
 		justify-content: space-between;
 		width: 100%;
 		padding: 1rem;
-		background-color: #4c566a;
+		background-color: #3d4453;
+		font-size: 1rem;
+		font-weight: bolder;
 		border: none;
 		border-radius: 5px;
 		color: white;
@@ -84,7 +86,7 @@
 	.content {
 		padding: 1rem;
 		margin-top: 0.5rem;
-		background-color: #4c566a;
+		background-color: #3d4453;
 		border-radius: 5px;
 	}
 </style>

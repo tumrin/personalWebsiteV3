@@ -102,6 +102,7 @@
 		gap: 2rem;
 		align-items: center;
 		justify-content: space-around;
+		font-weight: bolder;
 	}
 	.navbar {
 		display: flex;
@@ -138,7 +139,7 @@
 		padding: 0.5rem 0.75rem;
 		border-radius: 6px;
 		cursor: pointer;
-		font-weight: 600;
+		font-weight: bolder;
 	}
 	.lang-btn[aria-pressed='true'] {
 		background: #88c0d0;
