@@ -35,6 +35,8 @@ const fi = {
 		summary: 'Yhteenveto',
 		summaryText:
 			'Olen työskennellyt ohjelmistokehittäjänä 6 vuotta monenlaisissa projekteissa sulautettujen järjestelmien laiteohjelmistokehityksestä monimutkaisiin verkkosovelluksiin, joihin sisältyy monia eri palveluita. Olen työskennellyt sekä tiimin jäsenenä että pääkehittäjänä, ja vaikka vahvuuteni ovat teknisellä puolella, työskentelen usein myös suoraan asiakkaiden kanssa vaatimusten ymmärtämiseksi ja projektin edistymisen viestimiseksi.',
+		summaryText2:
+			'Vapaa-ajalla kehittelen omia projektejani. Ajan myös suurinta osaa käyttämistäni työkaluista ja palveluista omalla palvelinkoneellani.',
 		experience: 'Työkokemus',
 		experienceTitle1: 'Full Stack -kehittäjä, perustaja, hallituksen jäsen',
 		experienceCompany1: 'Kvanttori Oy',

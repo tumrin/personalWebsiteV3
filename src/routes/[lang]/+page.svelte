@@ -39,6 +39,8 @@
 	<section class="cv-section">
 		<h2 class="section-title">{$LL.cv.summary()}</h2>
 		<p class="summary-text">{$LL.cv.summaryText()}</p>
+		<br />
+		<p class="summary-text">{$LL.cv.summaryText2()}</p>
 	</section>
 
 	<section class="cv-section">

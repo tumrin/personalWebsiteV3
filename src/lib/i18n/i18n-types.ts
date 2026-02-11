@@ -114,6 +114,10 @@ type RootTranslation = {
 		 */
 		summaryText: string
 		/**
+		 * O​u​t​s​i​d​e​ ​w​o​r​k​ ​I​ ​d​e​v​e​l​o​p​ ​p​e​r​s​o​n​a​l​ ​p​r​o​j​e​c​t​s​ ​a​n​d​ ​r​u​n​ ​m​o​s​t​ ​o​f​ ​t​h​e​ ​d​i​f​f​e​r​e​n​t​ ​s​o​f​t​w​a​r​e​ ​a​n​d​ ​s​e​r​v​i​c​e​ ​I​ ​u​s​e​ ​o​n​ ​m​y​ ​p​e​r​s​o​n​a​l​ ​s​e​r​v​e​r​.
+		 */
+		summaryText2: string
+		/**
 		 * E​x​p​e​r​i​e​n​c​e
 		 */
 		experience: string
@@ -320,6 +324,10 @@ export type TranslationFunctions = {
 		 * I have been working as a software engineer for 6 years in multitude of project from firmware development on embedded systems to complex web applications with multiple different services. I have worked as part of a team and as a lead developer and while my strengths are on the technical side, I also often work directly with clients to understand requirements and communicate progress.
 		 */
 		summaryText: () => LocalizedString
+		/**
+		 * Outside work I develop personal projects and run most of the different software and service I use on my personal server.
+		 */
+		summaryText2: () => LocalizedString
 		/**
 		 * Experience
 		 */

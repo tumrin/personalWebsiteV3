@@ -35,6 +35,8 @@ const en = {
 		summary: 'Summary',
 		summaryText:
 			'I have been working as a software engineer for 6 years in multitude of project from firmware development on embedded systems to complex web applications with multiple different services. I have worked as part of a team and as a lead developer and while my strengths are on the technical side, I also often work directly with clients to understand requirements and communicate progress.',
+		summaryText2:
+			'Outside work I develop personal projects and run most of the different software and service I use on my personal server.',
 		experience: 'Experience',
 		experienceTitle1: 'Full Stack Developer, Co-founder, Board member',
 		experienceCompany1: 'Kvanttori Oy',
