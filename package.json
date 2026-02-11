@@ -29,6 +29,7 @@
 		"svelte-check": "^4.1.1",
 		"svelte-exmarkdown": "^5.0.2",
 		"tslib": "^2.3.1",
+		"typesafe-i18n": "^5.26.2",
 		"typescript": "^5.7.2",
 		"vite": "^7.1.12"
 	},
@@ -36,10 +37,8 @@
 	"dependencies": {
 		"@fortawesome/free-brands-svg-icons": "^7.1.0",
 		"@fortawesome/free-regular-svg-icons": "^7.1.0",
-		"@sveltejs/adapter-static": "^3.0.10",
 		"@types/luxon": "^3.0.1",
 		"luxon": "^3.0.4",
-		"svelte-fa": "^4.0.3",
-		"typesafe-i18n": "^5.26.2"
+		"svelte-fa": "^4.0.3"
 	}
 }

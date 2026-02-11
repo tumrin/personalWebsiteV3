@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-auto';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -7,7 +7,21 @@ const config = {
 	extensions: ['.svelte', '.svx', '.md'],
 
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+		prerender: {
+			entries: [
+				'/fi',
+				'/en',
+				'/en/blogs',
+				'/en/presentations',
+				'/en/projects',
+				'/en/publications',
+				'/fi/blogs',
+				'/fi/presentations',
+				'/fi/projects',
+				'/fi/publications'
+			]
+		}
 	}
 };
 
