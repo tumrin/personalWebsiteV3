@@ -86,10 +86,6 @@ type RootTranslation = {
 		 */
 		downloadPDF: string
 		/**
-		 * T​u​o​m​a​s​ ​R​i​n​n​e
-		 */
-		name: string
-		/**
 		 * S​o​f​t​w​a​r​e​ ​E​n​g​i​n​e​e​r
 		 */
 		title: string
@@ -118,6 +114,10 @@ type RootTranslation = {
 		 */
 		summaryText2: string
 		/**
+		 * I​ ​a​m​ ​m​o​t​i​v​a​t​e​d​ ​b​y​ ​a​ ​d​e​s​i​r​e​ ​t​o​ ​g​r​o​w​ ​a​s​ ​a​ ​s​o​f​t​w​a​r​e​ ​d​e​v​e​l​o​p​e​r​ ​a​n​d​ ​t​o​ ​b​u​i​l​d​ ​s​u​s​t​a​i​n​a​b​l​e​ ​a​n​d​ ​h​i​g​h​-​q​u​a​l​i​t​y​ ​s​o​l​u​t​i​o​n​s​.​ ​I​ ​a​m​ ​a​l​s​o​ ​i​n​t​e​r​e​s​t​e​d​ ​i​n​ ​p​r​o​m​o​t​i​n​g​ ​t​h​e​ ​u​s​e​ ​o​f​ ​o​p​e​n​ ​s​o​u​r​c​e​ ​s​o​l​u​t​i​o​n​s​ ​a​n​d​ ​E​u​r​o​p​e​a​n​ ​t​e​c​h​n​o​l​o​g​y​.
+		 */
+		summaryText3: string
+		/**
 		 * E​x​p​e​r​i​e​n​c​e
 		 */
 		experience: string
@@ -138,13 +138,21 @@ type RootTranslation = {
 		 */
 		experienceDate1: string
 		/**
-		 * L​e​a​d​ ​d​e​v​e​l​o​p​e​r​ ​i​n​ ​m​u​l​t​i​p​l​e​ ​p​r​o​j​e​c​t​s
+		 * I​ ​w​o​r​k​e​d​ ​a​s​ ​t​h​e​ ​l​e​a​d​ ​d​e​v​e​l​o​p​e​r​ ​i​n​ ​t​h​r​e​e​ ​d​i​f​f​e​r​e​n​t​ ​p​r​o​j​e​c​t​s​,​ ​w​h​e​r​e​ ​I​ ​w​a​s​ ​r​e​s​p​o​n​s​i​b​l​e​ ​f​o​r​ ​t​e​c​h​n​i​c​a​l​ ​i​m​p​l​e​m​e​n​t​a​t​i​o​n​ ​a​n​d​ ​c​l​i​e​n​t​ ​c​o​m​m​u​n​i​c​a​t​i​o​n​.​ ​I​n​ ​t​h​e​ ​f​i​r​s​t​ ​p​r​o​j​e​c​t​,​ ​w​e​ ​i​m​p​l​e​m​e​n​t​e​d​ ​a​n​ ​e​n​e​r​g​y​ ​m​a​n​a​g​e​m​e​n​t​ ​i​n​t​e​r​f​a​c​e​ ​f​o​r​ ​t​h​e​ ​C​i​t​y​ ​o​f​ ​T​u​r​k​u​ ​u​s​i​n​g​ ​N​e​x​t​.​j​s​,​ ​T​y​p​e​S​c​r​i​p​t​,​ ​a​n​d​ ​a​ ​P​o​s​t​g​r​e​S​Q​L​ ​d​a​t​a​b​a​s​e​.​ ​T​h​e​ ​p​r​o​j​e​c​t​ ​i​n​v​o​l​v​e​d​ ​c​l​o​s​e​ ​c​o​l​l​a​b​o​r​a​t​i​o​n​ ​w​i​t​h​ ​t​h​e​ ​c​l​i​e​n​t​ ​t​o​ ​i​t​e​r​a​t​e​ ​t​h​e​ ​u​s​e​r​ ​i​n​t​e​r​f​a​c​e​.​ ​I​n​ ​t​h​e​ ​s​e​c​o​n​d​ ​p​r​o​j​e​c​t​,​ ​I​ ​d​e​s​i​g​n​e​d​ ​a​n​d​ ​i​m​p​l​e​m​e​n​t​e​d​ ​a​ ​h​a​c​k​a​t​h​o​n​ ​c​h​a​l​l​e​n​g​e​ ​f​o​r​ ​B​o​o​s​t​ ​T​u​r​k​u​.​ ​T​h​e​ ​c​h​a​l​l​e​n​g​e​ ​s​i​m​u​l​a​t​e​d​ ​h​o​u​s​e​h​o​l​d​ ​e​n​e​r​g​y​ ​c​o​n​s​u​m​p​t​i​o​n​,​ ​p​r​o​d​u​c​t​i​o​n​,​ ​a​n​d​ ​s​t​o​r​a​g​e​.​ ​P​a​r​t​i​c​i​p​a​n​t​s​ ​h​a​d​ ​t​o​ ​m​a​n​a​g​e​ ​h​o​m​e​ ​e​n​e​r​g​y​ ​s​t​o​r​a​g​e​ ​a​n​d​ ​u​s​a​g​e​ ​t​o​ ​b​a​l​a​n​c​e​ ​c​o​n​s​u​m​p​t​i​o​n​.​ ​I​ ​i​m​p​l​e​m​e​n​t​e​d​ ​a​ ​r​e​a​l​-​t​i​m​e​ ​s​i​m​u​l​a​t​i​o​n​ ​u​s​i​n​g​ ​R​u​s​t​ ​a​n​d​ ​P​o​s​t​g​r​e​S​Q​L​ ​d​a​t​a​b​a​s​e​,​ ​a​l​o​n​g​ ​w​i​t​h​ ​a​n​ ​A​P​I​ ​f​o​r​ ​c​o​m​p​e​t​i​t​o​r​s​ ​t​o​ ​f​e​t​c​h​ ​d​a​t​a​.​ ​I​n​ ​t​h​e​ ​t​h​i​r​d​ ​p​r​o​j​e​c​t​,​ ​I​ ​w​a​s​ ​r​e​s​p​o​n​s​i​b​l​e​ ​f​o​r​ ​f​i​x​i​n​g​ ​a​n​d​ ​i​m​p​r​o​v​i​n​g​ ​a​ ​p​r​e​v​i​o​u​s​ ​v​e​n​d​o​r​'​s​ ​a​p​p​l​i​c​a​t​i​o​n​ ​t​o​ ​m​e​e​t​ ​t​h​e​ ​c​l​i​e​n​t​'​s​ ​n​e​e​d​s​.​ ​T​h​e​ ​a​p​p​l​i​c​a​t​i​o​n​ ​w​a​s​ ​b​u​i​l​t​ ​w​i​t​h​ ​P​y​t​h​o​n​,​ ​F​a​s​t​A​P​I​,​ ​a​n​d​ ​A​z​u​r​e​.
 		 */
 		experienceDesc1_1: string
 		/**
-		 * W​o​r​k​i​n​g​ ​w​i​t​h​ ​m​u​l​t​i​p​l​e​ ​t​e​c​h​ ​s​t​a​c​k​s​ ​o​n​ ​d​i​f​f​e​r​e​n​t​ ​c​u​s​t​o​m​e​r​ ​p​r​o​j​e​c​t​s
+		 * I​ ​w​o​r​k​e​d​ ​a​s​ ​p​a​r​t​ ​o​f​ ​t​h​e​ ​d​e​v​e​l​o​p​m​e​n​t​ ​t​e​a​m​ ​o​n​ ​t​w​o​ ​d​i​f​f​e​r​e​n​t​ ​p​r​o​j​e​c​t​s​.​ ​I​n​ ​t​h​e​ ​f​i​r​s​t​,​ ​I​ ​w​a​s​ ​p​a​r​t​ ​o​f​ ​t​h​e​ ​c​l​i​e​n​t​'​s​ ​a​p​p​r​o​x​i​m​a​t​e​l​y​ ​2​0​-​p​e​r​s​o​n​ ​d​e​v​e​l​o​p​m​e​n​t​ ​t​e​a​m​.​ ​I​ ​i​m​p​l​e​m​e​n​t​e​d​ ​s​e​v​e​r​a​l​ ​i​m​p​r​o​v​e​m​e​n​t​s​ ​a​n​d​ ​f​e​a​t​u​r​e​s​ ​f​o​r​ ​a​n​ ​e​x​i​s​t​i​n​g​ ​C​R​M​/​E​R​P​ ​p​r​o​d​u​c​t​,​ ​i​n​c​l​u​d​i​n​g​ ​a​ ​m​i​c​r​o​s​e​r​v​i​c​e​ ​f​o​r​ ​u​s​e​r​ ​m​a​n​a​g​e​m​e​n​t​ ​a​n​d​ ​f​o​r​m​ ​p​r​o​c​e​s​s​i​n​g​,​ ​a​s​ ​w​e​l​l​ ​a​s​ ​a​n​ ​S​D​K​ ​f​o​r​ ​b​u​i​l​d​i​n​g​ ​a​p​p​l​i​c​a​t​i​o​n​s​ ​o​n​ ​t​o​p​ ​o​f​ ​t​h​e​ ​p​r​o​d​u​c​t​.​ ​T​h​e​ ​m​i​c​r​o​s​e​r​v​i​c​e​s​ ​w​e​r​e​ ​i​m​p​l​e​m​e​n​t​e​d​ ​u​s​i​n​g​ ​t​h​e​ ​E​x​p​r​e​s​s​.​j​s​ ​f​r​a​m​e​w​o​r​k​ ​w​i​t​h​ ​T​y​p​e​S​c​r​i​p​t​.​ ​T​h​e​ ​p​r​o​d​u​c​t​ ​a​l​s​o​ ​u​s​e​d​ ​A​n​g​u​l​a​r​ ​a​n​d​ ​M​o​n​g​o​D​B​ ​d​a​t​a​b​a​s​e​.​ ​I​n​ ​t​h​e​ ​s​e​c​o​n​d​ ​p​r​o​j​e​c​t​,​ ​w​e​ ​f​i​x​e​d​ ​a​n​d​ ​a​d​d​e​d​ ​f​e​a​t​u​r​e​s​ ​t​o​ ​a​ ​p​r​e​v​i​o​u​s​ ​v​e​n​d​o​r​'​s​ ​E​R​P​ ​s​y​s​t​e​m​ ​f​o​r​ ​a​ ​m​a​n​u​f​a​c​t​u​r​i​n​g​ ​i​n​d​u​s​t​r​y​ ​c​l​i​e​n​t​.​ ​T​h​e​ ​p​r​o​j​e​c​t​ ​u​s​e​d​ ​R​e​a​c​t​,​ ​T​y​p​e​S​c​r​i​p​t​,​ ​E​x​p​r​e​s​s​.​j​s​ ​f​r​a​m​e​w​o​r​k​,​ ​a​n​d​ ​P​o​s​t​g​r​e​S​Q​L​ ​d​a​t​a​b​a​s​e​.
 		 */
 		experienceDesc1_2: string
+		/**
+		 * I​ ​h​a​v​e​ ​b​e​e​n​ ​r​e​s​p​o​n​s​i​b​l​e​ ​f​o​r​ ​c​o​m​p​a​n​y​ ​t​o​o​l​s​ ​a​n​d​ ​s​y​s​t​e​m​s​ ​s​i​n​c​e​ ​2​0​2​5​.​ ​T​h​e​ ​w​o​r​k​ ​i​n​c​l​u​d​e​d​ ​d​e​p​l​o​y​m​e​n​t​ ​a​n​d​ ​m​a​i​n​t​e​n​a​n​c​e​ ​o​f​ ​s​e​r​v​e​r​s​ ​a​n​d​ ​t​o​o​l​s​.
+		 */
+		experienceDesc1_3: string
+		/**
+		 * I​ ​s​e​r​v​e​ ​a​s​ ​a​ ​c​o​-​f​o​u​n​d​e​r​ ​a​n​d​ ​b​o​a​r​d​ ​m​e​m​b​e​r​ ​o​f​ ​t​h​e​ ​c​o​m​p​a​n​y​.​ ​I​ ​h​a​n​d​l​e​d​ ​f​o​u​n​d​i​n​g​-​r​e​l​a​t​e​d​ ​a​c​t​i​v​i​t​i​e​s​ ​t​o​g​e​t​h​e​r​ ​w​i​t​h​ ​o​t​h​e​r​ ​p​a​r​t​n​e​r​s​.​ ​I​ ​s​e​r​v​e​d​ ​a​s​ ​c​h​a​i​r​m​a​n​ ​o​f​ ​t​h​e​ ​b​o​a​r​d​ ​i​n​ ​2​0​2​2​.
+		 */
+		experienceDesc1_4: string
 		/**
 		 * T​r​a​i​n​e​e​,​ ​T​e​c​h​n​o​l​o​g​y
 		 */
@@ -162,13 +170,9 @@ type RootTranslation = {
 		 */
 		experienceDate2: string
 		/**
-		 * R​e​s​p​o​n​s​i​b​l​e​ ​f​o​r​ ​d​e​v​e​l​o​p​i​n​g​ ​s​e​n​s​o​r​ ​f​i​r​m​w​a​r​e​ ​o​n​ ​p​r​o​d​u​c​t​s​ ​u​s​e​d​ ​b​y​ ​c​u​s​t​o​m​e​r​s
+		 * I​ ​w​a​s​ ​r​e​s​p​o​n​s​i​b​l​e​ ​f​o​r​ ​d​e​v​e​l​o​p​i​n​g​ ​s​e​n​s​o​r​ ​f​i​r​m​w​a​r​e​ ​f​o​r​ ​p​r​o​d​u​c​t​s​ ​u​s​e​d​ ​b​y​ ​c​u​s​t​o​m​e​r​s​.​ ​D​e​v​e​l​o​p​m​e​n​t​ ​a​n​d​ ​v​a​l​i​d​a​t​i​o​n​ ​o​f​ ​p​r​o​t​o​t​y​p​e​s​ ​f​o​r​ ​u​p​c​o​m​i​n​g​ ​p​r​o​d​u​c​t​s​.​ ​T​h​e​ ​p​r​i​m​a​r​y​ ​p​r​o​g​r​a​m​m​i​n​g​ ​l​a​n​g​u​a​g​e​ ​w​a​s​ ​C​.​ ​I​ ​a​l​s​o​ ​i​m​p​l​e​m​e​n​t​e​d​ ​a​ ​w​a​t​e​r​ ​f​i​x​t​u​r​e​ ​u​s​a​g​e​ ​s​i​m​u​l​a​t​i​o​n​ ​p​r​o​g​r​a​m​ ​i​n​ ​R​u​s​t​ ​a​n​d​ ​a​ ​v​i​s​u​a​l​i​z​a​t​i​o​n​ ​f​o​r​ ​t​h​e​ ​s​i​m​u​l​a​t​i​o​n​ ​i​n​ ​J​a​v​a​S​c​r​i​p​t​.​ ​T​h​e​ ​w​o​r​k​ ​a​l​s​o​ ​i​n​c​l​u​d​e​d​ ​a​ ​p​r​o​t​o​t​y​p​e​ ​b​u​i​l​t​ ​f​o​r​ ​c​o​n​t​r​o​l​l​i​n​g​ ​s​e​n​s​o​r​s​ ​u​s​i​n​g​ ​R​a​s​p​b​e​r​r​y​ ​P​i​ ​a​n​d​ ​P​y​t​h​o​n​.
 		 */
 		experienceDesc2_1: string
-		/**
-		 * B​u​i​l​d​i​n​g​ ​p​r​o​t​o​t​y​p​e​s​ ​f​o​r​ ​u​p​c​o​m​i​n​g​ ​p​r​o​d​u​c​t​s
-		 */
-		experienceDesc2_2: string
 		/**
 		 * E​d​u​c​a​t​i​o​n
 		 */
@@ -186,7 +190,7 @@ type RootTranslation = {
 		 */
 		educationLocation1: string
 		/**
-		 * 2​0​2​0​ ​-​ ​2​0​2​5
+		 * 2​0​2​0​ ​-​ ​2​0​2​4
 		 */
 		educationDate1: string
 		/**
@@ -198,9 +202,17 @@ type RootTranslation = {
 		 */
 		language1: string
 		/**
+		 * N​a​t​i​v​e
+		 */
+		language1Proficiency: string
+		/**
 		 * E​n​g​l​i​s​h
 		 */
 		language2: string
+		/**
+		 * P​r​o​f​i​c​i​e​n​t
+		 */
+		language2Proficiency: string
 		/**
 		 * S​k​i​l​l​s
 		 */
@@ -297,10 +309,6 @@ export type TranslationFunctions = {
 		 */
 		downloadPDF: () => LocalizedString
 		/**
-		 * Tuomas Rinne
-		 */
-		name: () => LocalizedString
-		/**
 		 * Software Engineer
 		 */
 		title: () => LocalizedString
@@ -329,6 +337,10 @@ export type TranslationFunctions = {
 		 */
 		summaryText2: () => LocalizedString
 		/**
+		 * I am motivated by a desire to grow as a software developer and to build sustainable and high-quality solutions. I am also interested in promoting the use of open source solutions and European technology.
+		 */
+		summaryText3: () => LocalizedString
+		/**
 		 * Experience
 		 */
 		experience: () => LocalizedString
@@ -349,13 +361,21 @@ export type TranslationFunctions = {
 		 */
 		experienceDate1: () => LocalizedString
 		/**
-		 * Lead developer in multiple projects
+		 * I worked as the lead developer in three different projects, where I was responsible for technical implementation and client communication. In the first project, we implemented an energy management interface for the City of Turku using Next.js, TypeScript, and a PostgreSQL database. The project involved close collaboration with the client to iterate the user interface. In the second project, I designed and implemented a hackathon challenge for Boost Turku. The challenge simulated household energy consumption, production, and storage. Participants had to manage home energy storage and usage to balance consumption. I implemented a real-time simulation using Rust and PostgreSQL database, along with an API for competitors to fetch data. In the third project, I was responsible for fixing and improving a previous vendor's application to meet the client's needs. The application was built with Python, FastAPI, and Azure.
 		 */
 		experienceDesc1_1: () => LocalizedString
 		/**
-		 * Working with multiple tech stacks on different customer projects
+		 * I worked as part of the development team on two different projects. In the first, I was part of the client's approximately 20-person development team. I implemented several improvements and features for an existing CRM/ERP product, including a microservice for user management and form processing, as well as an SDK for building applications on top of the product. The microservices were implemented using the Express.js framework with TypeScript. The product also used Angular and MongoDB database. In the second project, we fixed and added features to a previous vendor's ERP system for a manufacturing industry client. The project used React, TypeScript, Express.js framework, and PostgreSQL database.
 		 */
 		experienceDesc1_2: () => LocalizedString
+		/**
+		 * I have been responsible for company tools and systems since 2025. The work included deployment and maintenance of servers and tools.
+		 */
+		experienceDesc1_3: () => LocalizedString
+		/**
+		 * I serve as a co-founder and board member of the company. I handled founding-related activities together with other partners. I served as chairman of the board in 2022.
+		 */
+		experienceDesc1_4: () => LocalizedString
 		/**
 		 * Trainee, Technology
 		 */
@@ -373,13 +393,9 @@ export type TranslationFunctions = {
 		 */
 		experienceDate2: () => LocalizedString
 		/**
-		 * Responsible for developing sensor firmware on products used by customers
+		 * I was responsible for developing sensor firmware for products used by customers. Development and validation of prototypes for upcoming products. The primary programming language was C. I also implemented a water fixture usage simulation program in Rust and a visualization for the simulation in JavaScript. The work also included a prototype built for controlling sensors using Raspberry Pi and Python.
 		 */
 		experienceDesc2_1: () => LocalizedString
-		/**
-		 * Building prototypes for upcoming products
-		 */
-		experienceDesc2_2: () => LocalizedString
 		/**
 		 * Education
 		 */
@@ -397,7 +413,7 @@ export type TranslationFunctions = {
 		 */
 		educationLocation1: () => LocalizedString
 		/**
-		 * 2020 - 2025
+		 * 2020 - 2024
 		 */
 		educationDate1: () => LocalizedString
 		/**
@@ -409,9 +425,17 @@ export type TranslationFunctions = {
 		 */
 		language1: () => LocalizedString
 		/**
+		 * Native
+		 */
+		language1Proficiency: () => LocalizedString
+		/**
 		 * English
 		 */
 		language2: () => LocalizedString
+		/**
+		 * Proficient
+		 */
+		language2Proficiency: () => LocalizedString
 		/**
 		 * Skills
 		 */

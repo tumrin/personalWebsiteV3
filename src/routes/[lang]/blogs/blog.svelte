@@ -7,7 +7,7 @@
 
 <style>
 	.blogEntry {
-		background-color: #4c566a;
+		background-color: #3b4252;
 		padding: 2rem;
 		border-radius: 5px;
 	}

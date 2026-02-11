@@ -1,10 +1,18 @@
 <script lang="ts">
 	import LL from '$lib/i18n/i18n-svelte';
 
-	const programming = ['Rust', 'JavaScript', 'TypeScript', 'Python', 'C', 'Java'];
-	const frameworks = ['FastAPI', 'express.js', 'Svelte', 'SvelteKit', 'React', 'Next.js'];
-	const databases = ['PostgreSQL', 'Sqlite', 'MongoDB'];
-	const cloud = ['Azure', 'Docker', 'Hetzner', 'Linux', 'Terraform'];
+	const programming = ['Rust', 'C', 'JavaScript', 'TypeScript', 'Python'];
+	const frameworks = [
+		'FastAPI',
+		'Express.js',
+		'Svelte',
+		'SvelteKit',
+		'Angular',
+		'React',
+		'Next.js'
+	];
+	const databases = ['PostgreSQL', 'SQLite', 'MongoDB'];
+	const cloud = ['Azure', 'AWS', 'Docker', 'Hetzner', 'Linux', 'Terraform'];
 
 	function printCV() {
 		window.print();
@@ -17,9 +25,11 @@
 </svelte:head>
 
 <div class="cv-container">
-	<button class="download-btn" on:click={printCV}>{$LL.cv.downloadPDF()}</button>
+	<button class="download-btn plausible-event-name=cv-download" on:click={printCV}
+		>{$LL.cv.downloadPDF()}</button
+	>
 	<header class="cv-header">
-		<h1 class="cv-name">{$LL.cv.name()}</h1>
+		<h1 class="cv-name">Tuomas Rinne</h1>
 		<p class="cv-title">{$LL.cv.title()}</p>
 		<div class="cv-contact">
 			<span>tuomas.rin(at)protonmail.com</span>
@@ -39,43 +49,38 @@
 	<section class="cv-section">
 		<h2 class="section-title">{$LL.cv.summary()}</h2>
 		<p class="summary-text">{$LL.cv.summaryText()}</p>
-		<br />
 		<p class="summary-text">{$LL.cv.summaryText2()}</p>
+		<p class="summary-text">{$LL.cv.summaryText3()}</p>
 	</section>
 
 	<section class="cv-section">
 		<h2 class="section-title">{$LL.cv.experience()}</h2>
 		<div class="experience-item">
-			<div class="experience-header">
+			<div class="experience-left">
 				<div class="experience-title-group">
 					<h3 class="experience-title">{$LL.cv.experienceTitle1()}</h3>
 					<span class="experience-company">{$LL.cv.experienceCompany1()}</span>
 				</div>
-				<div class="experience-meta">
-					<span class="experience-location">{$LL.cv.experienceLocation1()}</span>
-					<span class="experience-date">{$LL.cv.experienceDate1()}</span>
-				</div>
+				<p>{$LL.cv.experienceDesc1_1()}</p>
+				<p>{$LL.cv.experienceDesc1_2()}</p>
+				<p>{$LL.cv.experienceDesc1_3()}</p>
+				<p>{$LL.cv.experienceDesc1_4()}</p>
 			</div>
-			<ul class="experience-list">
-				<li>{$LL.cv.experienceDesc1_1()}</li>
-				<li>{$LL.cv.experienceDesc1_2()}</li>
-			</ul>
+			<div class="experience-right">
+				<span class="experience-date">{$LL.cv.experienceDate1()}</span>
+			</div>
 		</div>
 		<div class="experience-item">
-			<div class="experience-header">
+			<div class="experience-left">
 				<div class="experience-title-group">
 					<h3 class="experience-title">{$LL.cv.experienceTitle2()}</h3>
 					<span class="experience-company">{$LL.cv.experienceCompany2()}</span>
 				</div>
-				<div class="experience-meta">
-					<span class="experience-location">{$LL.cv.experienceLocation2()}</span>
-					<span class="experience-date">{$LL.cv.experienceDate2()}</span>
-				</div>
+				<p>{$LL.cv.experienceDesc2_1()}</p>
 			</div>
-			<ul class="experience-list">
-				<li>{$LL.cv.experienceDesc2_1()}</li>
-				<li>{$LL.cv.experienceDesc2_2()}</li>
-			</ul>
+			<div class="experience-right">
+				<span class="experience-date">{$LL.cv.experienceDate2()}</span>
+			</div>
 		</div>
 	</section>
 
@@ -88,7 +93,6 @@
 					<span class="education-institution">{$LL.cv.educationInstitution1()}</span>
 				</div>
 				<div class="education-meta">
-					<span class="education-location">{$LL.cv.educationLocation1()}</span>
 					<span class="education-date">{$LL.cv.educationDate1()}</span>
 				</div>
 			</div>
@@ -97,10 +101,8 @@
 
 	<section class="cv-section">
 		<h2 class="section-title">{$LL.cv.languages()}</h2>
-		<ul>
-			<li>{$LL.cv.language1()}</li>
-			<li>{$LL.cv.language2()}</li>
-		</ul>
+		<p>{$LL.cv.language1()} - {$LL.cv.language1Proficiency()}</p>
+		<p>{$LL.cv.language2()} - {$LL.cv.language2Proficiency()}</p>
 	</section>
 
 	<section class="cv-section">
@@ -159,8 +161,8 @@
 
 	.cv-header {
 		text-align: center;
-		padding-bottom: 1.5rem;
 		border-bottom: 2px solid #88c0d0;
+		padding-bottom: 0.5rem;
 	}
 
 	.cv-name {
@@ -171,6 +173,7 @@
 	.cv-title {
 		color: #8fbcbb;
 		margin: 0 0 1rem 0;
+		font-weight: bolder;
 	}
 
 	.cv-contact {
@@ -192,28 +195,60 @@
 	.cv-contact .divider {
 		color: #4c566a;
 	}
+	.cv-section {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		p {
+			font-size: 1rem;
+			margin-bottom: 0;
+			margin-top: 0;
+		}
+		h3 {
+			margin-bottom: 0;
+			margin-top: 0;
+		}
+	}
 
 	.section-title {
 		color: #8fbcbb;
 		font-size: 1.5rem;
 		border-bottom: 1px solid #4c566a;
-		padding-bottom: 0.5rem;
-		margin-bottom: 1rem;
 	}
 
 	.summary-text {
 		color: #eceff4;
 		font-size: 1rem;
 		line-height: 1.6;
-		margin: 0;
 	}
 
-	.experience-item,
-	.education-item {
-		margin-bottom: 1.5rem;
+	.experience-item {
+		display: grid;
+		grid-template-columns: 5fr 1fr;
+		gap: 1rem;
+		margin-bottom: 1rem;
+		p {
+			margin-bottom: 0 !important;
+		}
 	}
 
-	.experience-header,
+	.experience-left {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		p {
+			line-height: 1.6;
+			margin-bottom: 0.5rem;
+		}
+	}
+	.experience-right {
+		display: flex;
+		flex-direction: column;
+		text-align: end;
+		flex-shrink: 0;
+		font-weight: bolder;
+	}
+
 	.education-header {
 		display: flex;
 		justify-content: space-between;
@@ -228,6 +263,7 @@
 		display: flex;
 		flex-direction: column;
 		gap: 0.25rem;
+		margin-bottom: 1rem;
 	}
 
 	.experience-title,
@@ -244,18 +280,12 @@
 		font-weight: bolder;
 	}
 
-	.experience-meta,
 	.education-meta {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-end;
 		gap: 0.25rem;
-	}
-
-	.experience-location,
-	.education-location {
-		color: #eceff4;
-		font-size: 0.9rem;
+		font-weight: bolder;
 	}
 
 	.experience-date,
@@ -264,24 +294,11 @@
 		font-size: 0.9rem;
 	}
 
-	.experience-list {
-		color: #eceff4;
-		margin: 0;
-	}
-
-	ul {
-		padding-left: 1.5rem;
-	}
-
-	li {
-		margin-bottom: 0.25rem;
-		line-height: 1.5;
-	}
-
 	.skills-container {
 		display: flex;
 		flex-wrap: wrap;
 		gap: 0.5rem;
+		margin-bottom: 1rem;
 	}
 
 	.skill-tag {
@@ -316,12 +333,10 @@
 			font-size: 0.85rem;
 		}
 
-		.experience-header,
 		.education-header {
 			flex-direction: column;
 		}
 
-		.experience-meta,
 		.education-meta {
 			align-items: flex-start;
 		}
@@ -409,18 +424,9 @@
 			color: #333 !important;
 		}
 
-		.experience-location,
-		.education-location {
-			color: #555 !important;
-		}
-
 		.experience-date,
 		.education-date {
 			color: #666 !important;
-		}
-
-		.experience-list {
-			color: #333 !important;
 		}
 
 		.skill-tag {
