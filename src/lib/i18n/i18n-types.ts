@@ -130,11 +130,7 @@ type RootTranslation = {
 		 */
 		experienceCompany1: string
 		/**
-		 * T​u​r​k​u​,​ ​F​i​n​l​a​n​d
-		 */
-		experienceLocation1: string
-		/**
-		 * 2​0​2​1​ ​-​ ​P​r​e​s​e​n​t
+		 * 2​0​2​1​ ​-
 		 */
 		experienceDate1: string
 		/**
@@ -146,11 +142,11 @@ type RootTranslation = {
 		 */
 		experienceDesc1_2: string
 		/**
-		 * I​ ​h​a​v​e​ ​b​e​e​n​ ​r​e​s​p​o​n​s​i​b​l​e​ ​f​o​r​ ​c​o​m​p​a​n​y​ ​t​o​o​l​s​ ​a​n​d​ ​s​y​s​t​e​m​s​ ​s​i​n​c​e​ ​2​0​2​5​.​ ​T​h​e​ ​w​o​r​k​ ​i​n​c​l​u​d​e​d​ ​d​e​p​l​o​y​m​e​n​t​ ​a​n​d​ ​m​a​i​n​t​e​n​a​n​c​e​ ​o​f​ ​s​e​r​v​e​r​s​ ​a​n​d​ ​t​o​o​l​s​.
+		 * I​ ​h​a​v​e​ ​b​e​e​n​ ​r​e​s​p​o​n​s​i​b​l​e​ ​f​o​r​ ​c​o​m​p​a​n​y​ ​t​o​o​l​s​ ​a​n​d​ ​s​y​s​t​e​m​s​ ​s​i​n​c​e​ ​2​0​2​5​.​ ​T​h​e​ ​w​o​r​k​ ​i​n​c​l​u​d​e​s​ ​d​e​p​l​o​y​m​e​n​t​ ​a​n​d​ ​m​a​i​n​t​e​n​a​n​c​e​ ​o​f​ ​s​e​r​v​e​r​s​ ​a​n​d​ ​t​o​o​l​s​.
 		 */
 		experienceDesc1_3: string
 		/**
-		 * I​ ​s​e​r​v​e​ ​a​s​ ​a​ ​c​o​-​f​o​u​n​d​e​r​ ​a​n​d​ ​b​o​a​r​d​ ​m​e​m​b​e​r​ ​o​f​ ​t​h​e​ ​c​o​m​p​a​n​y​.​ ​I​ ​h​a​n​d​l​e​d​ ​f​o​u​n​d​i​n​g​-​r​e​l​a​t​e​d​ ​a​c​t​i​v​i​t​i​e​s​ ​t​o​g​e​t​h​e​r​ ​w​i​t​h​ ​o​t​h​e​r​ ​p​a​r​t​n​e​r​s​.​ ​I​ ​s​e​r​v​e​d​ ​a​s​ ​c​h​a​i​r​m​a​n​ ​o​f​ ​t​h​e​ ​b​o​a​r​d​ ​i​n​ ​2​0​2​2​.
+		 * I​ ​s​e​r​v​e​d​ ​a​s​ ​a​ ​c​o​-​f​o​u​n​d​e​r​ ​a​n​d​ ​b​o​a​r​d​ ​m​e​m​b​e​r​ ​o​f​ ​t​h​e​ ​c​o​m​p​a​n​y​.​ ​I​ ​h​a​n​d​l​e​d​ ​f​o​u​n​d​i​n​g​-​r​e​l​a​t​e​d​ ​a​c​t​i​v​i​t​i​e​s​ ​t​o​g​e​t​h​e​r​ ​w​i​t​h​ ​o​t​h​e​r​ ​p​a​r​t​n​e​r​s​.​ ​I​ ​s​e​r​v​e​d​ ​a​s​ ​c​h​a​i​r​m​a​n​ ​o​f​ ​t​h​e​ ​b​o​a​r​d​ ​i​n​ ​2​0​2​2​.
 		 */
 		experienceDesc1_4: string
 		/**
@@ -161,10 +157,6 @@ type RootTranslation = {
 		 * O​r​a​s​ ​O​y
 		 */
 		experienceCompany2: string
-		/**
-		 * R​a​u​m​a​,​ ​F​i​n​l​a​n​d
-		 */
-		experienceLocation2: string
 		/**
 		 * 2​0​2​0​ ​-​ ​2​0​2​1
 		 */
@@ -182,13 +174,25 @@ type RootTranslation = {
 		 */
 		educationDegree1: string
 		/**
+		 * M​a​j​o​r
+		 */
+		major: string
+		/**
+		 * M​i​n​o​r
+		 */
+		minor: string
+		/**
+		 * S​o​f​t​w​a​r​e​ ​E​n​g​i​n​e​e​r​i​n​g
+		 */
+		educationMajor: string
+		/**
+		 * C​y​b​e​r​ ​S​e​c​u​r​i​t​y
+		 */
+		educationMinor: string
+		/**
 		 * U​n​i​v​e​r​s​i​t​y​ ​o​f​ ​T​u​r​k​u
 		 */
 		educationInstitution1: string
-		/**
-		 * T​u​r​k​u​,​ ​F​i​n​l​a​n​d
-		 */
-		educationLocation1: string
 		/**
 		 * 2​0​2​0​ ​-​ ​2​0​2​4
 		 */
@@ -353,11 +357,7 @@ export type TranslationFunctions = {
 		 */
 		experienceCompany1: () => LocalizedString
 		/**
-		 * Turku, Finland
-		 */
-		experienceLocation1: () => LocalizedString
-		/**
-		 * 2021 - Present
+		 * 2021 -
 		 */
 		experienceDate1: () => LocalizedString
 		/**
@@ -369,11 +369,11 @@ export type TranslationFunctions = {
 		 */
 		experienceDesc1_2: () => LocalizedString
 		/**
-		 * I have been responsible for company tools and systems since 2025. The work included deployment and maintenance of servers and tools.
+		 * I have been responsible for company tools and systems since 2025. The work includes deployment and maintenance of servers and tools.
 		 */
 		experienceDesc1_3: () => LocalizedString
 		/**
-		 * I serve as a co-founder and board member of the company. I handled founding-related activities together with other partners. I served as chairman of the board in 2022.
+		 * I served as a co-founder and board member of the company. I handled founding-related activities together with other partners. I served as chairman of the board in 2022.
 		 */
 		experienceDesc1_4: () => LocalizedString
 		/**
@@ -384,10 +384,6 @@ export type TranslationFunctions = {
 		 * Oras Oy
 		 */
 		experienceCompany2: () => LocalizedString
-		/**
-		 * Rauma, Finland
-		 */
-		experienceLocation2: () => LocalizedString
 		/**
 		 * 2020 - 2021
 		 */
@@ -405,13 +401,25 @@ export type TranslationFunctions = {
 		 */
 		educationDegree1: () => LocalizedString
 		/**
+		 * Major
+		 */
+		major: () => LocalizedString
+		/**
+		 * Minor
+		 */
+		minor: () => LocalizedString
+		/**
+		 * Software Engineering
+		 */
+		educationMajor: () => LocalizedString
+		/**
+		 * Cyber Security
+		 */
+		educationMinor: () => LocalizedString
+		/**
 		 * University of Turku
 		 */
 		educationInstitution1: () => LocalizedString
-		/**
-		 * Turku, Finland
-		 */
-		educationLocation1: () => LocalizedString
 		/**
 		 * 2020 - 2024
 		 */

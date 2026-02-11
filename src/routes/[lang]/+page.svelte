@@ -90,6 +90,8 @@
 			<div class="education-header">
 				<div class="education-title-group">
 					<h3 class="education-degree">{$LL.cv.educationDegree1()}</h3>
+					<h4>{$LL.cv.major()}: {$LL.cv.educationMajor()}</h4>
+					<h4>{$LL.cv.minor()}: {$LL.cv.educationMinor()}</h4>
 					<span class="education-institution">{$LL.cv.educationInstitution1()}</span>
 				</div>
 				<div class="education-meta">
@@ -264,6 +266,10 @@
 		flex-direction: column;
 		gap: 0.25rem;
 		margin-bottom: 1rem;
+		h4 {
+			margin: 0;
+			color: #8fbcbb;
+		}
 	}
 
 	.experience-title,
