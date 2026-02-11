@@ -20,6 +20,11 @@
 		padding: 0 20vw;
 		overflow-y: auto;
 	}
+	@media screen and (max-width: 800px) {
+		.slot {
+			padding: 0.5rem;
+		}
+	}
 	.body {
 		display: flex;
 		flex-direction: column;
