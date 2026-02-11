@@ -424,6 +424,12 @@
 		.education-degree {
 			color: #1a1a1a !important;
 		}
+		.experience-title-group,
+		.education-title-group {
+			h4 {
+				color: #1a1a1a !important;
+			}
+		}
 
 		.experience-company,
 		.education-institution {
