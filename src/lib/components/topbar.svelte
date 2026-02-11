@@ -112,7 +112,7 @@
 		display: none;
 	}
 	.navlink {
-		color: #4c566a;
+		color: #2e3440;
 		background-color: #88c0d0;
 		padding: 1rem 1.25rem;
 		text-align: center;
