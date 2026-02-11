@@ -44,7 +44,6 @@
 	.projectpage {
 		display: flex;
 		flex-direction: column;
-		overflow-y: scroll;
 	}
 	.projects {
 		display: flex;
