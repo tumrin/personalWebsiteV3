@@ -11,6 +11,11 @@
 	}
 </script>
 
+<svelte:head>
+	<title>{$LL.home.title()}</title>
+	<meta name="description" content={$LL.home.description()} />
+</svelte:head>
+
 <div class="cv-container">
 	<button class="download-btn" on:click={printCV}>{$LL.cv.downloadPDF()}</button>
 	<header class="cv-header">

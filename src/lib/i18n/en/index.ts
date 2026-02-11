@@ -1,6 +1,10 @@
 import type { BaseTranslation } from '../i18n-types';
 
 const en = {
+	home: {
+		title: 'Tuomas Rinne - Software Developer',
+		description: 'CV including work experience, skills and education'
+	},
 	projects: {
 		client: 'Client Projects',
 		hobby: 'Hobby Projects',
@@ -57,8 +61,7 @@ const en = {
 		frameworks: 'Frameworks',
 		databases: 'Databases',
 		hosting: 'Hosting'
-	},
-	HI: 'Hi {name:string}! Please leave a star if you like this project: https://github.com/ivanhofer/typesafe-i18n'
+	}
 } satisfies BaseTranslation;
 
 export default en;

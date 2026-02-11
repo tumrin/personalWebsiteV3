@@ -1,6 +1,10 @@
 import type { BaseTranslation } from '../i18n-types';
 
 const fi = {
+	home: {
+		title: 'Tuomas Rinne - Ohjelmistokehittäjä',
+		description: 'Osaamiseni, työkokemukseni ja koulutukseni'
+	},
 	projects: {
 		client: 'Asiakasprojektit',
 		hobby: 'Omat projektit',
@@ -58,8 +62,7 @@ const fi = {
 		frameworks: 'Frameworkit',
 		databases: 'Tietokannat',
 		hosting: 'Hosting'
-	},
-	HI: 'Hi {name:string}! Please leave a star if you like this project: https://github.com/ivanhofer/typesafe-i18n'
+	}
 } satisfies BaseTranslation;
 
 export default fi;
