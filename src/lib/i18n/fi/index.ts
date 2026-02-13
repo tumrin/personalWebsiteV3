@@ -6,7 +6,7 @@ const fi = {
 		description: 'Osaamiseni, työkokemukseni ja koulutukseni'
 	},
 	projects: {
-		client: 'Asiakasprojektit',
+		client: 'Työprojektit',
 		hobby: 'Omat projektit',
 		projects: 'Projektit',
 		description: 'Projektit, joissa olen ollut mukana.'

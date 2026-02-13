@@ -6,7 +6,7 @@ const en = {
 		description: 'CV including work experience, skills and education'
 	},
 	projects: {
-		client: 'Client Projects',
+		client: 'Work Projects',
 		hobby: 'Hobby Projects',
 		projects: 'Projects',
 		description: 'Personal and professional projects I have been part of during my career.'
