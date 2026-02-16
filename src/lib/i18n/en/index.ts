@@ -54,7 +54,7 @@ const en = {
 		experienceCompany2: 'Oras Oy',
 		experienceDate2: '2020 - 2021',
 		experienceDesc2_1:
-			'I was responsible for developing sensor firmware for products used by customers. Development and validation of prototypes for upcoming products. The primary programming language was C. I also implemented a water fixture usage simulation program in Rust and a visualization for the simulation in JavaScript. The work also included a prototype built for controlling sensors using Raspberry Pi and Python.',
+			'I was responsible for developing sensor firmware for products used by customers and for development and validation of prototypes for upcoming products with C as the primary programming language. I also implemented a water fixture usage simulation program in Rust and a visualization for the simulation in JavaScript. The work also included a prototype built for controlling sensors using Raspberry Pi and Python.',
 		education: 'Education',
 		educationDegree1: 'Master of Science (Technology)',
 		major: 'Major',

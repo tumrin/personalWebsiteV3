@@ -54,7 +54,7 @@ const fi = {
 		experienceCompany2: 'Oras Oy',
 		experienceDate2: '2020 - 2021',
 		experienceDesc2_1:
-			'Olin vastuussa sensoriohjelmistojen kehittämisestä asiakkaiden käyttämissä tuotteissa. Tulevien tuotteiden prototyyppien kehitys ja validointi. Pääasiallisena ohjelmointikielenä toimi C. Lisäksi toteutin vesikalusteiden käytön simulaatioohjelman Rustilla sekä visualisaation simulaatiolle Javascriptilla. Työhön kuului myös sensorien ohjaamiseen rakennettu prototyyppi Raspberry Pi:lla ja Pythonilla.',
+			'Olin vastuussa sensoriohjelmistojen kehittämisestä asiakkaiden käyttämissä tuotteissa sekä tulevien tuotteiden prototyyppien kehityksestä ja validoinnista. Pääasiallisena ohjelmointikielenä toimi C. Lisäksi toteutin vesikalusteiden käytön simulaatioohjelman Rustilla sekä visualisaation simulaatiolle Javascriptilla. Työhön kuului myös sensorien ohjaamiseen rakennettu prototyyppi Raspberry Pi:lla ja Pythonilla.',
 		education: 'Koulutus',
 		educationDegree1: 'Diplomi-insinööri (Tietotekniikka)',
 		major: 'Pääaine',
