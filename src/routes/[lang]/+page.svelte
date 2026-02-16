@@ -54,37 +54,6 @@
 	</section>
 
 	<section class="cv-section">
-		<h2 class="section-title">{$LL.cv.experience()}</h2>
-		<div class="experience-item">
-			<div class="experience-left">
-				<div class="experience-title-group">
-					<h3 class="experience-title">{$LL.cv.experienceTitle1()}</h3>
-					<span class="experience-company">{$LL.cv.experienceCompany1()}</span>
-				</div>
-				<p>{$LL.cv.experienceDesc1_1()}</p>
-				<p>{$LL.cv.experienceDesc1_2()}</p>
-				<p>{$LL.cv.experienceDesc1_3()}</p>
-				<p>{$LL.cv.experienceDesc1_4()}</p>
-			</div>
-			<div class="experience-right">
-				<span class="experience-date">{$LL.cv.experienceDate1()}</span>
-			</div>
-		</div>
-		<div class="experience-item">
-			<div class="experience-left">
-				<div class="experience-title-group">
-					<h3 class="experience-title">{$LL.cv.experienceTitle2()}</h3>
-					<span class="experience-company">{$LL.cv.experienceCompany2()}</span>
-				</div>
-				<p>{$LL.cv.experienceDesc2_1()}</p>
-			</div>
-			<div class="experience-right">
-				<span class="experience-date">{$LL.cv.experienceDate2()}</span>
-			</div>
-		</div>
-	</section>
-
-	<section class="cv-section">
 		<h2 class="section-title">{$LL.cv.education()}</h2>
 		<div class="education-item">
 			<div class="education-header">
@@ -132,6 +101,36 @@
 			{#each cloud as cloudItem}
 				<span class="skill-tag">{cloudItem}</span>
 			{/each}
+		</div>
+	</section>
+	<section class="cv-section">
+		<h2 class="section-title">{$LL.cv.experience()}</h2>
+		<div class="experience-item">
+			<div class="experience-left">
+				<div class="experience-title-group">
+					<h3 class="experience-title">{$LL.cv.experienceTitle1()}</h3>
+					<span class="experience-company">{$LL.cv.experienceCompany1()}</span>
+				</div>
+				<p>{$LL.cv.experienceDesc1_1()}</p>
+				<p>{$LL.cv.experienceDesc1_2()}</p>
+				<p>{$LL.cv.experienceDesc1_3()}</p>
+				<p>{$LL.cv.experienceDesc1_4()}</p>
+			</div>
+			<div class="experience-right">
+				<span class="experience-date">{$LL.cv.experienceDate1()}</span>
+			</div>
+		</div>
+		<div class="experience-item">
+			<div class="experience-left">
+				<div class="experience-title-group">
+					<h3 class="experience-title">{$LL.cv.experienceTitle2()}</h3>
+					<span class="experience-company">{$LL.cv.experienceCompany2()}</span>
+				</div>
+				<p>{$LL.cv.experienceDesc2_1()}</p>
+			</div>
+			<div class="experience-right">
+				<span class="experience-date">{$LL.cv.experienceDate2()}</span>
+			</div>
 		</div>
 	</section>
 </div>
