@@ -1,0 +1,44 @@
+# Tuomas Rinne - Software Developer
+
+## About
+Software developer specializing in high performance, low level languages and backend development.
+
+## Contact
+- Email: tuomas.rin(at)protonmail.com
+- Location: Turku, Finland
+- Website: https://tumrin.dev
+- GitHub: https://github.com/tumrin
+- LinkedIn: https://www.linkedin.com/in/tuomas-rinne-0840a6157/
+
+## Programming Languages
+- Rust
+- C
+- JavaScript
+- TypeScript
+- Python
+
+## Frameworks & Libraries
+- FastAPI
+- Express.js
+- Svelte
+- SvelteKit
+- Angular
+- React
+- Next.js
+
+## Databases
+- PostgreSQL
+- SQLite
+- MongoDB
+
+## Cloud & DevOps
+- Azure
+- AWS
+- Docker
+- Hetzner
+- Linux
+- Terraform
+
+## Languages
+- Finnish (Native)
+- English (Professional Working Proficiency)
