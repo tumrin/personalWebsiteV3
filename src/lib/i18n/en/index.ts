@@ -47,7 +47,7 @@ const en = {
 		experienceDesc1_2:
 			"I worked as part of the development team on two different projects. In the first, I was part of the client's approximately 20-person development team. I implemented several improvements and features for an existing CRM/ERP product, including a microservice for user management and form processing, as well as an SDK for building applications on top of the product. The microservices were implemented using the Express.js framework with TypeScript. The product also used Angular and MongoDB database. In the second project, we fixed and added features to a previous vendor's ERP system for a manufacturing industry client. The project used React, TypeScript, Express.js framework, and PostgreSQL database.",
 		experienceDesc1_3:
-			'I have been responsible for company tools and systems since 2025. The work includes deployment and maintenance of servers and tools.',
+			'I was responsible for company tools and systems since 2025. This included deployment and maintenance of servers, developer computers and software used for time tracking, wiki and uptime monitoring.',
 		experienceDesc1_4:
 			'I served as a co-founder and board member of the company. I handled founding-related activities together with other partners. I served as chairman of the board in 2022.',
 		experienceTitle2: 'Trainee, Technology',

@@ -47,7 +47,7 @@ const fi = {
 		experienceDesc1_2:
 			'Toimin osana kehitystiimiä kahdessa eri projektissa. Ensimmäisessä toimin osana asiakkaan noin 20 hengen kehitystiimiä. Toteutin useita parannuksia ja ominaisuuksia olemassa olevaan CRM / ERP tuotteeseen mukaan lukien mikropalvelun käyttäjien hallintaan ja lomakkeiden käsittelyyn sekä tuotteen päälle rakennettavien sovellusten tekoon tarkoitetun SDK:n. Mikropalvelut toteutettiin Express.js frameworkilla, Typescriptilla. Tuotteessa käytettiin lisäksi Angularia ja MongoDB-tietokantaa. Toisessa projektissa korjasimme ja lisäsimme ominaisuuksia aiemman toimittajan rakentamaan ERP-järjestelmään valmistavan teollisuuden asiakkaalle. Projektissa käytettiin Reactia, Typescriptia, Express.js frameworkia ja PostgreSQL-tietokantaa.',
 		experienceDesc1_3:
-			'Vastasin yrityksen työkaluista ja järjestelmistä vuodesta 2025 alkaen. Työhön kuuluu palvelinten sekä työkalujen käyttöönotto ja ylläpito.',
+			'Vastasin yrityksen työkaluista ja järjestelmistä vuodesta 2025 alkaen. Työhön kuuluu palvelinten sekä kehittäjien tietokoneiden ylläpito. Lisäksi työhön kuului tuntikirjaus, wiki ja saatavuusvalvontatyökalujen hallinnointi.',
 		experienceDesc1_4:
 			'Toimin perustajana ja hallituksen jäsenenä yrityksessä. Hoidin yhdessä muiden osakkaiden kanssa perustamiseen liittyviä toimintoja. Toimin hallituksen puheenjohtajana vuonna 2022.',
 		experienceTitle2: 'Harjoittelija, Teknologia',
