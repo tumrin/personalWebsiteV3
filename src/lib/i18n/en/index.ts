@@ -35,7 +35,7 @@ const en = {
 		summaryText:
 			'I have been working as a software engineer for over 5 years in multitude of project from firmware development on embedded systems to complex web applications with multiple different services. I have worked as part of a team and as a lead developer and while my strengths are on the technical side, I also often work directly with clients to understand requirements and communicate progress.',
 		summaryText2:
-			'Outside work I develop personal projects and run most of the different software and service I use on my personal server.',
+			'Outside work I develop personal projects and run most of the different software and services I use on my personal server including a Nextcloud instance and a Matrix-server.',
 		summaryText3:
 			'I am motivated by a desire to grow as a software developer and to build sustainable and high-quality solutions. I am also interested in promoting the use of open source solutions and European technology.',
 		experience: 'Experience',

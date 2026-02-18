@@ -35,7 +35,7 @@ const fi = {
 		summaryText:
 			'Olen työskennellyt ohjelmistokehittäjänä 6 vuotta monenlaisissa projekteissa sulautettujen järjestelmien laiteohjelmistokehityksestä monimutkaisiin verkkosovelluksiin, joihin sisältyy monia eri palveluita. Olen työskennellyt sekä tiimin jäsenenä että pääkehittäjänä, ja vaikka vahvuuteni ovat teknisellä puolella, työskentelen usein myös suoraan asiakkaiden kanssa vaatimusten ymmärtämiseksi ja projektin edistymisen viestimiseksi.',
 		summaryText2:
-			'Vapaa-ajalla kehittelen omia projektejani. Ajan myös suurinta osaa käyttämistäni työkaluista ja palveluista omalla Linux-palvelinkoneellani.',
+			'Vapaa-ajalla kehittelen omia projektejani. Ajan myös suurinta osaa käyttämistäni työkaluista ja palveluista omalla Linux-palvelinkoneellani. Näihin työkaluihin lukeutuvat esimerkiksi Nextcloud ja Matrix-palvelin.',
 		summaryText3:
 			'Minua motivoi halu kehittyä ohjelmistokehittäjänä ja rakentaa kestäviä ja laadukkaita ratkaisuja. Olen lisäksi kiinnostunut avoimen lähdekoodin ratkaisujen sekä eurooppalaisen teknologian käytön edistämisestä.',
 		experience: 'Työkokemus',
