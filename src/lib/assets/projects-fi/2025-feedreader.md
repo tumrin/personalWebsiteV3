@@ -1,10 +1,10 @@
 ## Feedreader
 
-### Summary
+### Yhteenveto
 
 Yksinkertainen verkkosovellus RSS-syötteiden lukemiseen ja tallentamiseen.
 
-### Technologies
+### Teknologiat
 
 - Rust
 - Loco.rs
