@@ -2,7 +2,9 @@
 
 ### Yhteenveto
 
-Alusta varaosien ja laitteiden vaihtamiseen yritysten välillä.
+Työskentelin johtavana kehittäjänä ja olin vastuussa aiemman toimittajan järjestelmän korjaamisesta sekä
+ominaisuuksien lisäämisestä järjestelmään. Kommunikoin jatkuvasta asiakkaan sekä järjestelmän käyttäjien kanssa
+tarpeiten selvittämiseksi. Suunnittelin ja toteutin ominaisuudet samalla korjaten aiemman toimittajan toteuttamia ominaisuuksia.
 
 ### Teknologiat
 
