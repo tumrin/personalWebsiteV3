@@ -111,8 +111,11 @@
 					<h3 class="experience-title">{$LL.cv.experienceTitle1()}</h3>
 					<span class="experience-company">{$LL.cv.experienceCompany1()}</span>
 				</div>
-				<p>{$LL.cv.experienceDesc1_1()}</p>
-				<p>{$LL.cv.experienceDesc1_2()}</p>
+				<p>{$LL.cv.experienceDesc1_1_1()}</p>
+				<p>{$LL.cv.experienceDesc1_1_2()}</p>
+				<p>{$LL.cv.experienceDesc1_1_3()}</p>
+				<p>{$LL.cv.experienceDesc1_2_1()}</p>
+				<p>{$LL.cv.experienceDesc1_2_2()}</p>
 				<p>{$LL.cv.experienceDesc1_3()}</p>
 				<p>{$LL.cv.experienceDesc1_4()}</p>
 			</div>

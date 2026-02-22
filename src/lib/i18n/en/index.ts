@@ -42,10 +42,16 @@ const en = {
 		experienceTitle1: 'Full Stack Developer, Co-founder, Board member',
 		experienceCompany1: 'Kvanttori Oy',
 		experienceDate1: '2021 -',
-		experienceDesc1_1:
-			"I worked as the lead developer in three different projects, where I was responsible for technical implementation and client communication. In the first project, we implemented an energy management interface for the City of Turku using Next.js, TypeScript, and a PostgreSQL database. The project involved close collaboration with the client to iterate the user interface. In the second project, I designed and implemented a hackathon challenge for Boost Turku. The challenge simulated household energy consumption, production, and storage. Participants had to manage home energy storage and usage to balance consumption. I implemented a real-time simulation using Rust and PostgreSQL database, along with an API for competitors to fetch data. In the third project, I was responsible for fixing and improving a previous vendor's application to meet the client's needs. The application was built with Python, FastAPI, and Azure.",
-		experienceDesc1_2:
-			"I worked as part of the development team on two different projects. In the first, I was part of the client's approximately 20-person development team. I implemented several improvements and features for an existing CRM/ERP product, including a microservice for user management and form processing, as well as an SDK for building applications on top of the product. The microservices were implemented using the Express.js framework with TypeScript. The product also used Angular and MongoDB database. In the second project, we fixed and added features to a previous vendor's ERP system for a manufacturing industry client. The project used React, TypeScript, Express.js framework, and PostgreSQL database.",
+		experienceDesc1_1_1:
+			'I worked as the lead developer in three different projects, where I was responsible for technical implementation and client communication. In the first project, we implemented an energy management interface for the City of Turku using Next.js, TypeScript, and a PostgreSQL database.The project involved close collaboration with the client to iterate the user interface.',
+		experienceDesc1_1_2:
+			'In the second project, I designed and implemented a hackathon challenge for Boost Turku. The challenge simulated household energy consumption, production, and storage. Participants had to manage home energy storage and usage to balance consumption. I implemented a real-time simulation using Rust and PostgreSQL database, along with an API for competitors to fetch data.',
+		experienceDesc1_1_3:
+			"In the third project, I was responsible for fixing and improving a previous vendor's application to meet the client's needs. The application was built with Python, FastAPI, and Azure.",
+		experienceDesc1_2_1:
+			"I worked as part of the development team on two different projects. In the first, I was part of the client's approximately 20-person development team. I implemented several improvements and features for an existing CRM/ERP product, including a microservice for user management and form processing, as well as an SDK for building applications on top of the product. The microservices were implemented using the Express.js framework with TypeScript. The product also used Angular and MongoDB database. ",
+		experienceDesc1_2_2:
+			"In the second project, we fixed and added features to a previous vendor's ERP system for a manufacturing industry client.The project used React, TypeScript, Express.js framework, and PostgreSQL database.",
 		experienceDesc1_3:
 			'I was responsible for company tools and systems since 2025. This included deployment and maintenance of servers, developer computers and software used for time tracking, wiki and uptime monitoring.',
 		experienceDesc1_4:
