@@ -9,7 +9,8 @@
 		'SvelteKit',
 		'Angular',
 		'React',
-		'Next.js'
+		'Next.js',
+		'Axum'
 	];
 	const databases = ['PostgreSQL', 'SQLite', 'MongoDB'];
 	const cloud = [
