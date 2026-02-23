@@ -12,7 +12,16 @@
 		'Next.js'
 	];
 	const databases = ['PostgreSQL', 'SQLite', 'MongoDB'];
-	const cloud = ['Azure', 'AWS', 'Docker', 'Hetzner', 'Linux', 'Terraform'];
+	const cloud = [
+		'Azure',
+		'AWS',
+		'Cloudflare',
+		'Docker',
+		'Traefik',
+		'Hetzner',
+		'Linux',
+		'Terraform'
+	];
 
 	function printCV() {
 		window.print();
