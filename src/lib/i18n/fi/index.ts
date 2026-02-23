@@ -53,7 +53,7 @@ const fi = {
 		experienceDesc1_2_2:
 			'Toisessa projektissa korjasimme ja lisäsimme ominaisuuksia aiemman toimittajan rakentamaan ERP-järjestelmään valmistavan teollisuuden asiakkaalle. Projektissa käytettiin Reactia, Typescriptia, Express.js frameworkia ja PostgreSQL-tietokantaa.',
 		experienceDesc1_3:
-			'Vastasin yrityksen työkaluista ja järjestelmistä vuodesta 2025 alkaen. Työhön kuuluu palvelinten sekä kehittäjien tietokoneiden ylläpito. Lisäksi työhön kuului tuntikirjaus, wiki ja saatavuusvalvontatyökalujen hallinnointi.',
+			'Vastasin yrityksen työkaluista ja järjestelmistä. Työhön kuuluu palvelinten sekä kehittäjien tietokoneiden ylläpito. Lisäksi työhön kuului tuntikirjaus, wiki ja saatavuusvalvontatyökalujen hallinnointi sekä työkalujen jatkuva saatavuuden varmistus.',
 		experienceDesc1_4:
 			'Toimin perustajana ja hallituksen jäsenenä yrityksessä. Hoidin yhdessä muiden osakkaiden kanssa perustamiseen liittyviä toimintoja. Toimin hallituksen puheenjohtajana vuonna 2022.',
 		experienceTitle2: 'Harjoittelija, Teknologia',

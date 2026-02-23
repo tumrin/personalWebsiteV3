@@ -53,7 +53,7 @@ const en = {
 		experienceDesc1_2_2:
 			"In the second project, we fixed and added features to a previous vendor's ERP system for a manufacturing industry client.The project used React, TypeScript, Express.js framework, and PostgreSQL database.",
 		experienceDesc1_3:
-			'I was responsible for company tools and systems since 2025. This included deployment and maintenance of servers, developer computers and software used for time tracking, wiki and uptime monitoring.',
+			'I was responsible for company tools and systems. This included deployment and maintenance of servers, developer computers and software used for time tracking, wiki and uptime monitoring as well as ensuring their availability.',
 		experienceDesc1_4:
 			'I served as a co-founder and board member of the company. I handled founding-related activities together with other partners. I served as chairman of the board in 2022.',
 		experienceTitle2: 'Trainee, Technology',
