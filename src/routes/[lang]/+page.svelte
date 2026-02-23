@@ -17,9 +17,9 @@
 		'Azure',
 		'AWS',
 		'Cloudflare',
+		'Hetzner',
 		'Docker',
 		'Traefik',
-		'Hetzner',
 		'Linux',
 		'Terraform'
 	];
