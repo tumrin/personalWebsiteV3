@@ -2,7 +2,7 @@
 
 ### Yhteenveto
 
-Työskentelin johtavana kehittäjänä ja olin vastuussa aiemman toimittajan järjestelmän korjaamisesta sekä
+Työskentelin ainoana kehittäjänä ja olin vastuussa aiemman toimittajan järjestelmän korjaamisesta sekä
 ominaisuuksien lisäämisestä järjestelmään. Kommunikoin jatkuvasta asiakkaan sekä järjestelmän käyttäjien kanssa
 tarpeiten selvittämiseksi. Suunnittelin ja toteutin ominaisuudet samalla korjaten aiemman toimittajan toteuttamia ominaisuuksia.
 

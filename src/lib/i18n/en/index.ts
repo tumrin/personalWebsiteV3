@@ -33,7 +33,7 @@ const en = {
 		linkedin: 'LinkedIn',
 		summary: 'Summary',
 		summaryText:
-			'I have been working as a software engineer for over 5 years in multitude of project from firmware development on embedded systems to complex web applications with multiple different services. I have worked as part of a team and as a lead developer and while my strengths are on the technical side, I also often work directly with clients to understand requirements and communicate progress.',
+			'I have been working as a software engineer for over 5 years in multitude of project from firmware development on embedded systems to complex web applications with multiple different services. I have worked as part of a team and as a team leader and while my strengths are on the technical side, I also often work directly with clients to understand requirements and communicate progress.',
 		summaryText2:
 			'Outside work I develop personal projects and run most of the different software and services I use on my personal server including a Nextcloud instance and a Matrix-server.',
 		summaryText3:
@@ -43,7 +43,7 @@ const en = {
 		experienceCompany1: 'Kvanttori Oy',
 		experienceDate1: '2021 -',
 		experienceDesc1_1_1:
-			'I worked as the lead developer in three different projects, where I was responsible for technical implementation and client communication. In the first project, we implemented an energy management interface for the City of Turku using Next.js, TypeScript, and a PostgreSQL database.The project involved close collaboration with the client to iterate the user interface.',
+			'I worked as a team leader or otherwise responsible developer in three different projects, where I was responsible for technical implementation and client communication. In the first project, we implemented an energy management interface for the City of Turku using Next.js, TypeScript, and a PostgreSQL database.The project involved close collaboration with the client to iterate the user interface.',
 		experienceDesc1_1_2:
 			'In the second project, I designed and implemented a hackathon challenge for Boost Turku. The challenge simulated household energy consumption, production, and storage. Participants had to manage home energy storage and usage to balance consumption. I implemented a real-time simulation using Rust and PostgreSQL database, along with an API for competitors to fetch data.',
 		experienceDesc1_1_3:

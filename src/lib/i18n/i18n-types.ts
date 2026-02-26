@@ -106,7 +106,7 @@ type RootTranslation = {
 		 */
 		summary: string
 		/**
-		 * I​ ​h​a​v​e​ ​b​e​e​n​ ​w​o​r​k​i​n​g​ ​a​s​ ​a​ ​s​o​f​t​w​a​r​e​ ​e​n​g​i​n​e​e​r​ ​f​o​r​ ​o​v​e​r​ ​5​ ​y​e​a​r​s​ ​i​n​ ​m​u​l​t​i​t​u​d​e​ ​o​f​ ​p​r​o​j​e​c​t​ ​f​r​o​m​ ​f​i​r​m​w​a​r​e​ ​d​e​v​e​l​o​p​m​e​n​t​ ​o​n​ ​e​m​b​e​d​d​e​d​ ​s​y​s​t​e​m​s​ ​t​o​ ​c​o​m​p​l​e​x​ ​w​e​b​ ​a​p​p​l​i​c​a​t​i​o​n​s​ ​w​i​t​h​ ​m​u​l​t​i​p​l​e​ ​d​i​f​f​e​r​e​n​t​ ​s​e​r​v​i​c​e​s​.​ ​I​ ​h​a​v​e​ ​w​o​r​k​e​d​ ​a​s​ ​p​a​r​t​ ​o​f​ ​a​ ​t​e​a​m​ ​a​n​d​ ​a​s​ ​a​ ​l​e​a​d​ ​d​e​v​e​l​o​p​e​r​ ​a​n​d​ ​w​h​i​l​e​ ​m​y​ ​s​t​r​e​n​g​t​h​s​ ​a​r​e​ ​o​n​ ​t​h​e​ ​t​e​c​h​n​i​c​a​l​ ​s​i​d​e​,​ ​I​ ​a​l​s​o​ ​o​f​t​e​n​ ​w​o​r​k​ ​d​i​r​e​c​t​l​y​ ​w​i​t​h​ ​c​l​i​e​n​t​s​ ​t​o​ ​u​n​d​e​r​s​t​a​n​d​ ​r​e​q​u​i​r​e​m​e​n​t​s​ ​a​n​d​ ​c​o​m​m​u​n​i​c​a​t​e​ ​p​r​o​g​r​e​s​s​.
+		 * I​ ​h​a​v​e​ ​b​e​e​n​ ​w​o​r​k​i​n​g​ ​a​s​ ​a​ ​s​o​f​t​w​a​r​e​ ​e​n​g​i​n​e​e​r​ ​f​o​r​ ​o​v​e​r​ ​5​ ​y​e​a​r​s​ ​i​n​ ​m​u​l​t​i​t​u​d​e​ ​o​f​ ​p​r​o​j​e​c​t​ ​f​r​o​m​ ​f​i​r​m​w​a​r​e​ ​d​e​v​e​l​o​p​m​e​n​t​ ​o​n​ ​e​m​b​e​d​d​e​d​ ​s​y​s​t​e​m​s​ ​t​o​ ​c​o​m​p​l​e​x​ ​w​e​b​ ​a​p​p​l​i​c​a​t​i​o​n​s​ ​w​i​t​h​ ​m​u​l​t​i​p​l​e​ ​d​i​f​f​e​r​e​n​t​ ​s​e​r​v​i​c​e​s​.​ ​I​ ​h​a​v​e​ ​w​o​r​k​e​d​ ​a​s​ ​p​a​r​t​ ​o​f​ ​a​ ​t​e​a​m​ ​a​n​d​ ​a​s​ ​a​ ​t​e​a​m​ ​l​e​a​d​e​r​ ​a​n​d​ ​w​h​i​l​e​ ​m​y​ ​s​t​r​e​n​g​t​h​s​ ​a​r​e​ ​o​n​ ​t​h​e​ ​t​e​c​h​n​i​c​a​l​ ​s​i​d​e​,​ ​I​ ​a​l​s​o​ ​o​f​t​e​n​ ​w​o​r​k​ ​d​i​r​e​c​t​l​y​ ​w​i​t​h​ ​c​l​i​e​n​t​s​ ​t​o​ ​u​n​d​e​r​s​t​a​n​d​ ​r​e​q​u​i​r​e​m​e​n​t​s​ ​a​n​d​ ​c​o​m​m​u​n​i​c​a​t​e​ ​p​r​o​g​r​e​s​s​.
 		 */
 		summaryText: string
 		/**
@@ -134,7 +134,7 @@ type RootTranslation = {
 		 */
 		experienceDate1: string
 		/**
-		 * I​ ​w​o​r​k​e​d​ ​a​s​ ​t​h​e​ ​l​e​a​d​ ​d​e​v​e​l​o​p​e​r​ ​i​n​ ​t​h​r​e​e​ ​d​i​f​f​e​r​e​n​t​ ​p​r​o​j​e​c​t​s​,​ ​w​h​e​r​e​ ​I​ ​w​a​s​ ​r​e​s​p​o​n​s​i​b​l​e​ ​f​o​r​ ​t​e​c​h​n​i​c​a​l​ ​i​m​p​l​e​m​e​n​t​a​t​i​o​n​ ​a​n​d​ ​c​l​i​e​n​t​ ​c​o​m​m​u​n​i​c​a​t​i​o​n​.​ ​I​n​ ​t​h​e​ ​f​i​r​s​t​ ​p​r​o​j​e​c​t​,​ ​w​e​ ​i​m​p​l​e​m​e​n​t​e​d​ ​a​n​ ​e​n​e​r​g​y​ ​m​a​n​a​g​e​m​e​n​t​ ​i​n​t​e​r​f​a​c​e​ ​f​o​r​ ​t​h​e​ ​C​i​t​y​ ​o​f​ ​T​u​r​k​u​ ​u​s​i​n​g​ ​N​e​x​t​.​j​s​,​ ​T​y​p​e​S​c​r​i​p​t​,​ ​a​n​d​ ​a​ ​P​o​s​t​g​r​e​S​Q​L​ ​d​a​t​a​b​a​s​e​.​T​h​e​ ​p​r​o​j​e​c​t​ ​i​n​v​o​l​v​e​d​ ​c​l​o​s​e​ ​c​o​l​l​a​b​o​r​a​t​i​o​n​ ​w​i​t​h​ ​t​h​e​ ​c​l​i​e​n​t​ ​t​o​ ​i​t​e​r​a​t​e​ ​t​h​e​ ​u​s​e​r​ ​i​n​t​e​r​f​a​c​e​.
+		 * I​ ​w​o​r​k​e​d​ ​a​s​ ​a​ ​t​e​a​m​ ​l​e​a​d​e​r​ ​o​r​ ​o​t​h​e​r​w​i​s​e​ ​r​e​s​p​o​n​s​i​b​l​e​ ​d​e​v​e​l​o​p​e​r​ ​i​n​ ​t​h​r​e​e​ ​d​i​f​f​e​r​e​n​t​ ​p​r​o​j​e​c​t​s​,​ ​w​h​e​r​e​ ​I​ ​w​a​s​ ​r​e​s​p​o​n​s​i​b​l​e​ ​f​o​r​ ​t​e​c​h​n​i​c​a​l​ ​i​m​p​l​e​m​e​n​t​a​t​i​o​n​ ​a​n​d​ ​c​l​i​e​n​t​ ​c​o​m​m​u​n​i​c​a​t​i​o​n​.​ ​I​n​ ​t​h​e​ ​f​i​r​s​t​ ​p​r​o​j​e​c​t​,​ ​w​e​ ​i​m​p​l​e​m​e​n​t​e​d​ ​a​n​ ​e​n​e​r​g​y​ ​m​a​n​a​g​e​m​e​n​t​ ​i​n​t​e​r​f​a​c​e​ ​f​o​r​ ​t​h​e​ ​C​i​t​y​ ​o​f​ ​T​u​r​k​u​ ​u​s​i​n​g​ ​N​e​x​t​.​j​s​,​ ​T​y​p​e​S​c​r​i​p​t​,​ ​a​n​d​ ​a​ ​P​o​s​t​g​r​e​S​Q​L​ ​d​a​t​a​b​a​s​e​.​T​h​e​ ​p​r​o​j​e​c​t​ ​i​n​v​o​l​v​e​d​ ​c​l​o​s​e​ ​c​o​l​l​a​b​o​r​a​t​i​o​n​ ​w​i​t​h​ ​t​h​e​ ​c​l​i​e​n​t​ ​t​o​ ​i​t​e​r​a​t​e​ ​t​h​e​ ​u​s​e​r​ ​i​n​t​e​r​f​a​c​e​.
 		 */
 		experienceDesc1_1_1: string
 		/**
@@ -154,7 +154,7 @@ type RootTranslation = {
 		 */
 		experienceDesc1_2_2: string
 		/**
-		 * I​ ​w​a​s​ ​r​e​s​p​o​n​s​i​b​l​e​ ​f​o​r​ ​c​o​m​p​a​n​y​ ​t​o​o​l​s​ ​a​n​d​ ​s​y​s​t​e​m​s​ ​s​i​n​c​e​ ​2​0​2​5​.​ ​T​h​i​s​ ​i​n​c​l​u​d​e​d​ ​d​e​p​l​o​y​m​e​n​t​ ​a​n​d​ ​m​a​i​n​t​e​n​a​n​c​e​ ​o​f​ ​s​e​r​v​e​r​s​,​ ​d​e​v​e​l​o​p​e​r​ ​c​o​m​p​u​t​e​r​s​ ​a​n​d​ ​s​o​f​t​w​a​r​e​ ​u​s​e​d​ ​f​o​r​ ​t​i​m​e​ ​t​r​a​c​k​i​n​g​,​ ​w​i​k​i​ ​a​n​d​ ​u​p​t​i​m​e​ ​m​o​n​i​t​o​r​i​n​g​.
+		 * I​ ​w​a​s​ ​r​e​s​p​o​n​s​i​b​l​e​ ​f​o​r​ ​c​o​m​p​a​n​y​ ​t​o​o​l​s​ ​a​n​d​ ​s​y​s​t​e​m​s​.​ ​T​h​i​s​ ​i​n​c​l​u​d​e​d​ ​d​e​p​l​o​y​m​e​n​t​ ​a​n​d​ ​m​a​i​n​t​e​n​a​n​c​e​ ​o​f​ ​s​e​r​v​e​r​s​,​ ​d​e​v​e​l​o​p​e​r​ ​c​o​m​p​u​t​e​r​s​ ​a​n​d​ ​s​o​f​t​w​a​r​e​ ​u​s​e​d​ ​f​o​r​ ​t​i​m​e​ ​t​r​a​c​k​i​n​g​,​ ​w​i​k​i​ ​a​n​d​ ​u​p​t​i​m​e​ ​m​o​n​i​t​o​r​i​n​g​ ​a​s​ ​w​e​l​l​ ​a​s​ ​e​n​s​u​r​i​n​g​ ​t​h​e​i​r​ ​a​v​a​i​l​a​b​i​l​i​t​y​.
 		 */
 		experienceDesc1_3: string
 		/**
@@ -345,7 +345,7 @@ export type TranslationFunctions = {
 		 */
 		summary: () => LocalizedString
 		/**
-		 * I have been working as a software engineer for over 5 years in multitude of project from firmware development on embedded systems to complex web applications with multiple different services. I have worked as part of a team and as a lead developer and while my strengths are on the technical side, I also often work directly with clients to understand requirements and communicate progress.
+		 * I have been working as a software engineer for over 5 years in multitude of project from firmware development on embedded systems to complex web applications with multiple different services. I have worked as part of a team and as a team leader and while my strengths are on the technical side, I also often work directly with clients to understand requirements and communicate progress.
 		 */
 		summaryText: () => LocalizedString
 		/**
@@ -373,7 +373,7 @@ export type TranslationFunctions = {
 		 */
 		experienceDate1: () => LocalizedString
 		/**
-		 * I worked as the lead developer in three different projects, where I was responsible for technical implementation and client communication. In the first project, we implemented an energy management interface for the City of Turku using Next.js, TypeScript, and a PostgreSQL database.The project involved close collaboration with the client to iterate the user interface.
+		 * I worked as a team leader or otherwise responsible developer in three different projects, where I was responsible for technical implementation and client communication. In the first project, we implemented an energy management interface for the City of Turku using Next.js, TypeScript, and a PostgreSQL database.The project involved close collaboration with the client to iterate the user interface.
 		 */
 		experienceDesc1_1_1: () => LocalizedString
 		/**
@@ -393,7 +393,7 @@ export type TranslationFunctions = {
 		 */
 		experienceDesc1_2_2: () => LocalizedString
 		/**
-		 * I was responsible for company tools and systems since 2025. This included deployment and maintenance of servers, developer computers and software used for time tracking, wiki and uptime monitoring.
+		 * I was responsible for company tools and systems. This included deployment and maintenance of servers, developer computers and software used for time tracking, wiki and uptime monitoring as well as ensuring their availability.
 		 */
 		experienceDesc1_3: () => LocalizedString
 		/**

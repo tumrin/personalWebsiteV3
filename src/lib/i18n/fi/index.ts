@@ -33,7 +33,7 @@ const fi = {
 		linkedin: 'LinkedIn',
 		summary: 'Yhteenveto',
 		summaryText:
-			'Olen työskennellyt ohjelmistokehittäjänä yli 5 vuotta monenlaisissa projekteissa sulautettujen järjestelmien laiteohjelmistokehityksestä monimutkaisiin verkkosovelluksiin, joihin sisältyy monia eri palveluita. Olen työskennellyt sekä tiimin jäsenenä että pääkehittäjänä, ja vaikka vahvuuteni ovat teknisellä puolella, työskentelen usein myös suoraan asiakkaiden kanssa vaatimusten ymmärtämiseksi ja projektin edistymisen viestimiseksi.',
+			'Olen työskennellyt ohjelmistokehittäjänä yli 5 vuotta monenlaisissa projekteissa sulautettujen järjestelmien laiteohjelmistokehityksestä monimutkaisiin verkkosovelluksiin, joihin sisältyy monia eri palveluita. Olen työskennellyt sekä tiimin jäsenenä että tiimin vetäjänä, ja vaikka vahvuuteni ovat teknisellä puolella, työskentelen usein myös suoraan asiakkaiden kanssa vaatimusten ymmärtämiseksi ja projektin edistymisen viestimiseksi.',
 		summaryText2:
 			'Vapaa-ajalla kehittelen omia projektejani. Ajan myös suurinta osaa käyttämistäni työkaluista ja palveluista omalla Linux-palvelinkoneellani. Näihin työkaluihin lukeutuvat esimerkiksi Nextcloud ja Matrix-palvelin.',
 		summaryText3:
