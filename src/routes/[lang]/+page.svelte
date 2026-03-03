@@ -391,31 +391,32 @@
 		.cv-container {
 			background-color: white !important;
 			border-radius: 0 !important;
-			margin: 0 !important;
-			padding: 1rem !important;
 			color: #1a1a1a !important;
+			width: fit-content !important;
 			-webkit-print-color-adjust: exact !important;
 			print-color-adjust: exact !important;
 			overflow: visible !important;
 			max-height: none !important;
 			height: auto !important;
-			position: static !important;
+			position: absolute !important;
+			left: 0;
+			top: 0;
 		}
 
 		.cv-name {
-			color: #1a1a1a !important;
+			color: #2e3440 !important;
 		}
 
 		.cv-title {
-			color: #333 !important;
+			color: #4c566a !important;
 		}
 
 		.cv-contact {
-			color: #333 !important;
+			color: #3b4252 !important;
 		}
 
 		.cv-contact a {
-			color: #0066cc !important;
+			color: #5e81ac !important;
 			text-decoration: none !important;
 		}
 
@@ -424,8 +425,8 @@
 		}
 
 		.section-title {
-			color: #1a1a1a !important;
-			border-bottom-color: #ccc !important;
+			color: #4c566a !important;
+			border-bottom-color: #87bfcf !important;
 		}
 
 		.summary-text {
@@ -434,12 +435,12 @@
 
 		.experience-title,
 		.education-degree {
-			color: #1a1a1a !important;
+			color: #4c566a !important;
 		}
 		.experience-title-group,
 		.education-title-group {
 			h4 {
-				color: #1a1a1a !important;
+				color: #5e81ac !important;
 			}
 		}
 
@@ -450,13 +451,13 @@
 
 		.experience-date,
 		.education-date {
-			color: #666 !important;
+			color: #5e81ac !important;
 		}
 
 		.skill-tag {
-			background-color: #e0e0e0 !important;
+			background-color: #d8dee9 !important;
 			color: #1a1a1a !important;
-			border: 1px solid #ccc !important;
+			border: 2px solid #d8dee9 !important;
 		}
 	}
 </style>
