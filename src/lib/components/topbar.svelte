@@ -135,7 +135,7 @@
 	.lang-btn {
 		background: transparent;
 		border: 1px solid #88c0d0;
-		color: #4c566a;
+		color: #eceff4;
 		padding: 0.5rem 0.75rem;
 		border-radius: 6px;
 		cursor: pointer;
@@ -143,7 +143,7 @@
 	}
 	.lang-btn[aria-pressed='true'] {
 		background: #88c0d0;
-		color: #fff;
+		color: #2e3440;
 		border-color: #88c0d0;
 	}
 
