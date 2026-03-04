@@ -1,14 +1,14 @@
 export const routes = {
 	'About Me': '/en',
-	Publications: '/en/publications',
-	Presentations: '/en/presentations',
 	Projects: '/en/projects',
+	Presentations: '/en/presentations',
+	Publications: '/en/publications',
 	Blogs: '/en/blogs'
 };
 export const routesFi = {
 	Minusta: '/fi',
-	Julkaisut: '/fi/publications',
-	Esitykset: '/fi/presentations',
 	Projektit: '/fi/projects',
+	Esitykset: '/fi/presentations',
+	Julkaisut: '/fi/publications',
 	Blogit: '/fi/blogs'
 };

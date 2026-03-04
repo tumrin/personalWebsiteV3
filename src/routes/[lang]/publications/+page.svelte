@@ -1,8 +1,6 @@
-<script lang="ts">
-	import SvelteMarkdown from 'svelte-exmarkdown';
-	import markdown from '$lib/assets/education.md?raw';
-	import markdownFi from '$lib/assets/education-fi.md?raw';
-	import LL, { locale } from '$lib/i18n/i18n-svelte';
+<script>
+	import LL from '$lib/i18n/i18n-svelte';
+	import Publication from './publication.svelte';
 </script>
 
 <svelte:head>
@@ -10,10 +8,25 @@
 	<meta name="description" content={$LL.publications.description()} />
 </svelte:head>
 
-<div class="education">
-	{#if $locale == 'en'}
-		<SvelteMarkdown md={markdown} />
-	{:else}
-		<SvelteMarkdown md={markdownFi} />
-	{/if}
+<div class="publicationspage">
+	<div class="publications">
+		<Publication
+			name="Adapting Sustainable Software Development Methods Into Agile Processes"
+			url="https://urn.fi/URN:NBN:fi-fe20241216103073"
+			year={2024}
+		/>
+		<Publication
+			name="Rustin soveltuvuus C ja C++ -kielien korvaajaksi korkeaa suorituskykyä vaativille sovelluksille"
+			url="https://github.com/tumrin/Kanditaatintutkielma"
+			year={2022}
+		/>
+	</div>
 </div>
+
+<style>
+	.publications {
+		display: flex;
+		flex-direction: column;
+		gap: 1.5rem;
+	}
+</style>
