@@ -1,17 +1,16 @@
 <script lang="ts">
 	import SvelteMarkdown from 'svelte-exmarkdown';
-	import { onMount } from 'svelte';
 	import { locale } from '$lib/i18n/i18n-svelte';
-	export let project: string;
-	export let year: number;
-	let markdown: string | null = null;
-	let expanded = false;
-	const contentId = `content-${project.replace(/[^a-z0-9_-]/gi, '')}`;
-	let folder = $locale === 'en' ? 'projects' : 'projects-fi';
+	let { project, year } = $props();
+	let markdown: string | null = $state(null);
+	let expanded = $state(false);
+	const contentId = $derived(`content-${project.replace(/[^a-z0-9_-]/gi, '')}`);
+	let folder = $derived($locale === 'en' ? 'projects' : 'projects-fi');
 
-	onMount(async () => {
-		markdown = (await import(`../../../lib/assets/${folder}/${project}.md?raw`)).default;
+	$effect(() => {
+		import(`../../../lib/assets/${folder}/${project}.md?raw`).then((m) => (markdown = m.default));
 	});
+
 	async function toggle() {
 		expanded = !expanded;
 	}

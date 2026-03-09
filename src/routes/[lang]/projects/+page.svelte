@@ -5,19 +5,21 @@
 
 	const projects = Object.entries(import.meta.glob('../../../lib/assets/projects/*.md'));
 	const projectsFi = Object.entries(import.meta.glob('../../../lib/assets/projects-fi/*.md'));
-	const projectsLang = $locale === 'en' ? projects : projectsFi;
-	$: sortedProjects = projectsLang
-		.map((p) => {
-			const name = extractFileName(p[0]);
-			return {
-				path: p[0],
-				name,
-				year: parseInt(name.slice(0, 4))
-			};
-		})
-		.sort((a, b) => b.year - a.year);
-	$: clientprojects = sortedProjects.filter((p) => p.path.includes('client'));
-	$: hobbyprojects = sortedProjects.filter((p) => !p.path.includes('client'));
+	const projectsLang = $derived($locale === 'en' ? projects : projectsFi);
+	const sortedProjects = $derived(
+		projectsLang
+			.map((p) => {
+				const name = extractFileName(p[0]);
+				return {
+					path: p[0],
+					name,
+					year: parseInt(name.slice(0, 4))
+				};
+			})
+			.sort((a, b) => b.year - a.year)
+	);
+	const clientprojects = $derived(sortedProjects.filter((p) => p.path.includes('client')));
+	const hobbyprojects = $derived(sortedProjects.filter((p) => !p.path.includes('client')));
 </script>
 
 <svelte:head>
