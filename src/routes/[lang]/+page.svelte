@@ -127,7 +127,6 @@
 				<p>{$LL.cv.experienceDesc1_2_1()}</p>
 				<p>{$LL.cv.experienceDesc1_2_2()}</p>
 				<p>{$LL.cv.experienceDesc1_3()}</p>
-				<p>{$LL.cv.experienceDesc1_4()}</p>
 			</div>
 			<div class="experience-right">
 				<span class="experience-date">{$LL.cv.experienceDate1()}</span>
@@ -143,6 +142,32 @@
 			</div>
 			<div class="experience-right">
 				<span class="experience-date">{$LL.cv.experienceDate2()}</span>
+			</div>
+		</div>
+	</section>
+
+	<section class="cv-section">
+		<h2 class="section-title">{$LL.cv.trust()}</h2>
+		<div class="experience-item">
+			<div class="experience-left">
+				<div class="experience-title-group">
+					<h3 class="experience-title">{$LL.cv.trustTitle1()}</h3>
+					<span class="experience-company">{$LL.cv.trustCompany1()}</span>
+				</div>
+			</div>
+			<div class="experience-right">
+				<span class="experience-date">{$LL.cv.trustDate1()}</span>
+			</div>
+		</div>
+		<div class="experience-item">
+			<div class="experience-left">
+				<div class="experience-title-group">
+					<h3 class="experience-title">{$LL.cv.trustTitle2()}</h3>
+					<span class="experience-company">{$LL.cv.trustCompany2()}</span>
+				</div>
+			</div>
+			<div class="experience-right">
+				<span class="experience-date">{$LL.cv.trustDate2()}</span>
 			</div>
 		</div>
 	</section>
@@ -213,6 +238,7 @@
 		display: flex;
 		flex-direction: column;
 		gap: 1rem;
+		margin-bottom: 1rem;
 		p {
 			font-size: 1rem;
 			margin-bottom: 0;
@@ -277,7 +303,6 @@
 		display: flex;
 		flex-direction: column;
 		gap: 0.25rem;
-		margin-bottom: 1rem;
 		h4 {
 			margin: 0;
 			color: #8fbcbb;
@@ -316,7 +341,6 @@
 		display: flex;
 		flex-wrap: wrap;
 		gap: 0.5rem;
-		margin-bottom: 1rem;
 	}
 
 	.skill-tag {

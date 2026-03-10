@@ -79,6 +79,20 @@ type RootTranslation = {
 		 * P​e​r​s​o​n​a​l​ ​b​l​o​g​s
 		 */
 		hobby: string
+		digitalSovereignty: {
+			/**
+			 * E​u​r​o​p​e​a​n​ ​S​e​r​v​i​c​e​s​ ​a​n​d​ ​D​i​g​i​t​a​l​ ​S​o​v​e​r​e​i​g​n​t​y
+			 */
+			title: string
+			/**
+			 * B​l​o​g​ ​p​o​s​t​ ​a​b​o​u​t​ ​E​u​r​o​p​e​a​n​ ​s​e​r​v​i​c​e​s​ ​a​n​d​ ​d​i​g​i​t​a​l​ ​s​o​v​e​r​e​i​g​n​t​y
+			 */
+			description: string
+			/**
+			 * D​i​g​i​t​a​l​ ​s​o​v​e​r​e​i​g​n​t​y​ ​r​e​f​e​r​s​ ​t​o​ ​a​ ​n​a​t​i​o​n​ ​o​r​ ​e​n​t​i​t​y​'​s​ ​a​b​i​l​i​t​y​ ​t​o​ ​c​o​n​t​r​o​l​ ​i​t​s​ ​o​w​n​ ​d​a​t​a​,​ ​d​i​g​i​t​a​l​ ​i​n​f​r​a​s​t​r​u​c​t​u​r​e​,​ ​a​n​d​ ​t​e​c​h​n​o​l​o​g​i​c​a​l​ ​c​h​o​i​c​e​s​ ​w​i​t​h​o​u​t​ ​b​e​i​n​g​ ​d​e​p​e​n​d​e​n​t​ ​o​n​ ​f​o​r​e​i​g​n​ ​c​o​r​p​o​r​a​t​i​o​n​s​ ​o​r​ ​g​o​v​e​r​n​m​e​n​t​s​.​ ​I​n​ ​t​h​i​s​ ​b​l​o​g​ ​p​o​s​t​,​ ​I​ ​e​x​p​l​o​r​e​ ​t​h​e​ ​i​m​p​o​r​t​a​n​c​e​ ​o​f​ ​E​u​r​o​p​e​a​n​ ​s​e​r​v​i​c​e​s​ ​a​n​d​ ​t​h​e​ ​n​e​e​d​ ​f​o​r​ ​d​i​g​i​t​a​l​ ​s​o​v​e​r​e​i​g​n​t​y​ ​i​n​ ​t​h​e​ ​m​o​d​e​r​n​ ​w​o​r​l​d​.
+			 */
+			content: string
+		}
 	}
 	cv: {
 		/**
@@ -122,11 +136,11 @@ type RootTranslation = {
 		 */
 		experience: string
 		/**
-		 * F​u​l​l​ ​S​t​a​c​k​ ​D​e​v​e​l​o​p​e​r​,​ ​C​o​-​f​o​u​n​d​e​r​,​ ​B​o​a​r​d​ ​m​e​m​b​e​r
+		 * F​u​l​l​ ​S​t​a​c​k​ ​D​e​v​e​l​o​p​e​r​,​ ​C​o​-​f​o​u​n​d​e​r
 		 */
 		experienceTitle1: string
 		/**
-		 * K​v​a​n​t​t​o​r​i​ ​O​y
+		 * K​v​a​n​t​t​o​r​i​ ​L​t​d
 		 */
 		experienceCompany1: string
 		/**
@@ -158,15 +172,11 @@ type RootTranslation = {
 		 */
 		experienceDesc1_3: string
 		/**
-		 * I​ ​s​e​r​v​e​d​ ​a​s​ ​a​ ​c​o​-​f​o​u​n​d​e​r​ ​a​n​d​ ​b​o​a​r​d​ ​m​e​m​b​e​r​ ​o​f​ ​t​h​e​ ​c​o​m​p​a​n​y​.​ ​I​ ​h​a​n​d​l​e​d​ ​f​o​u​n​d​i​n​g​-​r​e​l​a​t​e​d​ ​a​c​t​i​v​i​t​i​e​s​ ​t​o​g​e​t​h​e​r​ ​w​i​t​h​ ​o​t​h​e​r​ ​p​a​r​t​n​e​r​s​.​ ​I​ ​s​e​r​v​e​d​ ​a​s​ ​c​h​a​i​r​m​a​n​ ​o​f​ ​t​h​e​ ​b​o​a​r​d​ ​i​n​ ​2​0​2​2​.
-		 */
-		experienceDesc1_4: string
-		/**
-		 * T​r​a​i​n​e​e​,​ ​T​e​c​h​n​o​l​o​g​y
+		 * T​r​a​i​n​e​e​ ​(​T​e​c​h​n​o​l​o​g​y​)
 		 */
 		experienceTitle2: string
 		/**
-		 * O​r​a​s​ ​O​y
+		 * O​r​a​s​ ​L​t​d
 		 */
 		experienceCompany2: string
 		/**
@@ -177,6 +187,34 @@ type RootTranslation = {
 		 * I​ ​w​a​s​ ​r​e​s​p​o​n​s​i​b​l​e​ ​f​o​r​ ​d​e​v​e​l​o​p​i​n​g​ ​s​e​n​s​o​r​ ​f​i​r​m​w​a​r​e​ ​f​o​r​ ​p​r​o​d​u​c​t​s​ ​u​s​e​d​ ​b​y​ ​c​u​s​t​o​m​e​r​s​ ​a​n​d​ ​f​o​r​ ​d​e​v​e​l​o​p​m​e​n​t​ ​a​n​d​ ​v​a​l​i​d​a​t​i​o​n​ ​o​f​ ​p​r​o​t​o​t​y​p​e​s​ ​f​o​r​ ​u​p​c​o​m​i​n​g​ ​p​r​o​d​u​c​t​s​ ​w​i​t​h​ ​C​ ​a​s​ ​t​h​e​ ​p​r​i​m​a​r​y​ ​p​r​o​g​r​a​m​m​i​n​g​ ​l​a​n​g​u​a​g​e​.​ ​I​ ​a​l​s​o​ ​i​m​p​l​e​m​e​n​t​e​d​ ​a​ ​w​a​t​e​r​ ​f​i​x​t​u​r​e​ ​u​s​a​g​e​ ​s​i​m​u​l​a​t​i​o​n​ ​p​r​o​g​r​a​m​ ​i​n​ ​R​u​s​t​ ​a​n​d​ ​a​ ​v​i​s​u​a​l​i​z​a​t​i​o​n​ ​f​o​r​ ​t​h​e​ ​s​i​m​u​l​a​t​i​o​n​ ​i​n​ ​J​a​v​a​S​c​r​i​p​t​.​ ​T​h​e​ ​w​o​r​k​ ​a​l​s​o​ ​i​n​c​l​u​d​e​d​ ​a​ ​p​r​o​t​o​t​y​p​e​ ​b​u​i​l​t​ ​f​o​r​ ​c​o​n​t​r​o​l​l​i​n​g​ ​s​e​n​s​o​r​s​ ​u​s​i​n​g​ ​R​a​s​p​b​e​r​r​y​ ​P​i​ ​a​n​d​ ​P​y​t​h​o​n​.
 		 */
 		experienceDesc2_1: string
+		/**
+		 * P​o​s​i​t​i​o​n​s​ ​o​f​ ​T​r​u​s​t
+		 */
+		trust: string
+		/**
+		 * B​o​a​r​d​ ​M​e​m​b​e​r
+		 */
+		trustTitle1: string
+		/**
+		 * K​v​a​n​t​t​o​r​i​ ​L​t​d
+		 */
+		trustCompany1: string
+		/**
+		 * 2​0​2​1​-
+		 */
+		trustDate1: string
+		/**
+		 * C​h​a​r​i​m​a​n​ ​o​f​ ​t​h​e​ ​B​o​a​r​d
+		 */
+		trustTitle2: string
+		/**
+		 * K​v​a​n​t​t​o​r​i​ ​L​t​d
+		 */
+		trustCompany2: string
+		/**
+		 * 2​0​2​3​-​2​0​2​4
+		 */
+		trustDate2: string
 		/**
 		 * E​d​u​c​a​t​i​o​n
 		 */
@@ -318,6 +356,20 @@ export type TranslationFunctions = {
 		 * Personal blogs
 		 */
 		hobby: () => LocalizedString
+		digitalSovereignty: {
+			/**
+			 * European Services and Digital Sovereignty
+			 */
+			title: () => LocalizedString
+			/**
+			 * Blog post about European services and digital sovereignty
+			 */
+			description: () => LocalizedString
+			/**
+			 * Digital sovereignty refers to a nation or entity's ability to control its own data, digital infrastructure, and technological choices without being dependent on foreign corporations or governments. In this blog post, I explore the importance of European services and the need for digital sovereignty in the modern world.
+			 */
+			content: () => LocalizedString
+		}
 	}
 	cv: {
 		/**
@@ -361,11 +413,11 @@ export type TranslationFunctions = {
 		 */
 		experience: () => LocalizedString
 		/**
-		 * Full Stack Developer, Co-founder, Board member
+		 * Full Stack Developer, Co-founder
 		 */
 		experienceTitle1: () => LocalizedString
 		/**
-		 * Kvanttori Oy
+		 * Kvanttori Ltd
 		 */
 		experienceCompany1: () => LocalizedString
 		/**
@@ -397,15 +449,11 @@ export type TranslationFunctions = {
 		 */
 		experienceDesc1_3: () => LocalizedString
 		/**
-		 * I served as a co-founder and board member of the company. I handled founding-related activities together with other partners. I served as chairman of the board in 2022.
-		 */
-		experienceDesc1_4: () => LocalizedString
-		/**
-		 * Trainee, Technology
+		 * Trainee (Technology)
 		 */
 		experienceTitle2: () => LocalizedString
 		/**
-		 * Oras Oy
+		 * Oras Ltd
 		 */
 		experienceCompany2: () => LocalizedString
 		/**
@@ -416,6 +464,34 @@ export type TranslationFunctions = {
 		 * I was responsible for developing sensor firmware for products used by customers and for development and validation of prototypes for upcoming products with C as the primary programming language. I also implemented a water fixture usage simulation program in Rust and a visualization for the simulation in JavaScript. The work also included a prototype built for controlling sensors using Raspberry Pi and Python.
 		 */
 		experienceDesc2_1: () => LocalizedString
+		/**
+		 * Positions of Trust
+		 */
+		trust: () => LocalizedString
+		/**
+		 * Board Member
+		 */
+		trustTitle1: () => LocalizedString
+		/**
+		 * Kvanttori Ltd
+		 */
+		trustCompany1: () => LocalizedString
+		/**
+		 * 2021-
+		 */
+		trustDate1: () => LocalizedString
+		/**
+		 * Chariman of the Board
+		 */
+		trustTitle2: () => LocalizedString
+		/**
+		 * Kvanttori Ltd
+		 */
+		trustCompany2: () => LocalizedString
+		/**
+		 * 2023-2024
+		 */
+		trustDate2: () => LocalizedString
 		/**
 		 * Education
 		 */

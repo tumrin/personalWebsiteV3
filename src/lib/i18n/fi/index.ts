@@ -23,7 +23,14 @@ const fi = {
 		blogs: 'Blogit',
 		description: 'Kirjoittamani blogit',
 		professional: 'Työnantajan blogit',
-		hobby: 'Omat blogit'
+		hobby: 'Omat blogit',
+		digitalSovereignty: {
+			title: 'Eurooppalaiset palvelut ja digitaalinen itsemääräämisoikeus',
+			description:
+				'Blogikirjoitus eurooppalaisista palveluista ja digitaalisesta itsemääräämisoikeudesta',
+			content:
+				'Digitaalinen itsemääräämisoikeus tarkoittaa kansan tai yhteisön kykyä hallita omia tietojaan, digitaalista infrastruktuuriaan ja teknologisia valintojaan ilman riippuvuutta ulkomaisista yrityksistä tai hallituksista. Tässä blogikirjoituksessa tutkin eurooppalaisten palveluiden merkitystä ja digitaalisen itsemääräämisoikeuden tarvetta nykyaikana.'
+		}
 	},
 	cv: {
 		downloadPDF: 'Lataa PDF',
@@ -39,7 +46,7 @@ const fi = {
 		summaryText3:
 			'Minua motivoi halu kehittyä ohjelmistokehittäjänä ja rakentaa kestäviä ja laadukkaita ratkaisuja. Olen lisäksi kiinnostunut avoimen lähdekoodin ratkaisujen sekä eurooppalaisen teknologian käytön edistämisestä.',
 		experience: 'Työkokemus',
-		experienceTitle1: 'Full Stack -kehittäjä, perustaja, hallituksen jäsen',
+		experienceTitle1: 'Full Stack -kehittäjä, perustaja',
 		experienceCompany1: 'Kvanttori Oy',
 		experienceDate1: '2021 -',
 		experienceDesc1_1_1:
@@ -54,13 +61,18 @@ const fi = {
 			'Toisessa projektissa korjasimme ja lisäsimme ominaisuuksia aiemman toimittajan rakentamaan ERP-järjestelmään valmistavan teollisuuden asiakkaalle. Projektissa käytettiin Reactia, Typescriptia, Express.js frameworkia ja PostgreSQL-tietokantaa.',
 		experienceDesc1_3:
 			'Vastasin yrityksen työkaluista ja järjestelmistä. Työhön kuuluu palvelinten sekä kehittäjien tietokoneiden ylläpito. Lisäksi työhön kuului tuntikirjaus, wiki ja saatavuusvalvontatyökalujen hallinnointi sekä työkalujen jatkuva saatavuuden varmistus.',
-		experienceDesc1_4:
-			'Toimin perustajana ja hallituksen jäsenenä yrityksessä. Hoidin yhdessä muiden osakkaiden kanssa perustamiseen liittyviä toimintoja. Toimin hallituksen puheenjohtajana vuonna 2022.',
-		experienceTitle2: 'Harjoittelija, Teknologia',
+		experienceTitle2: 'Harjoittelija (Teknologia)',
 		experienceCompany2: 'Oras Oy',
 		experienceDate2: '2020 - 2021',
 		experienceDesc2_1:
 			'Olin vastuussa sensoriohjelmistojen kehittämisestä asiakkaiden käyttämissä tuotteissa sekä tulevien tuotteiden prototyyppien kehityksestä ja validoinnista. Pääasiallisena ohjelmointikielenä toimi C. Lisäksi toteutin vesikalusteiden käytön simulaatioohjelman Rustilla sekä visualisaation simulaatiolle Javascriptilla. Työhön kuului myös sensorien ohjaamiseen rakennettu prototyyppi Raspberry Pi:lla ja Pythonilla.',
+		trust: 'Luottamustoimet',
+		trustTitle1: 'Hallituksen jäsen',
+		trustCompany1: 'Kvanttori Oy',
+		trustDate1: '2021-',
+		trustTitle2: 'Hallituksen puheenjohtaja',
+		trustCompany2: 'Kvanttori Oy',
+		trustDate2: '2023-2024',
 		education: 'Koulutus',
 		educationDegree1: 'Diplomi-insinööri (Tietotekniikka)',
 		major: 'Pääaine',

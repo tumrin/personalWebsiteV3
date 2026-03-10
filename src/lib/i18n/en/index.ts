@@ -23,7 +23,13 @@ const en = {
 		blogs: 'Blogs',
 		description: 'Blogs I have written',
 		professional: 'Professional blogs',
-		hobby: 'Personal blogs'
+		hobby: 'Personal blogs',
+		digitalSovereignty: {
+			title: 'European Services and Digital Sovereignty',
+			description: 'Blog post about European services and digital sovereignty',
+			content:
+				"Digital sovereignty refers to a nation or entity's ability to control its own data, digital infrastructure, and technological choices without being dependent on foreign corporations or governments. In this blog post, I explore the importance of European services and the need for digital sovereignty in the modern world."
+		}
 	},
 	cv: {
 		downloadPDF: 'Download PDF',
@@ -39,8 +45,8 @@ const en = {
 		summaryText3:
 			'I am motivated by a desire to grow as a software developer and to build sustainable and high-quality solutions. I am also interested in promoting the use of open source solutions and European technology.',
 		experience: 'Experience',
-		experienceTitle1: 'Full Stack Developer, Co-founder, Board member',
-		experienceCompany1: 'Kvanttori Oy',
+		experienceTitle1: 'Full Stack Developer, Co-founder',
+		experienceCompany1: 'Kvanttori Ltd',
 		experienceDate1: '2021 -',
 		experienceDesc1_1_1:
 			'I worked as a team leader or otherwise responsible developer in three different projects, where I was responsible for technical implementation and client communication. In the first project, we implemented an energy management interface for the City of Turku using Next.js, TypeScript, and a PostgreSQL database.The project involved close collaboration with the client to iterate the user interface.',
@@ -54,13 +60,18 @@ const en = {
 			"In the second project, we fixed and added features to a previous vendor's ERP system for a manufacturing industry client.The project used React, TypeScript, Express.js framework, and PostgreSQL database.",
 		experienceDesc1_3:
 			'I was responsible for company tools and systems. This included deployment and maintenance of servers, developer computers and software used for time tracking, wiki and uptime monitoring as well as ensuring their availability.',
-		experienceDesc1_4:
-			'I served as a co-founder and board member of the company. I handled founding-related activities together with other partners. I served as chairman of the board in 2022.',
-		experienceTitle2: 'Trainee, Technology',
-		experienceCompany2: 'Oras Oy',
+		experienceTitle2: 'Trainee (Technology)',
+		experienceCompany2: 'Oras Ltd',
 		experienceDate2: '2020 - 2021',
 		experienceDesc2_1:
 			'I was responsible for developing sensor firmware for products used by customers and for development and validation of prototypes for upcoming products with C as the primary programming language. I also implemented a water fixture usage simulation program in Rust and a visualization for the simulation in JavaScript. The work also included a prototype built for controlling sensors using Raspberry Pi and Python.',
+		trust: 'Positions of Trust',
+		trustTitle1: 'Board Member',
+		trustCompany1: 'Kvanttori Ltd',
+		trustDate1: '2021-',
+		trustTitle2: 'Chariman of the Board',
+		trustCompany2: 'Kvanttori Ltd',
+		trustDate2: '2023-2024',
 		education: 'Education',
 		educationDegree1: 'Master of Science (Technology)',
 		major: 'Major',
