@@ -96,7 +96,6 @@ const fi = {
 		educationMajor: 'Ohjelmistotekniikka',
 		educationMinor: 'Kyberturvallisuus',
 		educationInstitution1: 'Turun yliopisto',
-		educationDate1: '2020 - 2024',
 		languages: 'Kielet',
 		language1: 'Suomi',
 		language1Proficiency: 'Äidinkieli',

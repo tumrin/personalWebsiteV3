@@ -74,7 +74,7 @@
 					<span class="education-institution">{$LL.cv.educationInstitution1()}</span>
 				</div>
 				<div class="education-meta">
-					<span class="education-date">{$LL.cv.educationDate1()}</span>
+					<span class="education-date">2019 - 2024</span>
 				</div>
 			</div>
 		</div>

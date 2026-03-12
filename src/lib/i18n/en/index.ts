@@ -95,7 +95,6 @@ const en = {
 		educationMajor: 'Software Engineering',
 		educationMinor: 'Cyber Security',
 		educationInstitution1: 'University of Turku',
-		educationDate1: '2020 - 2024',
 		languages: 'Languages',
 		language1: 'Finnish',
 		language1Proficiency: 'Native',

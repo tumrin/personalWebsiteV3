@@ -284,10 +284,6 @@ type RootTranslation = {
 		 */
 		educationInstitution1: string
 		/**
-		 * 2​0​2​0​ ​-​ ​2​0​2​4
-		 */
-		educationDate1: string
-		/**
 		 * L​a​n​g​u​a​g​e​s
 		 */
 		languages: string
@@ -600,10 +596,6 @@ export type TranslationFunctions = {
 		 * University of Turku
 		 */
 		educationInstitution1: () => LocalizedString
-		/**
-		 * 2020 - 2024
-		 */
-		educationDate1: () => LocalizedString
 		/**
 		 * Languages
 		 */
