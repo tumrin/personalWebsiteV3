@@ -24,6 +24,22 @@ const fi = {
 		description: 'Kirjoittamani blogit',
 		professional: 'Työnantajan blogit',
 		hobby: 'Omat blogit',
+		europe: {
+			name: 'Eurooppalaiset palvelut ja digitaalinen omavaraisuus',
+			url: 'https://kvanttori.fi/fi/blogi/eurooppalaiset-palvelut'
+		},
+		techChoices: {
+			name: 'Teknologiavalinnat ohjelmistokehityksessä ja kehitystyökaluissa',
+			url: 'https://kvanttori.fi/fi/blogi/teknologiavalinnat'
+		},
+		rust: {
+			name: 'Unsafe-tila Rust ohjelmointikielessä',
+			url: 'https://kvanttori.fi/fi/blogi/unsafe-rust'
+		},
+		energy: {
+			name: 'Johdatus ohjelmien energiatehokkuuteen',
+			url: 'https://kvanttori.fi/fi/blogi/johdatus-ohjelmien-energiatehokkuuteen'
+		},
 		digitalSovereignty: {
 			title: 'Eurooppalaiset palvelut ja digitaalinen itsemääräämisoikeus',
 			description:

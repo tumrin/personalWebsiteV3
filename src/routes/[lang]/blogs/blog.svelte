@@ -2,9 +2,15 @@
 	export let name: string;
 	export let url: string;
 	export let year: number;
+	export let external: boolean = true;
 </script>
 
-<a class="blogEntry" href={url} target="_blank" rel="noopener noreferrer">
+<a
+	class="blogEntry"
+	href={url}
+	target={external ? '_blank' : undefined}
+	rel={external ? 'noopener noreferrer' : undefined}
+>
 	<span class="title"><span class="year">{year}</span> - {name}</span>
 </a>
 

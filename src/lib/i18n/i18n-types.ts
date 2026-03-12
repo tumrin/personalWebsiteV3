@@ -79,6 +79,46 @@ type RootTranslation = {
 		 * P​e​r​s​o​n​a​l​ ​b​l​o​g​s
 		 */
 		hobby: string
+		europe: {
+			/**
+			 * E​u​r​o​p​e​a​n​ ​S​e​r​v​i​c​e​s​ ​a​n​d​ ​D​i​g​i​t​a​l​ ​S​o​v​e​r​e​i​g​n​t​y
+			 */
+			name: string
+			/**
+			 * h​t​t​p​s​:​/​/​k​v​a​n​t​t​o​r​i​.​f​i​/​e​n​/​b​l​o​g​i​/​e​u​r​o​o​p​p​a​l​a​i​s​e​t​-​p​a​l​v​e​l​u​t
+			 */
+			url: string
+		}
+		techChoices: {
+			/**
+			 * T​e​c​h​n​o​l​o​g​y​ ​c​h​o​i​c​e​s​ ​i​n​ ​s​o​f​t​w​a​r​e​ ​d​e​v​e​l​o​p​m​e​n​t​ ​a​n​d​ ​d​e​v​e​l​o​p​m​e​n​t​ ​t​o​o​l​s
+			 */
+			name: string
+			/**
+			 * h​t​t​p​s​:​/​/​k​v​a​n​t​t​o​r​i​.​f​i​/​e​n​/​b​l​o​g​i​/​t​e​k​n​o​l​o​g​i​a​v​a​l​i​n​n​a​t
+			 */
+			url: string
+		}
+		rust: {
+			/**
+			 * U​n​s​a​f​e​ ​M​o​d​e​ ​i​n​ ​R​u​s​t​ ​P​r​o​g​r​a​m​m​i​n​g​ ​L​a​n​g​u​a​g​e
+			 */
+			name: string
+			/**
+			 * h​t​t​p​s​:​/​/​k​v​a​n​t​t​o​r​i​.​f​i​/​e​n​/​b​l​o​g​i​/​u​n​s​a​f​e​-​r​u​s​t
+			 */
+			url: string
+		}
+		energy: {
+			/**
+			 * I​n​t​r​o​d​u​c​t​i​o​n​ ​t​o​ ​S​o​f​t​w​a​r​e​ ​E​n​e​r​g​y​ ​E​f​f​i​c​i​e​n​c​y
+			 */
+			name: string
+			/**
+			 * h​t​t​p​s​:​/​/​k​v​a​n​t​t​o​r​i​.​f​i​/​e​n​/​b​l​o​g​i​/​j​o​h​d​a​t​u​s​-​o​h​j​e​l​m​i​e​n​-​e​n​e​r​g​i​a​t​e​h​o​k​k​u​u​t​e​e​n
+			 */
+			url: string
+		}
 		digitalSovereignty: {
 			/**
 			 * E​u​r​o​p​e​a​n​ ​S​e​r​v​i​c​e​s​ ​a​n​d​ ​D​i​g​i​t​a​l​ ​S​o​v​e​r​e​i​g​n​t​y
@@ -356,6 +396,46 @@ export type TranslationFunctions = {
 		 * Personal blogs
 		 */
 		hobby: () => LocalizedString
+		europe: {
+			/**
+			 * European Services and Digital Sovereignty
+			 */
+			name: () => LocalizedString
+			/**
+			 * https://kvanttori.fi/en/blogi/eurooppalaiset-palvelut
+			 */
+			url: () => LocalizedString
+		}
+		techChoices: {
+			/**
+			 * Technology choices in software development and development tools
+			 */
+			name: () => LocalizedString
+			/**
+			 * https://kvanttori.fi/en/blogi/teknologiavalinnat
+			 */
+			url: () => LocalizedString
+		}
+		rust: {
+			/**
+			 * Unsafe Mode in Rust Programming Language
+			 */
+			name: () => LocalizedString
+			/**
+			 * https://kvanttori.fi/en/blogi/unsafe-rust
+			 */
+			url: () => LocalizedString
+		}
+		energy: {
+			/**
+			 * Introduction to Software Energy Efficiency
+			 */
+			name: () => LocalizedString
+			/**
+			 * https://kvanttori.fi/en/blogi/johdatus-ohjelmien-energiatehokkuuteen
+			 */
+			url: () => LocalizedString
+		}
 		digitalSovereignty: {
 			/**
 			 * European Services and Digital Sovereignty

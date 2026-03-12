@@ -24,6 +24,22 @@ const en = {
 		description: 'Blogs I have written',
 		professional: 'Professional blogs',
 		hobby: 'Personal blogs',
+		europe: {
+			name: 'European Services and Digital Sovereignty',
+			url: 'https://kvanttori.fi/en/blogi/eurooppalaiset-palvelut'
+		},
+		techChoices: {
+			name: 'Technology choices in software development and development tools',
+			url: 'https://kvanttori.fi/en/blogi/teknologiavalinnat'
+		},
+		rust: {
+			name: 'Unsafe Mode in Rust Programming Language',
+			url: 'https://kvanttori.fi/en/blogi/unsafe-rust'
+		},
+		energy: {
+			name: 'Introduction to Software Energy Efficiency',
+			url: 'https://kvanttori.fi/en/blogi/johdatus-ohjelmien-energiatehokkuuteen'
+		},
 		digitalSovereignty: {
 			title: 'European Services and Digital Sovereignty',
 			description: 'Blog post about European services and digital sovereignty',

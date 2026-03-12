@@ -11,21 +11,14 @@
 <div class="blogspage">
 	<div class="blogs">
 		<Blog
-			name="European Services and Digital Sovereignty"
-			url="https://kvanttori.fi/en/blogi/eurooppalaiset-palvelut"
+			name={$LL.blogs.europe.name()}
+			url={$LL.blogs.europe.url()}
 			year={2025}
+			external={false}
 		/>
-		<Blog
-			name="Technology Choices in Software Projects and Tools"
-			url="https://kvanttori.fi/en/blogi/teknologiavalinnat"
-			year={2025}
-		/>
-		<Blog name="Unsafe Rust" url="https://kvanttori.fi/en/blogi/unsafe-rust" year={2024} />
-		<Blog
-			name="Introduction to Energy Efficiency of Software"
-			url=" https://kvanttori.fi/en/blogi/johdatus-ohjelmien-energiatehokkuuteen"
-			year={2023}
-		/>
+		<Blog name={$LL.blogs.techChoices.name()} url={$LL.blogs.techChoices.url()} year={2025} />
+		<Blog name={$LL.blogs.rust.name()} url={$LL.blogs.rust.url()} year={2024} />
+		<Blog name={$LL.blogs.energy.name()} url={$LL.blogs.energy.url()} year={2023} />
 	</div>
 </div>
 
