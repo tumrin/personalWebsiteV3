@@ -184,10 +184,6 @@ type RootTranslation = {
 		 */
 		experienceCompany1: string
 		/**
-		 * 2​0​2​1​ ​-
-		 */
-		experienceDate1: string
-		/**
 		 * I​ ​w​o​r​k​e​d​ ​a​s​ ​a​ ​t​e​a​m​ ​l​e​a​d​e​r​ ​o​r​ ​o​t​h​e​r​w​i​s​e​ ​r​e​s​p​o​n​s​i​b​l​e​ ​d​e​v​e​l​o​p​e​r​ ​i​n​ ​t​h​r​e​e​ ​d​i​f​f​e​r​e​n​t​ ​p​r​o​j​e​c​t​s​,​ ​w​h​e​r​e​ ​I​ ​w​a​s​ ​r​e​s​p​o​n​s​i​b​l​e​ ​f​o​r​ ​t​e​c​h​n​i​c​a​l​ ​i​m​p​l​e​m​e​n​t​a​t​i​o​n​ ​a​n​d​ ​c​l​i​e​n​t​ ​c​o​m​m​u​n​i​c​a​t​i​o​n​.​ ​I​n​ ​t​h​e​ ​f​i​r​s​t​ ​p​r​o​j​e​c​t​,​ ​w​e​ ​i​m​p​l​e​m​e​n​t​e​d​ ​a​n​ ​e​n​e​r​g​y​ ​m​a​n​a​g​e​m​e​n​t​ ​i​n​t​e​r​f​a​c​e​ ​f​o​r​ ​t​h​e​ ​C​i​t​y​ ​o​f​ ​T​u​r​k​u​ ​u​s​i​n​g​ ​N​e​x​t​.​j​s​,​ ​T​y​p​e​S​c​r​i​p​t​,​ ​a​n​d​ ​a​ ​P​o​s​t​g​r​e​S​Q​L​ ​d​a​t​a​b​a​s​e​.​T​h​e​ ​p​r​o​j​e​c​t​ ​i​n​v​o​l​v​e​d​ ​c​l​o​s​e​ ​c​o​l​l​a​b​o​r​a​t​i​o​n​ ​w​i​t​h​ ​t​h​e​ ​c​l​i​e​n​t​ ​t​o​ ​i​t​e​r​a​t​e​ ​t​h​e​ ​u​s​e​r​ ​i​n​t​e​r​f​a​c​e​.
 		 */
 		experienceDesc1_1_1: string
@@ -220,10 +216,6 @@ type RootTranslation = {
 		 */
 		experienceCompany2: string
 		/**
-		 * 2​0​2​0​ ​-​ ​2​0​2​1
-		 */
-		experienceDate2: string
-		/**
 		 * I​ ​w​a​s​ ​r​e​s​p​o​n​s​i​b​l​e​ ​f​o​r​ ​d​e​v​e​l​o​p​i​n​g​ ​s​e​n​s​o​r​ ​f​i​r​m​w​a​r​e​ ​f​o​r​ ​p​r​o​d​u​c​t​s​ ​u​s​e​d​ ​b​y​ ​c​u​s​t​o​m​e​r​s​ ​a​n​d​ ​f​o​r​ ​d​e​v​e​l​o​p​m​e​n​t​ ​a​n​d​ ​v​a​l​i​d​a​t​i​o​n​ ​o​f​ ​p​r​o​t​o​t​y​p​e​s​ ​f​o​r​ ​u​p​c​o​m​i​n​g​ ​p​r​o​d​u​c​t​s​ ​w​i​t​h​ ​C​ ​a​s​ ​t​h​e​ ​p​r​i​m​a​r​y​ ​p​r​o​g​r​a​m​m​i​n​g​ ​l​a​n​g​u​a​g​e​.​ ​I​ ​a​l​s​o​ ​i​m​p​l​e​m​e​n​t​e​d​ ​a​ ​w​a​t​e​r​ ​f​i​x​t​u​r​e​ ​u​s​a​g​e​ ​s​i​m​u​l​a​t​i​o​n​ ​p​r​o​g​r​a​m​ ​i​n​ ​R​u​s​t​ ​a​n​d​ ​a​ ​v​i​s​u​a​l​i​z​a​t​i​o​n​ ​f​o​r​ ​t​h​e​ ​s​i​m​u​l​a​t​i​o​n​ ​i​n​ ​J​a​v​a​S​c​r​i​p​t​.​ ​T​h​e​ ​w​o​r​k​ ​a​l​s​o​ ​i​n​c​l​u​d​e​d​ ​a​ ​p​r​o​t​o​t​y​p​e​ ​b​u​i​l​t​ ​f​o​r​ ​c​o​n​t​r​o​l​l​i​n​g​ ​s​e​n​s​o​r​s​ ​u​s​i​n​g​ ​R​a​s​p​b​e​r​r​y​ ​P​i​ ​a​n​d​ ​P​y​t​h​o​n​.
 		 */
 		experienceDesc2_1: string
@@ -240,10 +232,6 @@ type RootTranslation = {
 		 */
 		trustCompany1: string
 		/**
-		 * 2​0​2​1​-
-		 */
-		trustDate1: string
-		/**
 		 * C​h​a​r​i​m​a​n​ ​o​f​ ​t​h​e​ ​B​o​a​r​d
 		 */
 		trustTitle2: string
@@ -251,10 +239,6 @@ type RootTranslation = {
 		 * K​v​a​n​t​t​o​r​i​ ​L​t​d
 		 */
 		trustCompany2: string
-		/**
-		 * 2​0​2​3​-​2​0​2​4
-		 */
-		trustDate2: string
 		/**
 		 * E​d​u​c​a​t​i​o​n
 		 */
@@ -497,10 +481,6 @@ export type TranslationFunctions = {
 		 */
 		experienceCompany1: () => LocalizedString
 		/**
-		 * 2021 -
-		 */
-		experienceDate1: () => LocalizedString
-		/**
 		 * I worked as a team leader or otherwise responsible developer in three different projects, where I was responsible for technical implementation and client communication. In the first project, we implemented an energy management interface for the City of Turku using Next.js, TypeScript, and a PostgreSQL database.The project involved close collaboration with the client to iterate the user interface.
 		 */
 		experienceDesc1_1_1: () => LocalizedString
@@ -533,10 +513,6 @@ export type TranslationFunctions = {
 		 */
 		experienceCompany2: () => LocalizedString
 		/**
-		 * 2020 - 2021
-		 */
-		experienceDate2: () => LocalizedString
-		/**
 		 * I was responsible for developing sensor firmware for products used by customers and for development and validation of prototypes for upcoming products with C as the primary programming language. I also implemented a water fixture usage simulation program in Rust and a visualization for the simulation in JavaScript. The work also included a prototype built for controlling sensors using Raspberry Pi and Python.
 		 */
 		experienceDesc2_1: () => LocalizedString
@@ -553,10 +529,6 @@ export type TranslationFunctions = {
 		 */
 		trustCompany1: () => LocalizedString
 		/**
-		 * 2021-
-		 */
-		trustDate1: () => LocalizedString
-		/**
 		 * Chariman of the Board
 		 */
 		trustTitle2: () => LocalizedString
@@ -564,10 +536,6 @@ export type TranslationFunctions = {
 		 * Kvanttori Ltd
 		 */
 		trustCompany2: () => LocalizedString
-		/**
-		 * 2023-2024
-		 */
-		trustDate2: () => LocalizedString
 		/**
 		 * Education
 		 */

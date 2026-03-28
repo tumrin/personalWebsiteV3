@@ -129,7 +129,7 @@
 				<p>{$LL.cv.experienceDesc1_3()}</p>
 			</div>
 			<div class="experience-right">
-				<span class="experience-date">{$LL.cv.experienceDate1()}</span>
+				<span class="experience-date">2021 - </span>
 			</div>
 		</div>
 		<div class="experience-item">
@@ -141,7 +141,7 @@
 				<p>{$LL.cv.experienceDesc2_1()}</p>
 			</div>
 			<div class="experience-right">
-				<span class="experience-date">{$LL.cv.experienceDate2()}</span>
+				<span class="experience-date">2020 - 2021</span>
 			</div>
 		</div>
 	</section>
@@ -156,7 +156,7 @@
 				</div>
 			</div>
 			<div class="experience-right">
-				<span class="experience-date">{$LL.cv.trustDate1()}</span>
+				<span class="experience-date">2021 - </span>
 			</div>
 		</div>
 		<div class="experience-item">
@@ -167,7 +167,7 @@
 				</div>
 			</div>
 			<div class="experience-right">
-				<span class="experience-date">{$LL.cv.trustDate2()}</span>
+				<span class="experience-date">2023 - 2024</span>
 			</div>
 		</div>
 	</section>

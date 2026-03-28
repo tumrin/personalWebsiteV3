@@ -64,7 +64,6 @@ const fi = {
 		experience: 'Työkokemus',
 		experienceTitle1: 'Full Stack -kehittäjä, perustaja',
 		experienceCompany1: 'Kvanttori Oy',
-		experienceDate1: '2021 -',
 		experienceDesc1_1_1:
 			'Toimin pääkehittäjänä kolmessa eri projektissa, joissa olin vastuussa teknisestä toteutuksesta sekä kommunikoinnista asiakkaan kanssa. Ensimmäisessä näistä projekteista toteutimme Turun kaupungille energianhallintakäyttöliittymän Next.js:llä, Typescriptilla ja PostgreSQL-tietokannalla. Projektissa oltiin tiiviissä yhteistyössä asiakkaan kanssa käyttöliittymän iteroimiseksi.',
 		experienceDesc1_1_2:
@@ -79,16 +78,13 @@ const fi = {
 			'Vastasin yrityksen työkaluista ja järjestelmistä. Työhön kuuluu palvelinten sekä kehittäjien tietokoneiden ylläpito. Lisäksi työhön kuului tuntikirjaus, wiki ja saatavuusvalvontatyökalujen hallinnointi sekä työkalujen jatkuva saatavuuden varmistus.',
 		experienceTitle2: 'Harjoittelija (Teknologia)',
 		experienceCompany2: 'Oras Oy',
-		experienceDate2: '2020 - 2021',
 		experienceDesc2_1:
 			'Olin vastuussa sensoriohjelmistojen kehittämisestä asiakkaiden käyttämissä tuotteissa sekä tulevien tuotteiden prototyyppien kehityksestä ja validoinnista. Pääasiallisena ohjelmointikielenä toimi C. Lisäksi toteutin vesikalusteiden käytön simulaatioohjelman Rustilla sekä visualisaation simulaatiolle Javascriptilla. Työhön kuului myös sensorien ohjaamiseen rakennettu prototyyppi Raspberry Pi:lla ja Pythonilla.',
 		trust: 'Luottamustoimet',
 		trustTitle1: 'Hallituksen jäsen',
 		trustCompany1: 'Kvanttori Oy',
-		trustDate1: '2021-',
 		trustTitle2: 'Hallituksen puheenjohtaja',
 		trustCompany2: 'Kvanttori Oy',
-		trustDate2: '2023-2024',
 		education: 'Koulutus',
 		educationDegree1: 'Diplomi-insinööri (Tietotekniikka)',
 		major: 'Pääaine',

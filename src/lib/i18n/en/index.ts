@@ -63,7 +63,6 @@ const en = {
 		experience: 'Experience',
 		experienceTitle1: 'Full Stack Developer, Co-founder',
 		experienceCompany1: 'Kvanttori Ltd',
-		experienceDate1: '2021 -',
 		experienceDesc1_1_1:
 			'I worked as a team leader or otherwise responsible developer in three different projects, where I was responsible for technical implementation and client communication. In the first project, we implemented an energy management interface for the City of Turku using Next.js, TypeScript, and a PostgreSQL database.The project involved close collaboration with the client to iterate the user interface.',
 		experienceDesc1_1_2:
@@ -78,16 +77,13 @@ const en = {
 			'I was responsible for company tools and systems. This included deployment and maintenance of servers, developer computers and software used for time tracking, wiki and uptime monitoring as well as ensuring their availability.',
 		experienceTitle2: 'Trainee (Technology)',
 		experienceCompany2: 'Oras Ltd',
-		experienceDate2: '2020 - 2021',
 		experienceDesc2_1:
 			'I was responsible for developing sensor firmware for products used by customers and for development and validation of prototypes for upcoming products with C as the primary programming language. I also implemented a water fixture usage simulation program in Rust and a visualization for the simulation in JavaScript. The work also included a prototype built for controlling sensors using Raspberry Pi and Python.',
 		trust: 'Positions of Trust',
 		trustTitle1: 'Board Member',
 		trustCompany1: 'Kvanttori Ltd',
-		trustDate1: '2021-',
 		trustTitle2: 'Chariman of the Board',
 		trustCompany2: 'Kvanttori Ltd',
-		trustDate2: '2023-2024',
 		education: 'Education',
 		educationDegree1: 'Master of Science (Technology)',
 		major: 'Major',
