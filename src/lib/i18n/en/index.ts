@@ -61,23 +61,27 @@ const en = {
 		summaryText3:
 			'I am motivated by a desire to grow as a software developer and to build sustainable and high-quality solutions. I am also interested in promoting the use of open source solutions and European technology.',
 		experience: 'Experience',
-		experienceTitle1: 'Full Stack Developer, Co-founder',
-		experienceCompany1: 'Kvanttori Ltd',
-		experienceDesc1_1_1:
+		experienceTitle1: 'Back End Developer',
+		experienceCompany1: 'Mad Booster',
+		experienceDesc1_1:
+			'Developing Evelia ERP-system.',
+		experienceTitle2: 'Full Stack Developer, Co-founder',
+		experienceCompany2: 'Kvanttori Ltd',
+		experienceDesc2_1_1:
 			'I worked as a team leader or otherwise responsible developer in three different projects, where I was responsible for technical implementation and client communication. In the first project, we implemented an energy management interface for the City of Turku using Next.js, TypeScript, and a PostgreSQL database.The project involved close collaboration with the client to iterate the user interface.',
-		experienceDesc1_1_2:
+		experienceDesc2_1_2:
 			'In the second project, I designed and implemented a hackathon challenge for Boost Turku. The challenge simulated household energy consumption, production, and storage. Participants had to manage home energy storage and usage to balance consumption. I implemented a real-time simulation using Rust and PostgreSQL database, along with an API for competitors to fetch data.',
-		experienceDesc1_1_3:
+		experienceDesc2_1_3:
 			"In the third project, I was responsible for fixing and improving a previous vendor's application to meet the client's needs. The application was built with Python, FastAPI, and Azure.",
-		experienceDesc1_2_1:
+		experienceDesc2_2_1:
 			"I worked as part of the development team on two different projects. In the first, I was part of the client's approximately 20-person development team. I implemented several improvements and features for an existing CRM/ERP product, including a microservice for user management and form processing, as well as an SDK for building applications on top of the product. The microservices were implemented using the Express.js framework with TypeScript. The product also used Angular and MongoDB database. ",
-		experienceDesc1_2_2:
+		experienceDesc2_2_2:
 			"In the second project, we fixed and added features to a previous vendor's ERP system for a manufacturing industry client.The project used React, TypeScript, Express.js framework, and PostgreSQL database.",
-		experienceDesc1_3:
+		experienceDesc2_3:
 			'I was responsible for company tools and systems. This included deployment and maintenance of servers, developer computers and software used for time tracking, wiki and uptime monitoring as well as ensuring their availability.',
-		experienceTitle2: 'Trainee (Technology)',
-		experienceCompany2: 'Oras Ltd',
-		experienceDesc2_1:
+		experienceTitle3: 'Trainee (Technology)',
+		experienceCompany3: 'Oras Ltd',
+		experienceDesc3_1:
 			'I was responsible for developing sensor firmware for products used by customers and for development and validation of prototypes for upcoming products with C as the primary programming language. I also implemented a water fixture usage simulation program in Rust and a visualization for the simulation in JavaScript. The work also included a prototype built for controlling sensors using Raspberry Pi and Python.',
 		trust: 'Positions of Trust',
 		trustTitle1: 'Board Member',

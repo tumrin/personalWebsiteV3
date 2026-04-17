@@ -62,23 +62,27 @@ const fi = {
 		summaryText3:
 			'Minua motivoi halu kehittyä ohjelmistokehittäjänä ja rakentaa kestäviä ja laadukkaita ratkaisuja. Olen lisäksi kiinnostunut avoimen lähdekoodin ratkaisujen sekä eurooppalaisen teknologian käytön edistämisestä.',
 		experience: 'Työkokemus',
-		experienceTitle1: 'Full Stack -kehittäjä, perustaja',
-		experienceCompany1: 'Kvanttori Oy',
-		experienceDesc1_1_1:
+		experienceTitle1: 'Back End -kehittäjä',
+		experienceCompany1: 'Mad Booster',
+		experienceDesc1_1:
+			'Evelia ERP-järjestelmän kehitys.',
+		experienceTitle2: 'Full Stack -kehittäjä, perustaja',
+		experienceCompany2: 'Kvanttori Oy',
+		experienceDesc2_1_1:
 			'Toimin pääkehittäjänä kolmessa eri projektissa, joissa olin vastuussa teknisestä toteutuksesta sekä kommunikoinnista asiakkaan kanssa. Ensimmäisessä näistä projekteista toteutimme Turun kaupungille energianhallintakäyttöliittymän Next.js:llä, Typescriptilla ja PostgreSQL-tietokannalla. Projektissa oltiin tiiviissä yhteistyössä asiakkaan kanssa käyttöliittymän iteroimiseksi.',
-		experienceDesc1_1_2:
+		experienceDesc2_1_2:
 			'Toisessa projektissa suunnittelin ja toteutin hackathon-haasteen Boost Turulle. Haasteessa simuloitiin talouksien energiankäyttöä, tuottoa ja varastointia. Haasteen ottajien tehtävä oli ohjata talon energian varastointia ja varastojen käyttöä kulutuksen tasaamiseksi. Toteutin haastetta varten reaaliaikaisen simulaation Rustilla ja PostgreSQL-tietokannalla ja API:n, jonka kautta kilpailijat hakivat datan. ',
-		experienceDesc1_1_3:
+		experienceDesc2_1_3:
 			' Kolmannessa projektissa vastasin aiemman toimittajan tekemän sovelluksen korjauksesta ja parannuksesta vastaamaan asiakkaan tarpeita. Sovellus oltiin toteutettu Pythonilla, FastAPI:lla ja Azurella.',
-		experienceDesc1_2_1:
+		experienceDesc2_2_1:
 			'Toimin osana kehitystiimiä kahdessa eri projektissa. Ensimmäisessä toimin osana asiakkaan noin 20 hengen kehitystiimiä. Toteutin useita parannuksia ja ominaisuuksia olemassa olevaan CRM / ERP tuotteeseen mukaan lukien mikropalvelun käyttäjien hallintaan ja lomakkeiden käsittelyyn sekä tuotteen päälle rakennettavien sovellusten tekoon tarkoitetun SDK:n. Mikropalvelut toteutettiin Express.js frameworkilla, Typescriptilla. Tuotteessa käytettiin lisäksi Angularia ja MongoDB-tietokantaa. ',
-		experienceDesc1_2_2:
+		experienceDesc2_2_2:
 			'Toisessa projektissa korjasimme ja lisäsimme ominaisuuksia aiemman toimittajan rakentamaan ERP-järjestelmään valmistavan teollisuuden asiakkaalle. Projektissa käytettiin Reactia, Typescriptia, Express.js frameworkia ja PostgreSQL-tietokantaa.',
-		experienceDesc1_3:
+		experienceDesc2_3:
 			'Vastasin yrityksen työkaluista ja järjestelmistä. Työhön kuuluu palvelinten sekä kehittäjien tietokoneiden ylläpito. Lisäksi työhön kuului tuntikirjaus, wiki ja saatavuusvalvontatyökalujen hallinnointi sekä työkalujen jatkuva saatavuuden varmistus.',
-		experienceTitle2: 'Harjoittelija (Teknologia)',
-		experienceCompany2: 'Oras Oy',
-		experienceDesc2_1:
+		experienceTitle3: 'Harjoittelija (Teknologia)',
+		experienceCompany3: 'Oras Oy',
+		experienceDesc3_1:
 			'Olin vastuussa sensoriohjelmistojen kehittämisestä asiakkaiden käyttämissä tuotteissa sekä tulevien tuotteiden prototyyppien kehityksestä ja validoinnista. Pääasiallisena ohjelmointikielenä toimi C. Lisäksi toteutin vesikalusteiden käytön simulaatioohjelman Rustilla sekä visualisaation simulaatiolle Javascriptilla. Työhön kuului myös sensorien ohjaamiseen rakennettu prototyyppi Raspberry Pi:lla ja Pythonilla.',
 		trust: 'Luottamustoimet',
 		trustTitle1: 'Hallituksen jäsen',

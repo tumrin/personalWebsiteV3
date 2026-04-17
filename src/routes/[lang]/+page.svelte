@@ -121,15 +121,10 @@
 					<h3 class="experience-title">{$LL.cv.experienceTitle1()}</h3>
 					<span class="experience-company">{$LL.cv.experienceCompany1()}</span>
 				</div>
-				<p>{$LL.cv.experienceDesc1_1_1()}</p>
-				<p>{$LL.cv.experienceDesc1_1_2()}</p>
-				<p>{$LL.cv.experienceDesc1_1_3()}</p>
-				<p>{$LL.cv.experienceDesc1_2_1()}</p>
-				<p>{$LL.cv.experienceDesc1_2_2()}</p>
-				<p>{$LL.cv.experienceDesc1_3()}</p>
+				<p>{$LL.cv.experienceDesc1_1()}</p>
 			</div>
 			<div class="experience-right">
-				<span class="experience-date">2021 - </span>
+				<span class="experience-date">2026 - </span>
 			</div>
 		</div>
 		<div class="experience-item">
@@ -138,7 +133,24 @@
 					<h3 class="experience-title">{$LL.cv.experienceTitle2()}</h3>
 					<span class="experience-company">{$LL.cv.experienceCompany2()}</span>
 				</div>
-				<p>{$LL.cv.experienceDesc2_1()}</p>
+				<p>{$LL.cv.experienceDesc2_1_1()}</p>
+				<p>{$LL.cv.experienceDesc2_1_2()}</p>
+				<p>{$LL.cv.experienceDesc2_1_3()}</p>
+				<p>{$LL.cv.experienceDesc2_2_1()}</p>
+				<p>{$LL.cv.experienceDesc2_2_2()}</p>
+				<p>{$LL.cv.experienceDesc2_3()}</p>
+			</div>
+			<div class="experience-right">
+				<span class="experience-date">2021 - 2026</span>
+			</div>
+		</div>
+		<div class="experience-item">
+			<div class="experience-left">
+				<div class="experience-title-group">
+					<h3 class="experience-title">{$LL.cv.experienceTitle3()}</h3>
+					<span class="experience-company">{$LL.cv.experienceCompany3()}</span>
+				</div>
+				<p>{$LL.cv.experienceDesc3_1()}</p>
 			</div>
 			<div class="experience-right">
 				<span class="experience-date">2020 - 2021</span>
