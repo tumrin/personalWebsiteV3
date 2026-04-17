@@ -63,10 +63,12 @@ const en = {
 		experience: 'Experience',
 		experienceTitle1: 'Back End Developer',
 		experienceCompany1: 'Mad Booster',
+		experienceUrl1: 'https://evelia.fi/',
 		experienceDesc1_1:
 			'Developing Evelia ERP-system.',
 		experienceTitle2: 'Full Stack Developer, Co-founder',
 		experienceCompany2: 'Kvanttori Ltd',
+		experienceUrl2: 'https://kvanttori.fi/en',
 		experienceDesc2_1_1:
 			'I worked as a team leader or otherwise responsible developer in three different projects, where I was responsible for technical implementation and client communication. In the first project, we implemented an energy management interface for the City of Turku using Next.js, TypeScript, and a PostgreSQL database.The project involved close collaboration with the client to iterate the user interface.',
 		experienceDesc2_1_2:
@@ -81,6 +83,7 @@ const en = {
 			'I was responsible for company tools and systems. This included deployment and maintenance of servers, developer computers and software used for time tracking, wiki and uptime monitoring as well as ensuring their availability.',
 		experienceTitle3: 'Trainee (Technology)',
 		experienceCompany3: 'Oras Ltd',
+		experienceUrl3: 'https://www.oras.com/en/home',
 		experienceDesc3_1:
 			'I was responsible for developing sensor firmware for products used by customers and for development and validation of prototypes for upcoming products with C as the primary programming language. I also implemented a water fixture usage simulation program in Rust and a visualization for the simulation in JavaScript. The work also included a prototype built for controlling sensors using Raspberry Pi and Python.',
 		trust: 'Positions of Trust',

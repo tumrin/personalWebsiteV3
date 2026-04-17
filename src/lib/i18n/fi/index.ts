@@ -64,10 +64,12 @@ const fi = {
 		experience: 'Työkokemus',
 		experienceTitle1: 'Back End -kehittäjä',
 		experienceCompany1: 'Mad Booster',
+		experienceUrl1: 'https://evelia.fi/',
 		experienceDesc1_1:
 			'Evelia ERP-järjestelmän kehitys.',
 		experienceTitle2: 'Full Stack -kehittäjä, perustaja',
 		experienceCompany2: 'Kvanttori Oy',
+		experienceUrl2: 'https://kvanttori.fi/fi',
 		experienceDesc2_1_1:
 			'Toimin pääkehittäjänä kolmessa eri projektissa, joissa olin vastuussa teknisestä toteutuksesta sekä kommunikoinnista asiakkaan kanssa. Ensimmäisessä näistä projekteista toteutimme Turun kaupungille energianhallintakäyttöliittymän Next.js:llä, Typescriptilla ja PostgreSQL-tietokannalla. Projektissa oltiin tiiviissä yhteistyössä asiakkaan kanssa käyttöliittymän iteroimiseksi.',
 		experienceDesc2_1_2:
@@ -82,6 +84,7 @@ const fi = {
 			'Vastasin yrityksen työkaluista ja järjestelmistä. Työhön kuuluu palvelinten sekä kehittäjien tietokoneiden ylläpito. Lisäksi työhön kuului tuntikirjaus, wiki ja saatavuusvalvontatyökalujen hallinnointi sekä työkalujen jatkuva saatavuuden varmistus.',
 		experienceTitle3: 'Harjoittelija (Teknologia)',
 		experienceCompany3: 'Oras Oy',
+		experienceUrl3: 'https://www.oras.com/fi/etusivu',
 		experienceDesc3_1:
 			'Olin vastuussa sensoriohjelmistojen kehittämisestä asiakkaiden käyttämissä tuotteissa sekä tulevien tuotteiden prototyyppien kehityksestä ja validoinnista. Pääasiallisena ohjelmointikielenä toimi C. Lisäksi toteutin vesikalusteiden käytön simulaatioohjelman Rustilla sekä visualisaation simulaatiolle Javascriptilla. Työhön kuului myös sensorien ohjaamiseen rakennettu prototyyppi Raspberry Pi:lla ja Pythonilla.',
 		trust: 'Luottamustoimet',

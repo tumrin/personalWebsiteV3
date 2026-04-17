@@ -119,7 +119,9 @@
 			<div class="experience-left">
 				<div class="experience-title-group">
 					<h3 class="experience-title">{$LL.cv.experienceTitle1()}</h3>
-					<span class="experience-company">{$LL.cv.experienceCompany1()}</span>
+					<a href={$LL.cv.experienceUrl1()} class="experience-company"
+						>{$LL.cv.experienceCompany1()}
+					</a>
 				</div>
 				<p>{$LL.cv.experienceDesc1_1()}</p>
 			</div>
@@ -131,7 +133,9 @@
 			<div class="experience-left">
 				<div class="experience-title-group">
 					<h3 class="experience-title">{$LL.cv.experienceTitle2()}</h3>
-					<span class="experience-company">{$LL.cv.experienceCompany2()}</span>
+					<a href={$LL.cv.experienceUrl2()} class="experience-company">
+						{$LL.cv.experienceCompany2()}</a
+					>
 				</div>
 				<p>{$LL.cv.experienceDesc2_1_1()}</p>
 				<p>{$LL.cv.experienceDesc2_1_2()}</p>
@@ -148,7 +152,9 @@
 			<div class="experience-left">
 				<div class="experience-title-group">
 					<h3 class="experience-title">{$LL.cv.experienceTitle3()}</h3>
-					<span class="experience-company">{$LL.cv.experienceCompany3()}</span>
+					<a href={$LL.cv.experienceUrl3()} class="experience-company">
+						{$LL.cv.experienceCompany3()}</a
+					>
 				</div>
 				<p>{$LL.cv.experienceDesc3_1()}</p>
 			</div>
