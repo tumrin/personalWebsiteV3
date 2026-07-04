@@ -174,7 +174,7 @@
 				</div>
 			</div>
 			<div class="experience-right">
-				<span class="experience-date">2021 - </span>
+				<span class="experience-date">2021 - 2026</span>
 			</div>
 		</div>
 		<div class="experience-item">
