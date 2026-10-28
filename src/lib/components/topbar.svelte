@@ -1,21 +1,21 @@
 <script lang="ts">
-	import { routes, routesFi } from '$lib/contants';
-	import { locales, baseLocale } from '$lib/i18n/i18n-util';
-	import { loadLocale } from '$lib/i18n/i18n-util.sync';
-	import { locale, setLocale } from '$lib/i18n/i18n-svelte';
+	import { routes, routesFi } from '#lib/contants.js';
+	import { locales, baseLocale, isLocale } from '#lib/i18n/i18n-util.js';
+	import { loadLocale } from '#lib/i18n/i18n-util.sync.js';
+	import { locale, setLocale } from '#lib/i18n/i18n-svelte.js';
+	import type { Locales } from '#lib/i18n/i18n-types.js';
 	import { onMount } from 'svelte';
-	import type { Locales } from '$lib/i18n/i18n-types';
-	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
 	import { get } from 'svelte/store';
+	import { page } from '$app/state';
 
-	let open = false;
-	$: route = $locale == 'en' ? routes : routesFi;
+	let open = $state(false);
+	const route = $derived($locale === 'en' ? routes : routesFi);
 	const toggle = () => (open = !open);
 	const closeMenu = () => (open = false);
 
 	const switchLang = (lang: Locales) => {
-		const url = get(page).url;
+		const url = page.url;
 		const segments = url.pathname.split('/').filter(Boolean);
 		let rest = segments;
 		if (segments.length > 0 && (segments[0] === 'en' || segments[0] === 'fi')) {
@@ -34,10 +34,10 @@
 
 	onMount(() => {
 		try {
-			const pref = localStorage.getItem('preferredLocale') as Locales | null;
-			if (!pref) return;
+			const pref = localStorage.getItem('preferredLocale');
+			if (!pref || !isLocale(pref)) return;
 
-			const url = get(page).url;
+			const url = page.url;
 			const segments = url.pathname.split('/').filter(Boolean);
 
 			// If current path has no locale segment or is the baseLocale and
@@ -54,7 +54,7 @@
 </script>
 
 <div class="topbar">
-	<button class="hamburger" aria-label="Toggle menu" aria-expanded={open} on:click={toggle}>
+	<button class="hamburger" aria-label="Toggle menu" aria-expanded={open} onclick={toggle}>
 		<span class="bar"></span>
 		<span class="bar"></span>
 		<span class="bar"></span>
@@ -68,26 +68,22 @@
 
 	<div class="lang-switcher">
 		{#each locales as l}
-			<button class="lang-btn" on:click={() => switchLang(l)} aria-pressed={$locale === l}>
+			<button class="lang-btn" onclick={() => switchLang(l)} aria-pressed={$locale === l}>
 				{l.toUpperCase()}
 			</button>
 		{/each}
 	</div>
 
-	<div class="backdrop" class:open on:click={closeMenu}></div>
+	<div class="backdrop" class:open onclick={closeMenu}></div>
 
 	<nav class="navbar side-menu" class:open>
 		{#each Object.entries(route) as [name, path]}
-			<a class="navlink" href={path} on:click={closeMenu}>{name}</a>
+			<a class="navlink" href={path} onclick={closeMenu}>{name}</a>
 		{/each}
 
 		<div class="mobile-lang">
 			{#each locales as l}
-				<button
-					class="navlink lang-btn"
-					on:click={() => switchLang(l)}
-					aria-pressed={$locale === l}
-				>
+				<button class="navlink lang-btn" onclick={() => switchLang(l)} aria-pressed={$locale === l}>
 					{l.toUpperCase()}
 				</button>
 			{/each}

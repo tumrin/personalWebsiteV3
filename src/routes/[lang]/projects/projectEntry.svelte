@@ -1,6 +1,6 @@
 <script lang="ts">
 	import SvelteMarkdown from 'svelte-exmarkdown';
-	import { locale } from '$lib/i18n/i18n-svelte';
+	import { locale } from '#lib/i18n/i18n-svelte.js';
 	let { project, year } = $props();
 	let markdown: string | null = $state(null);
 	let expanded = $state(false);

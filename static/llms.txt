@@ -6,9 +6,9 @@ Software developer specializing in high performance, low level languages and bac
 ## Contact
 - Email: tuomas.rin(at)protonmail.com
 - Location: Turku, Finland
-- Website: https://tumrin.dev
-- GitHub: https://github.com/tumrin
-- LinkedIn: https://www.linkedin.com/in/tuomas-rinne-0840a6157/
+- [Website](https://tumrin.dev)
+- [GitHub](https://github.com/tumrin)
+- [LinkedIn](https://www.linkedin.com/in/tuomas-rinne-0840a6157/)
 
 ## Programming Languages
 - Rust

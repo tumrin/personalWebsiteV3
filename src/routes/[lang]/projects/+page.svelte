@@ -1,7 +1,7 @@
 <script>
 	import ProjectEntry from './projectEntry.svelte';
-	import { extractFileName } from '$lib/utils';
-	import LL, { locale } from '$lib/i18n/i18n-svelte';
+	import { extractFileName } from '#lib/utils.js';
+	import LL, { locale } from '#lib/i18n/i18n-svelte.js';
 
 	const projects = Object.entries(import.meta.glob('../../../lib/assets/projects/*.md'));
 	const projectsFi = Object.entries(import.meta.glob('../../../lib/assets/projects-fi/*.md'));

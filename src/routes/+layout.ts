@@ -1,7 +1,7 @@
-import { setLocale } from '$lib/i18n/i18n-svelte';
-import { baseLocale } from '$lib/i18n/i18n-util';
-import { loadLocale } from '$lib/i18n/i18n-util.sync';
-import type { Locales } from '$lib/i18n/i18n-types';
+import { setLocale } from '#lib/i18n/i18n-svelte.js';
+import { baseLocale } from '#lib/i18n/i18n-util.js';
+import { loadLocale } from '#lib/i18n/i18n-util.sync.js';
+import type { Locales } from '#lib/i18n/i18n-types.js';
 import type { LayoutLoad } from './$types';
 
 export const load: LayoutLoad = ({ url }) => {

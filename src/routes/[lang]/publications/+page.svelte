@@ -1,5 +1,5 @@
 <script>
-	import LL from '$lib/i18n/i18n-svelte';
+	import LL from '#lib/i18n/i18n-svelte.js';
 	import Publication from './publication.svelte';
 </script>
 
